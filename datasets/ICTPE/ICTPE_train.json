@@ -1,0 +1,5792 @@
+[
+    {
+        "text": "如下图所示，在企业网络和园区网中，S2700通过百兆电口接入终端用户，上行通过千兆光口或千兆电口接入汇聚层交换机，进而通过千兆捆绑或万兆上联到骨干网络，构成万兆骨干、百兆到桌面的企业网全网解决方案，满足用户高带宽、多业务的需求。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "S2700通过百兆电口接入终端用户，上行通过千兆光口或千兆电口接入汇聚层交换机",
+                "start": 17,
+                "end": 56
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过千兆捆绑或万兆上联到骨干网络，构成万兆骨干、百兆到桌面的企业网全网解决方案，满足用户高带宽、多业务的需求",
+                "start": 59,
+                "end": 113
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当需要根据接收报文的接口、源IP地址信息、目的IP地址信息、IP承载的协议类型、TCP的源端口号和目的端口号、ICMP协议类型、ICMP code、源MAC地址、目的MAC地址、ARP报文等内容对报文进行分类时，可以通过引用定义的ACL来满足。即先定义ACL并配置规则，然后在流分类下配置该命令对报文按照ACL进行流分类，实现对匹配同一流分类的报文进行相同的处理。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当需要根据接收报文的接口、源IP地址信息、目的IP地址信息、IP承载的协议类型、TCP的源端口号和目的端口号、ICMP协议类型、ICMP code、源MAC地址、目的MAC地址、ARP报文等内容对报文进行分类时",
+                "start": 0,
+                "end": 105
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过引用定义的ACL来满足",
+                "start": 108,
+                "end": 121
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "定义ACL并配置规则",
+                "start": 124,
+                "end": 134
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "在流分类下配置该命令对报文按照ACL进行流分类，实现对匹配同一流分类的报文进行相同的处理",
+                "start": 137,
+                "end": 181
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "\\# 创建无线业务三层接口VLANIF30、VLANIF40并配置通过接口地址池为STA分配地址。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "创建无线业务三层接口VLANIF30、VLANIF40",
+                "start": 3,
+                "end": 30
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置通过接口地址池为STA分配地址",
+                "start": 31,
+                "end": 48
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "登录到Web网管后，可以对设备进行管理和维护。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "登录到Web网管",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "对设备进行管理和维护",
+                "start": 12,
+                "end": 22
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "组播负载分担（IPv6）配置完成后，可以通过命令查看组播路由表（IPv6）信息，检查当前负载分担策略是否配置成功。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "组播负载分担（IPv6）配置完成",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过命令查看组播路由表（IPv6）信息，检查当前负载分担策略是否配置成功",
+                "start": 20,
+                "end": 56
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "创建静态LSP前必须确保已经全局使能MPLS能力。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "全局使能MPLS能力",
+                "start": 14,
+                "end": 24
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "创建静态LSP",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当用户使用配置接口流量统计功能后，可以使用该命令查看流量统计信息。对于每个接口下每一种协议生成的主机条目，最多可显示前5000行的信息。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "用户使用配置接口流量统计功能",
+                "start": 1,
+                "end": 15
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用该命令查看流量统计信息",
+                "start": 19,
+                "end": 32
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "完成802.1X接入模板的配置后，执行以下命令查看配置信息。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "完成802.1X接入模板的配置",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行以下命令查看配置信息",
+                "start": 17,
+                "end": 29
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "输入Enter键后，在登录窗口输入AAA验证方式配置的登录用户名和密码，验证通过后，出现用户视图的命令行提示符，至此用户成功登录设备。（以下显示信息仅为示意）",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "输入Enter键",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在登录窗口输入AAA验证方式配置的登录用户名和密码",
+                "start": 10,
+                "end": 35
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "验证通过",
+                "start": 36,
+                "end": 40
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "出现用户视图的命令行提示符",
+                "start": 42,
+                "end": 55
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "必须先执行 **defence engine enable**命令开启IAE引擎才可以执行该命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **defence engine enable**命令开启IAE引擎",
+                "start": 3,
+                "end": 40
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行该命令",
+                "start": 43,
+                "end": 48
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "攻击者向交换机发送SYN报文，然后对于交换机返回的SYN+ACK报文不作回应。交换机如果没有收到攻击者的ACK回应，就会一直等待，形成半连接。攻击者利用这种方式，让交换机上生成大量的半连接，迫使其大量资源浪费在这些半连接上。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "攻击者向交换机发送SYN报文",
+                "start": 0,
+                "end": 14
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "对于交换机返回的SYN+ACK报文不作回应",
+                "start": 17,
+                "end": 38
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "交换机如果没有收到攻击者的ACK回应",
+                "start": 39,
+                "end": 57
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "一直等待，形成半连接",
+                "start": 60,
+                "end": 70
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "配置本举例之前，需确保网络中各设备之间已能互通。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "确保网络中各设备之间已能互通",
+                "start": 9,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置本举例",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "基于MAC的VLAN是根据报文源MAC地址来进行划分的。设备从端口接收到untagged报文后，会根据报文的源地址来确定报文所属的VLAN，然后将报文自动划分到指定VLAN中传输。此特性主要用于将指定MAC发出的报文在指定的VLAN中传送。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "设备从端口接收到untagged报文",
+                "start": 28,
+                "end": 46
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "根据报文的源地址来确定报文所属的VLAN",
+                "start": 49,
+                "end": 69
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "将报文自动划分到指定VLAN中传输",
+                "start": 72,
+                "end": 89
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "配置MAC SWAP远端环回测试功能之后，从测试设备发送测试报文到达设备的上行接口，设备上行接口将测试报文中的源MAC和目的MAC进行交换，从上行接口环回到测试设备，进而获取上行网络的连通性和网络质量信息。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置MAC SWAP远端环回测试功能",
+                "start": 0,
+                "end": 18
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "从测试设备发送测试报文到达设备的上行接口",
+                "start": 21,
+                "end": 41
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "设备上行接口将测试报文中的源MAC和目的MAC进行交换",
+                "start": 42,
+                "end": 69
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "从上行接口环回到测试设备，进而获取上行网络的连通性和网络质量信息",
+                "start": 70,
+                "end": 102
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "传统模式与统一模式相互切换后，设备会自动重启。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "传统模式与统一模式相互切换",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备会自动重启",
+                "start": 15,
+                "end": 22
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "团体属性用来简化路由策略的应用和降低维护管理的难度，利用团体可以使多个AS中的一组BGP设备共享相同的策略。团体是一个路由属性，在BGP对等体之间传播，且不受AS的限制。BGP设备在将带有团体属性的路由发布给其他对等体之前，可以先改变此路由原有的团体属性。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "改变此路由原有的团体属性",
+                "start": 115,
+                "end": 127
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "GP设备在将带有团体属性的路由发布给其他对等体",
+                "start": 86,
+                "end": 109
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置攻击溯源的惩罚措施为ERROR DOWN时，设备在识别出攻击源后，会将攻击报文进入的接口状态置为Down。接口状态被置为Down后，建议先排除攻击，再将接口状态恢复Up。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置攻击溯源的惩罚措施为ERROR DOWN",
+                "start": 0,
+                "end": 22
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备在识别出攻击源",
+                "start": 24,
+                "end": 33
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "将攻击报文进入的接口状态置为Down",
+                "start": 36,
+                "end": 54
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "排除攻击",
+                "start": 71,
+                "end": 75
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "将接口状态恢复Up",
+                "start": 77,
+                "end": 86
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "如图1所示是某个地区IPTV基本组网图。为了保证直播流的质量，组播源服务器发送的直播流需要先转发到转码服务器进行转码，然后由转码服务器再转发给用户。转码服务器通过环网双机备份的方式接入IPTV组网，提高网络可靠性。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "组播源服务器发送的直播流需要先转发到转码服务器进行转码",
+                "start": 31,
+                "end": 58
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "由转码服务器再转发给用户",
+                "start": 61,
+                "end": 73
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "执行此操作，会先进入重启BootLoader阶段，再继续启动。一般情况下不建议用户使用此选项。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行此操作",
+                "start": 0,
+                "end": 5
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "进入重启BootLoader阶段",
+                "start": 8,
+                "end": 24
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "继续启动",
+                "start": 26,
+                "end": 30
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "充当C-BSR的接口必须先使能PIM-SM。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使能PIM-S",
+                "start": 13,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "充当C-BSR的接口",
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置 **ipv6 frr** 命令前，需要首先使能IPv6 IS-IS。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使能IPv6 IS-IS",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置 **ipv6 frr** 命令",
+                "start": 0,
+                "end": 18
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当用户使用命令 **set system-mac** _macaddr_ **mac-num** _macnum_ 设置了堆叠系统MAC地址后，MAC地址切换功能将不再生效。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "用户使用命令 **set system-mac** _macaddr_ **mac-num** _macnum_ 设置了堆叠系统MAC地址",
+                "start": 1,
+                "end": 70
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "MAC地址切换功能将不再生效",
+                "start": 72,
+                "end": 86
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当用户需要使用的功能在基础软件包中不存在，而是以特性软件包的形式存在时，可以通过在线加载该特性软件包以便使用该功能。满足用户需求的同时，保证业务不中断。当用户不再需要此特性时，卸载即可。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当用户需要使用的功能在基础软件包中不存在，而是以特性软件包的形式存在时",
+                "start": 0,
+                "end": 35
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过在线加载该特性软件包以便使用该功能",
+                "start": 38,
+                "end": 57
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "当用户不再需要此特性",
+                "start": 76,
+                "end": 86
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "卸载即可",
+                "start": 88,
+                "end": 92
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "协议联动是指设备对基于会话连接的应用层数据的保护功能。当协议会话连接建立后，基于协议的默认CPCAR就不再起作用，设备以协议联动设定的CPCAR对建立会话连接的报文进行限速。通常，协议联动设定的CPCAR要比默认CPCAR大很多，以此来保证业务运行的可靠性和稳定性。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "协议会话连接建立",
+                "start": 28,
+                "end": 36
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "基于协议的默认CPCAR就不再起作用",
+                "start": 38,
+                "end": 56
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "设备以协议联动设定的CPCAR对建立会话连接的报文进行限速",
+                "start": 57,
+                "end": 86
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "应用组播转发边界（Multicast Boundary）功能可以实现每个组播组对应的组播信息在一个确定的范围内传递。当组播设备接口配置了针对某组播组的转发边界以后，会形成一个封闭的组播转发区域，该接口将不能再发出或接收对应的组播组的报文。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "组播设备接口配置了针对某组播组的转发边界",
+                "start": 59,
+                "end": 79
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "形成一个封闭的组播转发区域",
+                "start": 83,
+                "end": 96
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "接口将不能再发出或接收对应的组播组的报文",
+                "start": 98,
+                "end": 118
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "正则表达式就是用一个\"字符串\"来描述一个特征，然后去验证另一个\"字符串\"是否符合这个特征。BGP的AS_Path过滤器主要是定义AS_Path正则表达式，然后去匹配BGP路由的AS_Path属性信息，从而实现对BGP路由信息的过滤。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "用一个\"字符串\"来描述一个特征",
+                "start": 7,
+                "end": 22
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "去验证另一个\"字符串\"是否符合这个特征",
+                "start": 25,
+                "end": 44
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "定义AS_Path正则表达式",
+                "start": 62,
+                "end": 76
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "匹配BGP路由的AS_Path属性信息",
+                "start": 80,
+                "end": 99
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "实现对BGP路由信息的过滤",
+                "start": 102,
+                "end": 115
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "原因1：系统在创建文件夹时，先创建同名文件，再把文件的属性改为文件夹，在修改属性时可能发生失败，导致创建了一个和日志文件夹同名的文件。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "创建同名文件",
+                "start": 15,
+                "end": 21
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "把文件的属性改为文件夹",
+                "start": 23,
+                "end": 34
+            },
+            {
+                "id": "c66c38baf13804b93a0e4cad",
+                "type": "check",
+                "text_span": "修改属性时可能发生失败",
+                "start": 36,
+                "end": 47
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "创建了一个和日志文件夹同名的文件",
+                "start": 50,
+                "end": 66
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "c66c38baf13804b93a0e4cad"
+            ],
+            [
+                "c66c38baf13804b93a0e4cad",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "使用该命令之前，必须先创建相同名称的BFD会话。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "创建相同名称的BFD会话",
+                "start": 11,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用该命令",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果设备上已经配置了BGP的缺省MED值，当用户再次配置缺省MED值时，新的缺省MED值会取代原有的缺省MED值。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "设备上已经配置了BGP的缺省MED值",
+                "start": 2,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "用户再次配置缺省MED值",
+                "start": 22,
+                "end": 34
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "新的缺省MED值会取代原有的缺省MED值",
+                "start": 36,
+                "end": 56
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "需要使能三层子接口IPv6报文统计时必须先使能子接口的IPv6功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使能子接口的IPv6功能",
+                "start": 21,
+                "end": 33
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使能三层子接口IPv6报文统计",
+                "start": 2,
+                "end": 17
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "对于网络中出现的故障，可以执行 **ping** 命令根据回应的报文，查看网络连通的情况，然后进一步使用 **tracert** 命令查看网络中出现故障的位置，为故障诊断提供依据。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "网络中出现的故障",
+                "start": 2,
+                "end": 10
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行 **ping** 命令根据回应的报文，查看网络连通的情况",
+                "start": 13,
+                "end": 44
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **tracert** 命令查看网络中出现故障的位置",
+                "start": 50,
+                "end": 79
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "配置 **ipv6 enable** 命令前，需要先执行以下操作：",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行以下操作",
+                "start": 26,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置 **ipv6 enable** 命令",
+                "start": 0,
+                "end": 21
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "本地接入用户在配置某些业务时，为了避免配置过程中出现异常，不希望有新的用户接入。通过配置状态为阻塞域态，禁止新用户接入。完成配置后，再配置为激活态。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "本地接入用户在配置某些业务时，为了避免配置过程中出现异常，不希望有新的用户接入",
+                "start": 0,
+                "end": 39
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置状态为阻塞域态，禁止新用户接入",
+                "start": 42,
+                "end": 59
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置为激活态",
+                "start": 67,
+                "end": 73
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果需要统计在某一时间内的IPv6 TCP报文流量统计信息，可以在统计开始前清除原有的IPv6 TCP报文流量统计信息，再使用 **display tcp ipv6 statistics** 命令查看IPv6 TCP报文流量统计信息。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "需要统计在某一时间内的IPv6 TCP报文流量统计信息",
+                "start": 2,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在统计开始前清除原有的IPv6 TCP报文流量统计信息",
+                "start": 32,
+                "end": 59
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **display tcp ipv6 statistics** 命令查看IPv6 TCP报文流量统计信息",
+                "start": 61,
+                "end": 116
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如图2所示，主设备负责监控设备的接入、配置管理、系统软件版本管理等。NMS加载的网元MIB文件中同时包含主设备和监控设备的MIB表。在主设备上完成SNMP Proxy配置后，主设备自动将来自NMS的监控设备相关的SNMP请求转发到监控设备上，再将监控设备的应答转发到NMS。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在主设备上完成SNMP Proxy配置",
+                "start": 66,
+                "end": 85
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "主设备自动将来自NMS的监控设备相关的SNMP请求转发到监控设备上",
+                "start": 87,
+                "end": 120
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "主设备自动将来自NMS的监控设备相关的SNMP请求转发到监控设备上",
+                "start": 87,
+                "end": 120
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "用户在删除一条规则前，请务必使用 **display acl ipv6** 命令查看该ACL6的引用信息，确定该ACL6未被其他业务引用时，再删除该规则。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用 **display acl ipv6** 命令查看该ACL6的引用信息",
+                "start": 14,
+                "end": 52
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "确定该ACL6未被其他业务引用",
+                "start": 53,
+                "end": 68
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "删除该规则",
+                "start": 71,
+                "end": 76
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如图1所示，network1和network2是运行Novell IPX的非骨干网，network3和network4是运行IPv6的非骨干网，中间的骨干网使用的是IPv4网络。为了实现network1和network2、network3和network4通过骨干网传输数据，可以在DeviceA和DeviceB之间采用GRE协议建立隧道，当数据报文从network1或network3发送至DeviceA后，将会被封装在一个GRE数据包中，所得的GRE数据包可以封装在IPv4协议中，然后被转发。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "为了实现network1和network2、network3和network4通过骨干网传输数据",
+                "start": 89,
+                "end": 137
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在DeviceA和DeviceB之间采用GRE协议建立隧道",
+                "start": 140,
+                "end": 169
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "数据报文从network1或network3发送至DeviceA",
+                "start": 171,
+                "end": 203
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "会被封装在一个GRE数据包中",
+                "start": 206,
+                "end": 220
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "所得的GRE数据包可以封装在IPv4协议中",
+                "start": 221,
+                "end": 242
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "被转发",
+                "start": 245,
+                "end": 248
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "缺省情况下，本端设备(例如：AS 100)收到来自EBGP对等体(例如：AS 200)的路由，会向AS为200的所有EBGP邻居发布此路由。配置 **peer peer-as-check** 命令后，当本端设备收到来自EBGP对等体的路由，则不会再向相同AS的EBGP邻居发布此路由，可以避免BGP内存消耗和CPU消耗，进而达到路由震荡时减少收敛时间。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置 **peer peer-as-check** 命令",
+                "start": 70,
+                "end": 98
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "当本端设备收到来自EBGP对等体的路由",
+                "start": 100,
+                "end": 119
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "不会再向相同AS的EBGP邻居发布此路由",
+                "start": 121,
+                "end": 141
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "避免BGP内存消耗和CPU消耗",
+                "start": 144,
+                "end": 159
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "达到路由震荡时减少收敛时间",
+                "start": 162,
+                "end": 175
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "在执行 **if-match extcommunity-filter** 命令之前，需要先通过 **ip extcommunity-filter** 命令配置VPN-Target扩展团体属性过滤器。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "通过 **ip extcommunity-filter** 命令配置VPN-Target扩展团体属性过滤器",
+                "start": 45,
+                "end": 98
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过 **ip extcommunity-filter** 命令配置VPN-Target扩展团体属性过滤器",
+                "start": 45,
+                "end": 98
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在网络中，多种故障可能同时产生，因此，多种告警也可能同时产生。CFM告警抑制功能的原理是：当多种告警同时产生时，只上报最高级别的告警。当最高级别的告警恢复后，如果低级别的告警仍然存在，则继续上报当前存在的最高级别的告警。如此反复，直至系统中不再有告警。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "多种告警同时产生",
+                "start": 46,
+                "end": 54
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "上报最高级别的告警",
+                "start": 57,
+                "end": 66
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "最高级别的告警恢复",
+                "start": 68,
+                "end": 77
+            },
+            {
+                "id": "e21b6a959b45f38874fce7b7",
+                "type": "check",
+                "text_span": "低级别的告警仍然存在",
+                "start": 81,
+                "end": 91
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "继续上报当前存在的最高级别的告警",
+                "start": 93,
+                "end": 109
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "反复，直至系统中不再有告警",
+                "start": 112,
+                "end": 125
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "e21b6a959b45f38874fce7b7"
+            ],
+            [
+                "e21b6a959b45f38874fce7b7",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "生成SHA256校验码时，文件中不能包含\"#sha256=\"字段。请在生成SHA256校验码后再将\"#sha256=\"写入文件开头。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "生成SHA256校验码时，文件中不能包含\"#sha256=\"字段",
+                "start": 0,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "生成SHA256校验码",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "将\"#sha256=\"写入文件开头",
+                "start": 48,
+                "end": 65
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果设备上已配置1:N（N>1）的实例和VLAN的映射关系，必须先删除该映射关系后才能修改生成树协议工作模式为VBST模式。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "设备上已配置1:N（N>1）的实例和VLAN的映射关系",
+                "start": 2,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除该映射关系",
+                "start": 33,
+                "end": 40
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "修改生成树协议工作模式为VBST模式",
+                "start": 43,
+                "end": 61
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "在设置基于AS路径列表的BGP路由过滤策略时，必须先使用 **ip as-path-filter** 命令定义AS路径过滤器。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用 **ip as-path-filter** 命令定义AS路径过滤器",
+                "start": 26,
+                "end": 62
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设置基于AS路径列表的BGP路由过滤策略",
+                "start": 1,
+                "end": 21
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置此参数前，需要首先通过keychain命令创建一个keychain，并分别通过key-id、key-string和algorithm命令配置该keychain采用的key-id、密码及其认证算法，否则会造成OSPF认证始终为失败状态。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "通过keychain命令创建一个keychain",
+                "start": 11,
+                "end": 35
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "分别通过key-id、key-string和algorithm命令配置该keychain采用的key-id、密码及其认证算法",
+                "start": 37,
+                "end": 99
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置此参数",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "当用户确认某条MAC路由或者某个BD的MAC路由不会再发生振荡，且希望立刻使该MAC路由恢复正常，而不是等待抑制恢复计时器计时结束，则可以手动清除MAC路由的抑制状态。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "用户确认某条MAC路由或者某个BD的MAC路由不会再发生振荡，且希望立刻使该MAC路由恢复正常，而不是等待抑制恢复计时器计时结束",
+                "start": 1,
+                "end": 65
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "手动清除MAC路由的抑制状态",
+                "start": 69,
+                "end": 83
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "预配置帮助用户在物理设备不在位的情况下，提前部署物理设备，并在预部署的设备上统一部署业务。业务的部署事先规划和配置后，用户按原有规划插入硬件，如果出现误操作插错硬件或插错位置，则原有用户配置保留，用户插入正确硬件或正确位置时，业务正常激活。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "预配置帮助用户在物理设备不在位的情况",
+                "start": 0,
+                "end": 18
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "提前部署物理设备",
+                "start": 20,
+                "end": 28
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "在预部署的设备上统一部署业务",
+                "start": 30,
+                "end": 44
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "业务的部署事先规划和配置",
+                "start": 45,
+                "end": 57
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "用户按原有规划插入硬件",
+                "start": 59,
+                "end": 70
+            },
+            {
+                "id": "f22e38d51eb0a4dab6f3c43d",
+                "type": "check",
+                "text_span": "出现误操作插错硬件或插错位置",
+                "start": 73,
+                "end": 87
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "原有用户配置保留",
+                "start": 89,
+                "end": 97
+            },
+            {
+                "id": "61a275297a684312a6c733cd",
+                "type": "check",
+                "text_span": "用户插入正确硬件或正确位置",
+                "start": 98,
+                "end": 111
+            },
+            {
+                "id": "39b007c7dbac2e8890131360",
+                "type": "operate",
+                "text_span": "业务正常激活",
+                "start": 113,
+                "end": 119
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "f22e38d51eb0a4dab6f3c43d"
+            ],
+            [
+                "f22e38d51eb0a4dab6f3c43d",
+                "f3d8a01fe7c205e277e23df2"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "61a275297a684312a6c733cd"
+            ],
+            [
+                "61a275297a684312a6c733cd",
+                "39b007c7dbac2e8890131360"
+            ]
+        ]
+    },
+    {
+        "text": "使用该命令之前，必须先创建相同名称的BFD会话。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "创建相同名称的BFD会话",
+                "start": 11,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用该命令",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "黑名单方式可以在同一个ACL中先配置动作是 **deny** 的编号较小的规则，用于过滤掉不希望被系统接收或发布的路由，然后再配置动作是 **permit** 的编号较大的规则，用于接收或发布其他路由。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置动作是 **deny** 的编号较小的规则",
+                "start": 16,
+                "end": 39
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "过滤掉不希望被系统接收或发布的路由",
+                "start": 42,
+                "end": 59
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置动作是 **permit** 的编号较大的规则",
+                "start": 63,
+                "end": 88
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "接收或发布其他路由",
+                "start": 91,
+                "end": 100
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "关闭智能升级Web提示功能后，Web网管首页将不再提醒智能升级的工作状态和最新的软件版本信息。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "关闭智能升级Web提示功能",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "Web网管首页将不再提醒智能升级的工作状态和最新的软件版本信息",
+                "start": 15,
+                "end": 46
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置PWE3功能后，可以检测PW发生故障的位置。当需要定位PW发生故障的位置时，先使用PW模板配置基本的PWE3功能，再在U-PE上进行以下配置。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置PWE3功能",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "检测PW发生故障的位置",
+                "start": 12,
+                "end": 23
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "要定位PW发生故障的位置",
+                "start": 26,
+                "end": 38
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "使用PW模板配置基本的PWE3功能",
+                "start": 41,
+                "end": 58
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "在U-PE上进行以下配置",
+                "start": 60,
+                "end": 72
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "使用 **local-pw-type** 命令前，需要先在NQA测试例视图下配置NQA测试例的测试类型为PWE3 Trace或者PWE3 Ping，否则无法配置 **local-pw-type** 命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在NQA测试例视图下配置NQA测试例的测试类型为PWE3 Trace或者PWE3 Ping",
+                "start": 28,
+                "end": 73
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用 **local-pw-type** 命令",
+                "start": 0,
+                "end": 23
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "基于接口划分VLAN指的是根据交换机的接口来划分VLAN。网络管理员预先给交换机的每个接口配置不同的PVID，当一个数据帧进入交换机时，如果没有带VLAN标签，该数据帧就会被打上接口指定PVID的Tag，然后数据帧将在指定PVID中传输。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "网络管理员预先给交换机的每个接口配置不同的PVID",
+                "start": 29,
+                "end": 54
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "一个数据帧进入交换机",
+                "start": 56,
+                "end": 66
+            },
+            {
+                "id": "c66c38baf13804b93a0e4cad",
+                "type": "check",
+                "text_span": "没有带VLAN标签",
+                "start": 70,
+                "end": 79
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "数据帧就会被打上接口指定PVID的Tag",
+                "start": 81,
+                "end": 101
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "数据帧将在指定PVID中传输",
+                "start": 104,
+                "end": 118
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "c66c38baf13804b93a0e4cad"
+            ],
+            [
+                "c66c38baf13804b93a0e4cad",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "对于已经安装的脚本，如需修改，必须执行 **ops uninstall file**命令卸载并执行 **delete（用户视图）**命令将脚本文件删除，修改完成之后再重新上传文件并安装。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **ops uninstall file**命令卸载",
+                "start": 17,
+                "end": 46
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行 **delete（用户视图）**命令将脚本文件删除",
+                "start": 47,
+                "end": 75
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "修改完成之后再重新上传文件并安装",
+                "start": 76,
+                "end": 92
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "默认情况下，设备的MAC地址学习功能都是开启的。在收到来自周边设备的数据帧时，会解析出数据帧的源MAC地址，然后与接收该数据帧的接口组合成一条MAC地址表项，添加到MAC地址表中。以后设备接收到去往该目的MAC地址的数据帧时，则直接查询MAC地址表就可以得到正确的发送接口，避免广播。若关闭MAC地址学习功能，设备在收到数据帧时将不会进行MAC地址的学习。另外之前学习到的动态表项不会立即删除，需要等待老化时间到达后老化删除，或手工执行删除MAC命令进行删除。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "收到来自周边设备的数据帧",
+                "start": 25,
+                "end": 37
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "解析出数据帧的源MAC地址",
+                "start": 40,
+                "end": 53
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "与接收该数据帧的接口组合成一条MAC地址表项，添加到MAC地址表中",
+                "start": 56,
+                "end": 89
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "设备接收到去往该目的MAC地址的数据帧",
+                "start": 92,
+                "end": 111
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "直接查询MAC地址表就可以得到正确的发送接口，避免广播",
+                "start": 114,
+                "end": 141
+            },
+            {
+                "id": "b5c813d8c4f7287225ef29aa",
+                "type": "condition",
+                "text_span": "关闭MAC地址学习功能",
+                "start": 143,
+                "end": 154
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "设备在收到数据帧时将不会进行MAC地址的学习",
+                "start": 155,
+                "end": 177
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "b5c813d8c4f7287225ef29aa"
+            ],
+            [
+                "b5c813d8c4f7287225ef29aa",
+                "f3d8a01fe7c205e277e23df2"
+            ]
+        ]
+    },
+    {
+        "text": "为加快对PW故障的感知速递，通常配置BFD会话检测PW。当网络中同源同宿的业务PW数量较多时，为减少BFD会话的数量，节约公网链路带宽和系统资源，可以配置与业务PW同源同宿的管理PW，并将业务PW与管理PW绑定，从而联动管理PW的状态。这样只需要通过BFD会话检测管理PW快速感知故障，业务PW不配置BFD会话检测，然后由管理PW通告所有绑定的业务PW，实现BFD会话对业务PW的监控。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当网络中同源同宿的业务PW数量较多时，为减少BFD会话的数量，节约公网链路带宽和系统资源",
+                "start": 28,
+                "end": 72
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置与业务PW同源同宿的管理PW",
+                "start": 75,
+                "end": 91
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "将业务PW与管理PW绑定",
+                "start": 93,
+                "end": 105
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "联动管理PW的状态",
+                "start": 108,
+                "end": 117
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "通过BFD会话检测管理PW快速感知故障",
+                "start": 123,
+                "end": 142
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "业务PW不配置BFD会话检测",
+                "start": 143,
+                "end": 157
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "由管理PW通告所有绑定的业务PW",
+                "start": 160,
+                "end": 176
+            },
+            {
+                "id": "fa1dc4bf4ad66fda2a7545b8",
+                "type": "operate",
+                "text_span": "实现BFD会话对业务PW的监",
+                "start": 177,
+                "end": 191
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ],
+            [
+                "03d52f1e00f70553a41b27bb",
+                "f3d8a01fe7c205e277e23df2"
+            ],
+            [
+                "f3d8a01fe7c205e277e23df2",
+                "fa1dc4bf4ad66fda2a7545b8"
+            ]
+        ]
+    },
+    {
+        "text": "在执行该命令前需要先使用命令 **auto-port-defend enable**使能基于端口的防攻击功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用命令 **auto-port-defend enable**使能基于端口的防攻击功能",
+                "start": 10,
+                "end": 54
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行该命令",
+                "start": 1,
+                "end": 6
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果由于链路闪断导致的Smart link倒换，会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。如果Smart Link组的接口有Up/Down动作，Smart Link组的状态不会立刻倒换，而是等待延时时间到达后，根据Smart Link组的接口最后获得的Up/Down状态处理Smart Link组的状态，从而抑制了由于链路闪断导致的Smart link倒换。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "由于链路闪断导致的Smart link倒换，会影响报文转发和系统性能",
+                "start": 2,
+                "end": 36
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置Smart Link倒换的延时解决此问题",
+                "start": 41,
+                "end": 63
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "突变上升告警和突变恢复告警分别计时，突变上升告警/突变恢复告警出现后，10分钟内不会再次告警。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "突变上升告警和突变恢复告警分别计时",
+                "start": 0,
+                "end": 17
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "突变上升告警/突变恢复告警出现后",
+                "start": 18,
+                "end": 34
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "10分钟内不会再次告警",
+                "start": 35,
+                "end": 46
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果接口上需要同时使能PIM-SM（IPv6）和MLD，必须要先使能PIM-SM（IPv6），再使能MLD。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使能PIM-SM（IPv6）",
+                "start": 9,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使能MLD",
+                "start": 48,
+                "end": 53
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在执行 **trigger trap** 命令之前，需要设备先执行 **snmp-agent trap enable feature-name**命令使能LinkUp和LinkDown告警。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "设备先执行 **snmp-agent trap enable feature-name**命令使能LinkUp和LinkDown告警",
+                "start": 28,
+                "end": 94
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行 **trigger trap** 命令",
+                "start": 1,
+                "end": 23
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "删除报文中的P-Tag，再封装两层MPLS标签（内层VC标签和外层Tunnel标签）后转发。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "删除报文中的P-Tag",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "封装两层MPLS标签",
+                "start": 13,
+                "end": 23
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "转发",
+                "start": 43,
+                "end": 45
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "用来配置FEC LIST名字，系统全局只有一个FEC LIST，它的有效长度为1～31。长度0表示删除。它不支持修改，只能先删除再创建。如果该FEC LIST被引用，则必须删除引用后才能删除FEC LIST。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "它不支持修改",
+                "start": 52,
+                "end": 58
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除 ",
+                "start": 62,
+                "end": 64
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "创建",
+                "start": 65,
+                "end": 67
+            },
+            {
+                "id": "3be6a816573c778469d59f6a",
+                "type": "condition",
+                "text_span": "该FEC LIST被引用",
+                "start": 70,
+                "end": 82
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "删除引用",
+                "start": 86,
+                "end": 90
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "删除FEC LIST",
+                "start": 93,
+                "end": 103
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "3be6a816573c778469d59f6a"
+            ],
+            [
+                "3be6a816573c778469d59f6a",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "如果接口上的VLAN规划更改，需要先删除接口上原来的VLAN配置，当接口上配置的VLAN较多且不连续时，需要执行多次删除操作。为减少删除操作，可采用恢复接口上VLAN的缺省配置的操作。具体配置请参见\"恢复接口上VLAN的缺省配置\"。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "接口上的VLAN规划更改",
+                "start": 2,
+                "end": 14
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除接口上原来的VLAN配置",
+                "start": 18,
+                "end": 32
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "接口上配置的VLAN较多且不连续时",
+                "start": 34,
+                "end": 51
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "执行多次删除操作",
+                "start": 54,
+                "end": 62
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "建立BGP LSP需要配置路由策略来控制标签的分配，在BGP LSP的末节点上，需要为向上游发布的路由分配MPLS标签；在BGP LSP的中间节点上，如果从下游收到带标签的IPv4路由，则需要为其重新分配MPLS标签，然后向上游发布。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "下游收到带标签的IPv4路由",
+                "start": 78,
+                "end": 92
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "为其重新分配MPLS标签",
+                "start": 96,
+                "end": 108
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "向上游发",
+                "start": 111,
+                "end": 115
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "智能升级的下载过程支持断点续传，如果之前下载文件因为网络问题下载失败，再次执行相应命令，从断点处重新开始下载。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "智能升级的下载过程支持断点续传",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "之前下载文件因为网络问题下载失败",
+                "start": 18,
+                "end": 34
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "再次执行相应命令",
+                "start": 35,
+                "end": 43
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "从断点处重新开始下载",
+                "start": 44,
+                "end": 54
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "如果接口视图和VLAN视图都配置了针对同一VLAN的组播组过滤策略，先根据接口视图上配置的过滤策略进行判断，再根据VLAN视图上配置的过滤策略进行判断。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "接口视图和VLAN视图都配置了针对同一VLAN的组播组过滤策略",
+                "start": 2,
+                "end": 33
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "根据接口视图上配置的过滤策略进行判断",
+                "start": 35,
+                "end": 53
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "根据VLAN视图上配置的过滤策略进行判断",
+                "start": 55,
+                "end": 75
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "序号1、2、3无序操作，SFTP连接（序号4）建立后，可执行序号5的操作，最后断开连接（序号6）。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "序号1、2、3无序操作",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "SFTP连接（序号4）建立",
+                "start": 12,
+                "end": 25
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "执行序号5的操作",
+                "start": 28,
+                "end": 36
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "断开连接（序号6）",
+                "start": 39,
+                "end": 48
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "用户想在Python脚本中通过ops.route.subscribe订阅10.2.1.0/24网段内OSPF路由的变更，随后用户又需要更改为订阅10.2.2.0/24网段内OSPF路由的变更。为省去卸载原有脚本、安装新脚本的过程，可以在订阅阶段使用用户自定义环境变量，然后通过 **environment**命令指定该自定义环境变量的值。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "为省去卸载原有脚本、安装新脚本的过程",
+                "start": 96,
+                "end": 114
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在订阅阶段使用用户自定义环境变量",
+                "start": 117,
+                "end": 133
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "通过 **environment**命令指定该自定义环境变量的值",
+                "start": 136,
+                "end": 168
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "先配置 **route-policy**，才能配置 **apply dampening** 命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置 **route-policy**",
+                "start": 1,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置 **apply dampening** 命令",
+                "start": 23,
+                "end": 48
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当DLDP处于Active、Advertisement或Probe状态时，如果收到接口Down事件，比如有些接口在Tx线发生故障时会引起Rx线的光信号抖动即接口先Down随即又Up。为了避免在这种情况下DLDP直接进入Inactive状态清除邻居信息，DLDP会先进入DelayDown状态，同时启动DelayDown定时器（此时仍保留DLDP邻居信息，且只响应接口Up事件）。通过该命令可以配置DelayDown定时器的超时时间。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "为了避免在这种情况下DLDP直接进入Inactive状态清除邻居信息",
+                "start": 91,
+                "end": 125
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "DLDP会先进入DelayDown状态",
+                "start": 126,
+                "end": 145
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "同时启动DelayDown定时器",
+                "start": 146,
+                "end": 162
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "当原来使能LLDP功能的设备去使能LLDP功能后，它的邻居设备不会马上老化掉该设备的信息，而是在等待TTL时间后再进行老化，以防止网络拓扑频繁变更。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "原来使能LLDP功能的设备去使能LLDP功能",
+                "start": 1,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "邻居设备不会马上老化掉该设备的信息",
+                "start": 27,
+                "end": 44
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "等待TTL时间",
+                "start": 48,
+                "end": 55
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "进行老化",
+                "start": 57,
+                "end": 61
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "系统视图下， ** **dhcp snooping enable**** 命令是DHCP Snooping相关功能的总开关。执行 **undo dhcp snooping enable** 命令后，设备上所有DHCP Snooping相关的配置会被删除；再次执行 **dhcp snooping enable** 命令使能DHCP Snooping功能后，设备上所有DHCP Snooping相关配置将被恢复为缺省配置。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **undo dhcp snooping enable** 命令",
+                "start": 62,
+                "end": 97
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备上所有DHCP Snooping相关的配置会被删除",
+                "start": 99,
+                "end": 126
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "执行 **dhcp snooping enable** 命令使能DHCP Snooping功能",
+                "start": 129,
+                "end": 176
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "设备上所有DHCP Snooping相关配置将被恢复为缺省配置",
+                "start": 178,
+                "end": 209
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "认证模板下也支持配置安全字符串，如果在AAA视图和认证模板视图下都配置了安全字符串，则优先使用认证模板下的配置。认证模板下的配置仅适用于无线用户。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "在AAA视图和认证模板视图下都配置了安全字符串",
+                "start": 18,
+                "end": 41
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "优先使用认证模板下的配置",
+                "start": 43,
+                "end": 55
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "设备的软件包括BootROM/BootLoad软件和系统软件。设备上电后，先运行BootROM/BootLoad软件，初始化硬件并显示设备的硬件参数，然后运行系统软件。系统软件一方面提供对硬件的驱动和适配功能，另一方面实现了业务特性。BootROM/BootLoad软件与系统软件是设备启动、运行的必备软件，为整个设备提供支撑、管理、业务等功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "设备上电",
+                "start": 31,
+                "end": 35
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "运行BootROM/BootLoad软件",
+                "start": 38,
+                "end": 58
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "初始化硬件并显示设备的硬件参数",
+                "start": 59,
+                "end": 74
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "运行系统软件",
+                "start": 77,
+                "end": 83
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "如果要改变当前MA关联的VLAN，首先需要使用 **undo map** 命令删除该MA和原VLAN的关联关系，然后再执行 **map** 命令将MA和另一个VLAN关联。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "要改变当前MA关联的VLAN",
+                "start": 2,
+                "end": 16
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用 **undo map** 命令删除该MA和原VLAN的关联关系",
+                "start": 21,
+                "end": 55
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **undo map** 命令删除该MA和原VLAN的关联关系",
+                "start": 21,
+                "end": 55
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "对于S6735-S、S6735S-S、S6720-EI和S6720S-EI，配置出方向流镜像时，不能再配置其他流行为，否则出方向流镜像不生效。",
+        "node_list": [],
+        "edge_list": []
+    },
+    {
+        "text": "执行本命令前，建议先使用 **check region-configuration**命令查看尚未生效的域配置是否正确。确认未生效的域配置完全正确后，再执行本命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用 **check region-configuration**命令查看尚未生效的域配置是否正确",
+                "start": 10,
+                "end": 59
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "确认未生效的域配置完全正确",
+                "start": 60,
+                "end": 73
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "执行本命令",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "必须先执行 **cfm enable**命令全局使能CFM才可以配置协议类型。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **cfm enable**命令全局使能CFM",
+                "start": 3,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置协议类型",
+                "start": 32,
+                "end": 38
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在接收报文时，首先判断是否要对报文进行认证处理。如果不需要认证，则直接对报文进行后续处理；如果需要认证，则根据对应密钥ID和解密算法来认证。如果认证失败，则直接丢弃报文；如果认证通过，则对接收到的报文进行处理。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "接收报文",
+                "start": 1,
+                "end": 5
+            },
+            {
+                "id": "c17990edeb708a3fa559004a",
+                "type": "check",
+                "text_span": "判断是否要对报文进行认证处理",
+                "start": 9,
+                "end": 23
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "不需要认证",
+                "start": 26,
+                "end": 31
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "直接对报文进行后续处理",
+                "start": 33,
+                "end": 44
+            },
+            {
+                "id": "bc368e1eeeee9227f7b467d5",
+                "type": "condition",
+                "text_span": "需要认证",
+                "start": 27,
+                "end": 31
+            },
+            {
+                "id": "fa1dc4bf4ad66fda2a7545b8",
+                "type": "operate",
+                "text_span": "根据对应密钥ID和解密算法来认证",
+                "start": 53,
+                "end": 69
+            },
+            {
+                "id": "33bea4fb3fd1ceae9af2b67a",
+                "type": "condition",
+                "text_span": "认证失败",
+                "start": 72,
+                "end": 76
+            },
+            {
+                "id": "b72c5c3d1817763b4e554bd8",
+                "type": "operate",
+                "text_span": "丢弃报文",
+                "start": 80,
+                "end": 84
+            },
+            {
+                "id": "994310bc48713a5adc8cda23",
+                "type": "condition",
+                "text_span": "认证通过",
+                "start": 87,
+                "end": 91
+            },
+            {
+                "id": "be4b62f81686606fd7350c32",
+                "type": "operate",
+                "text_span": "对接收到的报文进行处理",
+                "start": 93,
+                "end": 104
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "c17990edeb708a3fa559004a"
+            ],
+            [
+                "c17990edeb708a3fa559004a",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c17990edeb708a3fa559004a",
+                "bc368e1eeeee9227f7b467d5"
+            ],
+            [
+                "bc368e1eeeee9227f7b467d5",
+                "fa1dc4bf4ad66fda2a7545b8"
+            ],
+            [
+                "fa1dc4bf4ad66fda2a7545b8",
+                "33bea4fb3fd1ceae9af2b67a"
+            ],
+            [
+                "33bea4fb3fd1ceae9af2b67a",
+                "b72c5c3d1817763b4e554bd8"
+            ],
+            [
+                "fa1dc4bf4ad66fda2a7545b8",
+                "994310bc48713a5adc8cda23"
+            ],
+            [
+                "994310bc48713a5adc8cda23",
+                "be4b62f81686606fd7350c32"
+            ]
+        ]
+    },
+    {
+        "text": "配置此命令前，先要配置L2VPN实例的路由标志Router-Distinguisher。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置L2VPN实例的路由标志Router-Distinguisher",
+                "start": 9,
+                "end": 43
+            },
+            {
+                "id": "3505a17efed023a70f50954d",
+                "type": "status",
+                "text_span": "配置此命令",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "3505a17efed023a70f50954d"
+            ]
+        ]
+    },
+    {
+        "text": "当系统检测到环路时，可以根据用户事先配置的处理动作对接口进行处理，使其处于某种受控状态。具体处理动作如表2所示。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "系统检测到环路",
+                "start": 1,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "根据用户事先配置的处理动作对接口进行处理",
+                "start": 12,
+                "end": 32
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使其处于某种受控状态",
+                "start": 33,
+                "end": 43
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "通过集中配置模式配置AS的业务之前，必须先配置AS管理员并下发至AS，详细配置请参见AS管理员模板配置步骤，否则会导致配置下发失败。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置AS管理员",
+                "start": 21,
+                "end": 28
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "下发至AS",
+                "start": 29,
+                "end": 34
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "通过集中配置模式配置AS的业务",
+                "start": 0,
+                "end": 15
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "使用 **bfd bind peer-ipv6** 命令前必须先要全局使能BFD功能，即需要在系统视图下执行 **bfd**命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "全局使能BFD功能",
+                "start": 33,
+                "end": 42
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用 **bfd bind peer-ipv6** 命令",
+                "start": 0,
+                "end": 28
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果配置了多种吊销状态的检查方式，会按照配置的先后顺序执行，当前一种方式不可用（如服务器连接不上）时才会使用后边的方式。如果选用了不检查（none），当前面配置的方式均不可用时，认为证书有效。以配置了 **certificate-check crl none** 命令为例，先使用CRL方式检查证书是否有效，如果CRL方式不可用，则认为证书是有效的。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "配置了多种吊销状态的检查方式",
+                "start": 2,
+                "end": 16
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "按照配置的先后顺序执行",
+                "start": 18,
+                "end": 29
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "当前一种方式不可用",
+                "start": 30,
+                "end": 39
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "使用后边的方式",
+                "start": 52,
+                "end": 59
+            },
+            {
+                "id": "aa350c82147079dd82ccac4e",
+                "type": "condition",
+                "text_span": "选用了不检查",
+                "start": 62,
+                "end": 68
+            },
+            {
+                "id": "b5c813d8c4f7287225ef29aa",
+                "type": "condition",
+                "text_span": "当前面配置的方式均不可用",
+                "start": 75,
+                "end": 87
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "认为证书有效",
+                "start": 89,
+                "end": 95
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "aa350c82147079dd82ccac4e"
+            ],
+            [
+                "aa350c82147079dd82ccac4e",
+                "b5c813d8c4f7287225ef29aa"
+            ],
+            [
+                "b5c813d8c4f7287225ef29aa",
+                "f3d8a01fe7c205e277e23df2"
+            ]
+        ]
+    },
+    {
+        "text": "将预置CA证书导入default域后，如果需要使用其他CA证书，先使用 **pki delete-certificate ca realm** _default_ 命令将预置CA证书从default域移除，再导入新证书。 **default_ca.cer** 为系统预留的预置CA证书名称，新导入的证书不能命名为 **default_ca.cer** 。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "将预置CA证书导入default域",
+                "start": 0,
+                "end": 17
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "需要使用其他CA证书",
+                "start": 21,
+                "end": 31
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **pki delete-certificate ca realm** _default_ 命令将预置CA证书从default域移除",
+                "start": 33,
+                "end": 102
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "导入新证书",
+                "start": 104,
+                "end": 109
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "如果配置了新的端口号，SSH服务器端先断开当前已经建立的所有SSH连接，然后使用新的端口号开始尝试连接。这样可以有效防止攻击者对SSH服务标准端口的访问，确保安全性。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "配置了新的端口号",
+                "start": 2,
+                "end": 10
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "SSH服务器端先断开当前已经建立的所有SSH连接",
+                "start": 11,
+                "end": 35
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用新的端口号开始尝试连接",
+                "start": 38,
+                "end": 51
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果AS已经加载过补丁，请先删除原来的补丁文件再加载新的补丁文件。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "AS已经加载过补丁",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除原来的补丁文件",
+                "start": 14,
+                "end": 23
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "加载新的补丁文件",
+                "start": 24,
+                "end": 32
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "自动恢复时间基于接口生效，如果一个接口从多个VLAN中退出，自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "一个接口从多个VLAN中退出",
+                "start": 15,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时",
+                "start": 30,
+                "end": 59
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "使用命令 **web-auth-server** 在设备上创建Portal服务器模板后，再配合其他命令即可搭建设备到Portal服务器的通路。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用命令 **web-auth-server** 在设备上创建Portal服务器模板",
+                "start": 0,
+                "end": 42
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配合其他命令即可搭建设备到Portal服务器的通路",
+                "start": 45,
+                "end": 70
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果是在独立配置模式场景下，需要先通过命令 **independent-as-admin**在uni-mng视图下配置AS的用户名及密码。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "在独立配置模式场景",
+                "start": 3,
+                "end": 12
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过命令 **independent-as-admin**在uni-mng视图下配置AS的用户名及密码",
+                "start": 17,
+                "end": 68
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "交换机在接收到状态刷新报文后都会将TTL值减一，然后向下游转发，直到TTL值变为0。当网络规模很小时，刷新报文将在网络中循环传递。执行命令 **state-refresh-ttl** ，可以根据网络规模大小配置合适的TTL值。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "接收到状态刷新报文",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "将TTL值减一",
+                "start": 16,
+                "end": 23
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "向下游转发，直到TTL值变为0",
+                "start": 26,
+                "end": 41
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "新加入成员交换机使用业务口普通线缆连接堆叠系统时，因iMaster NCE-Campus无法向堆叠系统配置堆叠口信息，新加入成员交换机需要手动在堆叠系统上配置命令加入堆叠系统，然后再向iMaster NCE-Campus注册。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "新加入成员交换机使用业务口普通线缆连接堆叠系统时",
+                "start": 0,
+                "end": 24
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "新加入成员交换机需要手动在堆叠系统上配置命令加入堆叠系统",
+                "start": 59,
+                "end": 87
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "新加入成员交换机需要手动在堆叠系统上配置命令加入堆叠系统",
+                "start": 59,
+                "end": 87
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "在E-Trunk正常工作期间，改变报文发送周期或超时时间，会引起主备状态振荡。因此建议在改变报文发送周期或超时时间前，先将成员Eth-Trunk的工作模式设置为强制主/备模式，待新的配置生效后，再恢复自动模式。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "将成员Eth-Trunk的工作模式设置为强制主/备模式",
+                "start": 60,
+                "end": 87
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "新的配置生效",
+                "start": 89,
+                "end": 95
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "恢复自动模式",
+                "start": 98,
+                "end": 104
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "当备份CR-LSP的状态为Up，且被保护链路或节点出现故障时，则流量先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "备份CR-LSP的状态为Up，且被保护链路或节点出现故障",
+                "start": 1,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "流量先切换到Bypass CR-LSP",
+                "start": 32,
+                "end": 51
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "立即切换到备份CR-LSP上",
+                "start": 53,
+                "end": 67
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "同时尝试恢复主CR-LSP",
+                "start": 68,
+                "end": 81
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "指定UDP协议承载的RTP报文的乱序率的告警阈值前，要先配置协议类型为UDP的目标流。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置协议类型为UDP的目标流",
+                "start": 28,
+                "end": 42
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "指定UDP协议承载的RTP报文的乱序率的告警阈值",
+                "start": 0,
+                "end": 24
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "用户首先通过nqaAdminCtrlTable来创建测试例，使能测试例之后，在nqaJitterStatsTable中查看测试例统计结果。这两个表中都用nqaAdminCtrlOwnerIndex和nqaAdminCtrlTestName来唯一标识一个测试例；此外nqaJitterStatsTable还需要使用nqaJitterStatsIndex来唯一标识在当前测试例中某一条针对Jitter的测试结果。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "通过nqaAdminCtrlTable来创建测试例",
+                "start": 4,
+                "end": 29
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使能测试例",
+                "start": 30,
+                "end": 35
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "在nqaJitterStatsTable中查看测试例统计结果",
+                "start": 38,
+                "end": 68
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "目标流是实施eMDI监控功能的关键要素，每次启动eMDI监控功能前，首先要配置所监控的目标流。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置所监控的目标流",
+                "start": 37,
+                "end": 46
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "启动eMDI监控功能",
+                "start": 22,
+                "end": 32
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在执行该命令前需要先使用命令 **arp anti-attack rate-limit enable**使能ARP报文限速功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用命令 **arp anti-attack rate-limit enable**使能ARP报文限速功能",
+                "start": 10,
+                "end": 63
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行该命令",
+                "start": 1,
+                "end": 6
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在Portal服务器负载均衡的场景下，非用户上线的Portal服务器发送的用户下线请求消息设备默认不处理，仅给Portal服务器回应ACK消息，这会导致用户下线不成功，造成一些欠费的用户仍能够正常上网。为解决以上问题，可以通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息，之后，设备收到非用户上线的Portal服务器发送的用户下线请求消息时，首先启动用户下线流程，下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息",
+                "start": 111,
+                "end": 190
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备收到非用户上线的Portal服务器发送的用户下线请求消息",
+                "start": 194,
+                "end": 224
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "启动用户下线流程",
+                "start": 228,
+                "end": 236
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线",
+                "start": 237,
+                "end": 270
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "配置SAVI功能前必须先使能SAVI功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使能SAVI功能",
+                "start": 12,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置SAVI功能",
+                "start": 0,
+                "end": 8
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "看到此标识时，请先阅读安全手册中所有内容，确保手册的注意事项都已了解后方可进行操作。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "确保手册的注意事项都已了解",
+                "start": 21,
+                "end": 34
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "进行操作",
+                "start": 37,
+                "end": 41
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "应用流策略后，不能再使用该命令来修改策略中流分类的匹配顺序。必须先清除该策略的应用，再重新创建并指定所需的匹配顺序。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "应用流策略",
+                "start": 0,
+                "end": 5
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "清除该策略的应用",
+                "start": 33,
+                "end": 41
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "重新创建并指定所需的匹配顺序",
+                "start": 43,
+                "end": 57
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "基于协议划分VLAN将指定协议类型与VLAN相关联，根据关联关系来确定不同协议类型的报文所属的VLAN，然后将报文自动划分到指定VLAN中传输。主要应用在根据不同协议类型采用不同传输路径的网络中。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "根据关联关系来确定不同协议类型的报文所属的VLAN",
+                "start": 26,
+                "end": 51
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "将报文自动划分到指定VLAN中传输",
+                "start": 54,
+                "end": 71
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在BGP VPNv4扩展中，PE从CE学到CE本地的VPN路由信息后，在路由信息中增加RD和ERT（Export Route Target），再通过BGP VPNv4邻居关系与其它PE交换VPN路由信息。不同VPN的路由在公网中通过RD进行区分，不同CE之间的路由使用RT进行引入控制。PE只维护与它直接相连的VPN的路由信息，不维护服务提供商网络中的所有VPN路由。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "PE从CE学到CE本地的VPN路由信息",
+                "start": 14,
+                "end": 33
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在路由信息中增加RD和ERT",
+                "start": 35,
+                "end": 49
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "通过BGP VPNv4邻居关系与其它PE交换VPN路由信息",
+                "start": 72,
+                "end": 101
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "在传统转发模式下，当到达同一个目的网络存在多条路由时，交换机总是选择最优路由使用，并且下发到FIB表指导数据转发。这样当最优路由故障时，需要等待路由收敛完成，重新选路，然后再把优选路由下发到转发表，业务才能恢复。在这个过程中，业务中断时间较长，不能满足业务的要求。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "传统转发模式",
+                "start": 1,
+                "end": 7
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "到达同一个目的网络存在多条路由",
+                "start": 10,
+                "end": 25
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "交换机总是选择最优路由使用",
+                "start": 27,
+                "end": 40
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "下发到FIB表指导数据转发",
+                "start": 43,
+                "end": 56
+            },
+            {
+                "id": "aa350c82147079dd82ccac4e",
+                "type": "condition",
+                "text_span": "当最优路由故障时",
+                "start": 59,
+                "end": 67
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "等待路由收敛完成",
+                "start": 70,
+                "end": 78
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "重新选路",
+                "start": 79,
+                "end": 83
+            },
+            {
+                "id": "fa1dc4bf4ad66fda2a7545b8",
+                "type": "operate",
+                "text_span": "把优选路由下发到转发表",
+                "start": 87,
+                "end": 98
+            },
+            {
+                "id": "39b007c7dbac2e8890131360",
+                "type": "operate",
+                "text_span": "业务才能恢复",
+                "start": 99,
+                "end": 105
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "aa350c82147079dd82ccac4e"
+            ],
+            [
+                "aa350c82147079dd82ccac4e",
+                "03d52f1e00f70553a41b27bb"
+            ],
+            [
+                "03d52f1e00f70553a41b27bb",
+                "f3d8a01fe7c205e277e23df2"
+            ],
+            [
+                "f3d8a01fe7c205e277e23df2",
+                "fa1dc4bf4ad66fda2a7545b8"
+            ],
+            [
+                "fa1dc4bf4ad66fda2a7545b8",
+                "39b007c7dbac2e8890131360"
+            ]
+        ]
+    },
+    {
+        "text": "通过集中配置模式配置AS的业务之前，必须先配置AS管理员并下发至AS，详细配置请参见AS管理员模板配置步骤，否则会导致配置下发失败。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置AS管理员并下发至AS",
+                "start": 21,
+                "end": 34
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过集中配置模式配置AS的业务",
+                "start": 0,
+                "end": 15
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "一个SSL策略只能加载一个证书或者证书链（证书链是指从终端实体证书到根证书的一系列可信任证书构成的证书序列）。如果已经加载了证书或者证书链，加载新证书或者证书链之前必须先执行命令 **undo certificate load**卸载旧证书或者证书链。请根据证书类型，选择相应的配置。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "已经加载了证书或者证书链",
+                "start": 57,
+                "end": 69
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行命令 **undo certificate load**卸载旧证书或者证书链",
+                "start": 85,
+                "end": 125
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "加载新证书或者证书链",
+                "start": 70,
+                "end": 80
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果没有使用 **ssh user** 命令配置相应的SSH用户，则可以直接执行 **ssh authentication-type default password**命令为用户配置SSH认证缺省采用密码认证，在用户数量比较多时，对用户使用缺省密码认证方式可以简化配置，此时只需再配置AAA用户即可。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "没有使用 **ssh user** 命令配置相应的SSH用户",
+                "start": 2,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "直接执行 **ssh authentication-type default password**命令为用户配置SSH认证缺省采用密码认证",
+                "start": 36,
+                "end": 105
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "用户数量比较多",
+                "start": 107,
+                "end": 114
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "对用户使用缺省密码认证方式可以简化配置，此时只需再配置AAA用户即可",
+                "start": 116,
+                "end": 150
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "在未配置 **ebgp-interface-sensitive** 命令时，如果某个接口状态变为Down，系统无法立即选择次优路由传输报文，而是等待一段时间（缺省情况下是180秒）后再查看是否可以通过其他接口向原目的地址传输报文，这样会使流量中断一段时间。当配置 **ebgp-interface-sensitive** 命令后，当EBGP链路出现故障时，BGP可以迅速感知并立即尝试使用其他接口复位原接口上的BGP连接。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "未配置 **ebgp-interface-sensitive** 命令",
+                "start": 1,
+                "end": 36
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "某个接口状态变为Down",
+                "start": 40,
+                "end": 52
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "系统无法立即选择次优路由传输报文",
+                "start": 53,
+                "end": 69
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "等待一段时间",
+                "start": 72,
+                "end": 78
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "查看是否可以通过其他接口向原目的地址传输报文",
+                "start": 92,
+                "end": 114
+            },
+            {
+                "id": "b5c813d8c4f7287225ef29aa",
+                "type": "condition",
+                "text_span": "配置 **ebgp-interface-sensitive** 命令",
+                "start": 2,
+                "end": 36
+            },
+            {
+                "id": "bc368e1eeeee9227f7b467d5",
+                "type": "condition",
+                "text_span": "EBGP链路出现故障",
+                "start": 166,
+                "end": 176
+            },
+            {
+                "id": "fa1dc4bf4ad66fda2a7545b8",
+                "type": "operate",
+                "text_span": "当EBGP链路出现故障时，BGP可以迅速感知并立即尝试使用其他接口复位原接口上的BGP连接",
+                "start": 165,
+                "end": 210
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "b5c813d8c4f7287225ef29aa",
+                "bc368e1eeeee9227f7b467d5"
+            ],
+            [
+                "bc368e1eeeee9227f7b467d5",
+                "fa1dc4bf4ad66fda2a7545b8"
+            ]
+        ]
+    },
+    {
+        "text": "对于运行生成树协议的通信网络，当通过命令 **stp edged-port enable**将当前端口配置成边缘端口，该端口便不再参与生成树计算，从而帮助加快网络拓扑的收敛时间以及加强网络的稳定性。可是端口仍然会发送BPDU报文，这可能导致BPDU报文发送到其他网络，引起其他网络产生震荡。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "运行生成树协议的通信网络",
+                "start": 2,
+                "end": 14
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "通过命令 **stp edged-port enable**将当前端口配置成边缘端口",
+                "start": 16,
+                "end": 58
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "status",
+                "text_span": "该端口便不再参与生成树计算，从而帮助加快网络拓扑的收敛时间以及加强网络的稳定性",
+                "start": 59,
+                "end": 98
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如图1所示，AP收到STA发送的探测请求帧（Probe Request）时，判断如果是2.4G射频接收的，则先不发送探测应答帧（Probe Response），之后如果在5G射频收到探测请求帧（Probe Request），则立即发送探测应答帧（Probe Response）。这时，STA就可以接入5G频段。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "AP收到STA发送的探测请求帧",
+                "start": 6,
+                "end": 21
+            },
+            {
+                "id": "c17990edeb708a3fa559004a",
+                "type": "check",
+                "text_span": "如果是2.4G射频接收的",
+                "start": 40,
+                "end": 52
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "先不发送探测应答帧",
+                "start": 54,
+                "end": 63
+            },
+            {
+                "id": "3be6a816573c778469d59f6a",
+                "type": "condition",
+                "text_span": "在5G射频收到探测请求帧",
+                "start": 84,
+                "end": 96
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "立即发送探测应答帧",
+                "start": 113,
+                "end": 122
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "STA就可以接入5G频段",
+                "start": 142,
+                "end": 154
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "c17990edeb708a3fa559004a"
+            ],
+            [
+                "c17990edeb708a3fa559004a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "3be6a816573c778469d59f6a"
+            ],
+            [
+                "3be6a816573c778469d59f6a",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "该节点用来表示在分配索引时，在65525个索引被分配完了，无法再分配索引时，发送TRAP通知网管。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "该节点用来表示在分配索引",
+                "start": 0,
+                "end": 12
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "65525个索引被分配完",
+                "start": 15,
+                "end": 27
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "无法再分配索引",
+                "start": 29,
+                "end": 36
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "发送TRAP通知网管",
+                "start": 38,
+                "end": 48
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "在配置静态RPF对等体时，需要先使用 **peer connect-interface** 命令将对端配置为MSDP对等体，然后使用 **static-rpf-peer**命令将该对等体配置为静态RPF对等体。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用 **peer connect-interface** 命令将对端配置为MSDP对等体",
+                "start": 16,
+                "end": 61
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用 **static-rpf-peer**命令将该对等体配置为静态RPF对等体",
+                "start": 64,
+                "end": 104
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在LSW2设备上对接口GE0/0/2执行 **shutdown** 命令，模拟端口故障。然后再在端口GE0/0/1执行 **undo shutdown** 命令，端口故障恢复。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在LSW2设备上对接口GE0/0/2执行 **shutdown** 命令，模拟端口故障",
+                "start": 0,
+                "end": 43
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在端口GE0/0/1执行 **undo shutdown** 命令，端口故障恢复",
+                "start": 47,
+                "end": 87
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在配置用户ACL任务中，必须创建用户ACL，再配置用户ACL的规则，最后应用用户ACL。如果配置的用户ACL规则中需要引用生效时间段，则必须配置规则生效时间段。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "配置用户ACL任务",
+                "start": 1,
+                "end": 10
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "创建用户ACL",
+                "start": 14,
+                "end": 21
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置用户ACL的规则",
+                "start": 23,
+                "end": 33
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "应用用户ACL",
+                "start": 36,
+                "end": 43
+            },
+            {
+                "id": "aa350c82147079dd82ccac4e",
+                "type": "condition",
+                "text_span": "配置的用户ACL规则中需要引用生效时间段",
+                "start": 46,
+                "end": 66
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "配置规则生效时间段",
+                "start": 70,
+                "end": 79
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "aa350c82147079dd82ccac4e"
+            ],
+            [
+                "aa350c82147079dd82ccac4e",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "为避免先前报文统计信息影响故障原因分析，用户可先通过命令 **reset counters interface**，清除接口的统计信息后，再配置本命令。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "避免先前报文统计信息影响故障原因分析",
+                "start": 1,
+                "end": 19
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "用户可先通过命令 **reset counters interface**，清除接口的统计信息",
+                "start": 20,
+                "end": 67
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置本命令",
+                "start": 70,
+                "end": 75
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "任何安全的网络都是设计出来的，不是配置出来的。在进行安全加固之前，首先需要进行安全加固方案的设计，然后才是对设计方案的配置落地。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "安全加固方案的设计",
+                "start": 39,
+                "end": 48
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设计方案的配置落地",
+                "start": 54,
+                "end": 63
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在接口上配置端口队列缓存前需要时使用 **shutdown**命令关闭接口，配置完成后，再使用 **undo shutdown**命令打开接口，此操作过程可能会引起网络的短暂中断。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用 **shutdown**命令关闭接口",
+                "start": 16,
+                "end": 37
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在接口上配置端口队列缓存",
+                "start": 0,
+                "end": 12
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **undo shutdown**命令打开接口",
+                "start": 45,
+                "end": 71
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "主板上的OSPF伪连接接口在一定时间内未收到备板回应，不再继续等待，作为收到回应来处理，备份消息也不再重传。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "主板上的OSPF伪连接接口在一定时间内未收到备板回应",
+                "start": 0,
+                "end": 26
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "不再继续等待",
+                "start": 27,
+                "end": 33
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "作为收到回应来处理",
+                "start": 34,
+                "end": 43
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "status",
+                "text_span": "备份消息也不再重传",
+                "start": 44,
+                "end": 53
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "禁止接口的路由器端口动态学习功能后，接口不再侦听IGMP Query报文或PIM Hello报文，需要使用 **igmp-snooping static-router-port**命令配置静态路由器端口，以保证组播报文正常转发。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "禁止接口的路由器端口动态学习功能",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "接口不再侦听IGMP Query报文或PIM Hello报文",
+                "start": 18,
+                "end": 48
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "使用 **igmp-snooping static-router-port**命令配置静态路由器端口",
+                "start": 51,
+                "end": 101
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "保证组播报文正常转发",
+                "start": 103,
+                "end": 113
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "当创建一个新的视图或改变一个已经存在的视图时，了解与该视图其它应用的潜在交互非常重要。首先需要获取vacmViewSpinLock，再由SNMP命令生成器通过查询vacmViewTreeFamilyTable，为要创建的视图确定一个唯一的名称。然后，视图被创建或被设置，包括咨询锁。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "获取vacmViewSpinLock",
+                "start": 47,
+                "end": 65
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "由SNMP命令生成器通过查询vacmViewTreeFamilyTable",
+                "start": 67,
+                "end": 104
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "为要创建的视图确定一个唯一的名称",
+                "start": 105,
+                "end": 121
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "视图被创建或被设置，包括咨询锁",
+                "start": 125,
+                "end": 140
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "使用本命令清除某VLAN内的组表项时，会引起该VLAN内的主机接收组播流暂时性中断。直到主机再次发出MLD Report报文，交换机重新生成动态转发表项后，主机才能再次收到组播流。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "使用本命令清除某VLAN内的组表项",
+                "start": 0,
+                "end": 17
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "会引起该VLAN内的主机接收组播流暂时性中断",
+                "start": 19,
+                "end": 41
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "直到主机再次发出MLD Report报文",
+                "start": 42,
+                "end": 62
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "交换机重新生成动态转发表项",
+                "start": 63,
+                "end": 76
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "主机才能再次收到组播流",
+                "start": 78,
+                "end": 89
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "配置关闭MAC地址学习功能后，设备将不会再从该接口学习新的MAC地址，但是无法做到阻止某些设备或终端访问网络。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置关闭MAC地址学习功能",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备将不会再从该接口学习新的MAC地址",
+                "start": 15,
+                "end": 34
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果有多台DHCP服务器向DHCP客户端回应DHCP OFFER报文，则DHCP客户端只接收第一个收到的DHCP OFFER报文。然后以广播方式发送DHCP REQUEST请求报文，该报文中包含服务器标识选项（Option54），即它选择的DHCP服务器的IP地址信息。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "有多台DHCP服务器向DHCP客户端回应DHCP OFFER报文",
+                "start": 2,
+                "end": 34
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "DHCP客户端只接收第一个收到的DHCP OFFER报文",
+                "start": 36,
+                "end": 64
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "以广播方式发送DHCP REQUEST请求报文",
+                "start": 67,
+                "end": 90
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "配置iPCA实现端到端网络的丢包统计前，请先保证已经配置NTP协议，实现Switch_1和Switch_2之间的时间同步。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "已经配置NTP协议，实现Switch_1和Switch_2之间的时间同步",
+                "start": 24,
+                "end": 60
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置iPCA实现端到端网络的丢包统计",
+                "start": 0,
+                "end": 18
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置某接口成为C-BSR接口时，请先在该接口下使能PIM-SM。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在该接口下使能PIM-SM",
+                "start": 18,
+                "end": 31
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置某接口成为C-BSR接口",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "使能AP的智能升级功能前，需先执行 **smart-upgrade enable** 命令，使能交换机智能升级功能。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **smart-upgrade enable** 命令，使能交换机智能升级功能",
+                "start": 15,
+                "end": 57
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使能AP的智能升级功能",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "必须先在网络增强模板下使能端口安全功能和Sticky MAC功能，然后再通过 **direct-command**下发该命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在网络增强模板下使能端口安全功能和Sticky MAC功能",
+                "start": 3,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过 **direct-command**下发该命令",
+                "start": 36,
+                "end": 62
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "生成本地密钥对，然后将公钥配置到SSH服务器上。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "生成本地密钥对",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "将公钥配置到SSH服务器上",
+                "start": 10,
+                "end": 23
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "先配置 **route-policy**，才能配置 **apply preferred-value** 命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置 **route-policy**",
+                "start": 1,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置 **apply preferred-value** 命令",
+                "start": 23,
+                "end": 54
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "此命令应用于DHCP服务器。DHCP服务器从全局地址池中给客户端分配IP地址时，需先执行 **network** 命令配置全局地址池的网段，进而从该网段中选取分配给客户端的IP地址。DHCP服务器从接口地址池中给客户端分配IP地址时，接口IP地址所在的网段即为该接口地址池的网段。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "DHCP服务器从全局地址池中给客户端分配IP地址",
+                "start": 14,
+                "end": 38
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行 **network** 命令配置全局地址池的网段",
+                "start": 42,
+                "end": 69
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "从该网段中选取分配给客户端的IP地址",
+                "start": 72,
+                "end": 90
+            },
+            {
+                "id": "3be6a816573c778469d59f6a",
+                "type": "condition",
+                "text_span": "DHCP服务器从接口地址池中给客户端分配IP地址时",
+                "start": 91,
+                "end": 116
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "DHCP服务器从接口地址池中给客户端分配IP地址时",
+                "start": 91,
+                "end": 116
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "3be6a816573c778469d59f6a",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "缺省情况下，ND优化应答功能处于使能状态。在收到ND请求报文后，设备首先查看是否有该ND请求报文中源IPv6地址对应的ND表项。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "ND优化应答功能处于使能状态",
+                "start": 6,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "收到ND请求报文",
+                "start": 22,
+                "end": 30
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "设备首先查看是否有该ND请求报文中源IPv6地址对应的ND表项",
+                "start": 32,
+                "end": 63
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "执行命令 **pki validate-certificate** 验证证书的有效性。如果非法，先删除非法证书，然后通过重启设备加载预置临时证书或下载导入新的证书。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行命令 **pki validate-certificate** 验证证书的有效性",
+                "start": 0,
+                "end": 42
+            },
+            {
+                "id": "c17990edeb708a3fa559004a",
+                "type": "check",
+                "text_span": "如果非法",
+                "start": 43,
+                "end": 47
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "删除非法证书",
+                "start": 49,
+                "end": 55
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "通过重启设备加载预置临时证书或下载导入新的证书",
+                "start": 58,
+                "end": 81
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "c17990edeb708a3fa559004a"
+            ],
+            [
+                "c17990edeb708a3fa559004a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "当25GE光接口插入GE光电模块后支持配置流量控制自协商。对于25GE光接口，需先执行命令 **port mode ge** 配置25GE接口工作在GE速率模式，才支持GE光电模块。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "25GE光接口插入GE光电模块后支持配置流量控制自协商",
+                "start": 1,
+                "end": 28
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "对于25GE光接口",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "执行命令 **port mode ge** 配置25GE接口工作在GE速率模式",
+                "start": 41,
+                "end": 80
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "支持GE光电模块",
+                "start": 82,
+                "end": 90
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "执行 **undo ip vpn-instance** 命令删除VPN实例，如果此实例被BFD会话绑定，需要先删除绑定的BFD会话，再删除此VPN实例。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "执行 **undo ip vpn-instance** 命令删除VPN实例",
+                "start": 0,
+                "end": 37
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "如果此实例被BFD会话绑定",
+                "start": 38,
+                "end": 51
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "删除绑定的BFD会话",
+                "start": 55,
+                "end": 65
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "删除此VPN实例",
+                "start": 67,
+                "end": 75
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "当设备内部PCB板上的电源故障时，设备前面板最后4个光口的指示灯会绿色循环闪烁（1秒循环1次，每个灯点亮时间为0.25s。）",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "设备内部PCB板上的电源故障",
+                "start": 1,
+                "end": 15
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备前面板最后4个光口的指示灯会绿色循环闪烁",
+                "start": 17,
+                "end": 39
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "关闭定时告警功能，将不再输出定时告警信息。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "关闭定时告警功能",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "status",
+                "text_span": "不再输出定时告警信息",
+                "start": 10,
+                "end": 20
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "需要查看某一时间段内IGMP控制报文的准确统计信息时，先执行以下命令将之前的统计信息清除，然后再查看报文统计信息。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "需要查看某一时间段内IGMP控制报文的准确统计信息",
+                "start": 0,
+                "end": 25
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行以下命令将之前的统计信息清除",
+                "start": 28,
+                "end": 44
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "执行以下命令将之前的统计信息清除",
+                "start": 28,
+                "end": 44
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "执行命令 **igmp-snooping fast-send report enable** 后，设备在Smart Link端口状态发生变化时，可以主动通过active端口发送IGMP的Report报文，使组播数据更快的变更到新的转发路径上。后续再根据需要执行命令 **igmp-snooping fast-send robust-count interval** 调整IGMP参数优化组播业务：",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "执行命令 **igmp-snooping fast-send report enable** 后",
+                "start": 0,
+                "end": 48
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "设备在Smart Link端口状态发生变化",
+                "start": 49,
+                "end": 70
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "主动通过active端口发送IGMP的Report报文，使组播数据更快的变更到新的转发路径上",
+                "start": 74,
+                "end": 120
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "根据需要执行命令 **igmp-snooping fast-send robust-count interval** 调整IGMP参数优化组播业务",
+                "start": 124,
+                "end": 197
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表，如果收到的是Untagged帧，就依据该表给数据帧添加指定VLAN的Tag。然后数据帧将在指定VLAN中传输。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表",
+                "start": 0,
+                "end": 32
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "收到的是Untagged帧",
+                "start": 35,
+                "end": 48
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "，就依据该表给数据帧添加指定VLAN的Tag",
+                "start": 48,
+                "end": 70
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "数据帧将在指定VLAN中传输",
+                "start": 73,
+                "end": 87
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "当修改的参数对BootLoad菜单前面的初始化工作有影响时，可执行 **Reboot** 先进入重启BootLoad阶段，再启动其他部件。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "修改的参数对BootLoad菜单前面的初始化工作有影响",
+                "start": 1,
+                "end": 28
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行 **Reboot** 先进入重启BootLoad阶段",
+                "start": 31,
+                "end": 60
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "启动其他部件",
+                "start": 62,
+                "end": 68
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果需要日志主机通过TCP模式进行传输，并用SSL协议进行加密，需先创建好SSL策略。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "需要日志主机通过TCP模式进行传输，并用SSL协议进行加密",
+                "start": 2,
+                "end": 31
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "先创建好SSL策略",
+                "start": 33,
+                "end": 42
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "命名型ACL一旦创建成功，便不允许用户再修改其名称。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "命名型ACL一旦创建成功",
+                "start": 0,
+                "end": 12
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "不允许用户再修改其名称",
+                "start": 14,
+                "end": 25
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "自动恢复时间基于接口生效，如果一个接口从多个VLAN中退出，自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "自动恢复时间基于接口生效",
+                "start": 0,
+                "end": 12
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "一个接口从多个VLAN中退出",
+                "start": 15,
+                "end": 29
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时",
+                "start": 30,
+                "end": 59
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "在Parent的uni-mng视图下配置业务功能（Free-rule功能是在系统视图下配置），然后执行命令 **commit as** { **name** _as-name_ | **all** }实现AS的业务配置下发。此种方式支持配置的功能很少。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在Parent的uni-mng视图下配置业务功能",
+                "start": 0,
+                "end": 24
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在Parent的uni-mng视图下配置业务功能",
+                "start": 0,
+                "end": 24
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当使用 **sflow counter-sampling collector** 命令配置接口第一个目的Collector时，接口Counter采样使能。当使用 **undo sflow counter-sampling collector** 命令删除接口最后一个目的Collector时，接口Counter采样去使能。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "使用 **sflow counter-sampling collector** 命令配置接口第一个目的Collector",
+                "start": 1,
+                "end": 61
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "接口Counter采样使能",
+                "start": 63,
+                "end": 76
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "使用 **undo sflow counter-sampling collector** 命令删除接口最后一个目的Collector",
+                "start": 78,
+                "end": 144
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "接口Counter采样去使能",
+                "start": 146,
+                "end": 160
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "缺省情况下，BGP在选择最优路由时Cluster-List优先于Originator-ID。配置 **bestroute routerid-prior-clusterlist**命令后，BGP在选择最优路由时Originator-ID优先于Cluster-List。",
+        "node_list": [],
+        "edge_list": []
+    },
+    {
+        "text": "对于本命令的修改模式，当设备上为用户授权了用户组或业务方案并通过服务器修改了其中已配置的某一属性，之后，如果再次需要修改其中已配置的其他属性时，那么服务器的授权信息必须包含之前已修改的属性，否则已修改的属性将会变回用户组或业务方案中的原有属性值。以修改用户组中的属性为例说明如下：",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "本命令的修改模式",
+                "start": 2,
+                "end": 10
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备上为用户授权了用户组或业务方案并通过服务器修改了其中已配置的某一属性",
+                "start": 12,
+                "end": 48
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "设备上为用户授权了用户组或业务方案并通过服务器修改了其中已配置的某一属性",
+                "start": 12,
+                "end": 48
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "服务器的授权信息必须包含之前已修改的属性，否则已修改的属性将会变回用户组或业务方案中的原有属性值",
+                "start": 74,
+                "end": 122
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "首先，交换机需要先使能NETCONF功能。然后，再获取iMaster NCE-Campus的URL/IP和端口号。这两步完成后，交换机即为下一步和iMaster NCE-Campus进行通信做好了准备。交换机如何使能NETCONF功能和如何获取iMaster NCE-Campus地址，如表1所示。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "交换机需要先使能NETCONF功能",
+                "start": 3,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "获取iMaster NCE-Campus的URL/IP和端口号",
+                "start": 25,
+                "end": 56
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "执行命令 **loopback-detect packet vlan** 前，指定VLAN必须先创建并且接口以Tagged方式加入指定VLAN。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "创建并且接口以Tagged方式加入指定VLAN",
+                "start": 48,
+                "end": 71
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行命令 **loopback-detect packet vlan**",
+                "start": 0,
+                "end": 36
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "在VLAN内使能了MLD Snooping功能后，不能再在对应的三层VLANIF接口配置IPv6三层组播功能；如果需要同时配置，需在VLANIF接口上配置IPv6三层组播功能，再在VLAN内使能MLD Snooping功能。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "在VLAN内使能了MLD Snooping功能",
+                "start": 0,
+                "end": 23
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "需要同时配置",
+                "start": 57,
+                "end": 63
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "在VLANIF接口上配置IPv6三层组播功能",
+                "start": 65,
+                "end": 87
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "在VLAN内使能MLD Snooping功能",
+                "start": 89,
+                "end": 111
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "因此，如果希望指定某一成员交换机成为主交换机，则可以先为其上电，待其启动完成后再给其他成员交换机上电。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "希望指定某一成员交换机成为主交换机",
+                "start": 5,
+                "end": 22
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "为其上电",
+                "start": 27,
+                "end": 31
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "启动完成",
+                "start": 34,
+                "end": 38
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "给其他成员交换机上电",
+                "start": 40,
+                "end": 50
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    }
+]

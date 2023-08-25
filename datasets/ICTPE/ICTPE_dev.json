@@ -1,0 +1,774 @@
+[
+    {
+        "text": "当接口与VRF不再关联或ifOperStatus由Up(1)变为其它状态时，该值减少。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "接口与VRF不再关联或ifOperStatus由Up(1)变为其它状态",
+                "start": 1,
+                "end": 36
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "该值减少",
+                "start": 38,
+                "end": 42
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置完成后，在PE设备上执行 **display bgp peer** 命令，可以看到PE之间的BGP对等体关系已建立，并达到Established状态。",
+        "node_list": [
+            {
+                "id": "7c7253d2b8e715af30a6ec08",
+                "type": "status",
+                "text_span": "配置完成后",
+                "start": 0,
+                "end": 5
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "在PE设备上执行 **display bgp peer** 命令",
+                "start": 6,
+                "end": 38
+            },
+            {
+                "id": "a9003981b436af6dc29c1a7a",
+                "type": "status",
+                "text_span": "PE之间的BGP对等体关系已建立",
+                "start": 43,
+                "end": 59
+            },
+            {
+                "id": "4b3e68a2993554fc60cdcb4f",
+                "type": "status",
+                "text_span": "达到Established状态",
+                "start": 61,
+                "end": 76
+            }
+        ],
+        "edge_list": [
+            [
+                "7c7253d2b8e715af30a6ec08",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "a9003981b436af6dc29c1a7a"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "4b3e68a2993554fc60cdcb4f"
+            ]
+        ]
+    },
+    {
+        "text": "\\# 创建名为\"wlan-ssid\"的SSID模板，并配置SSID名称为\"wlan-net\"。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": " 创建名为\"wlan-ssid\"的SSID模板",
+                "start": 3,
+                "end": 25
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "配置SSID名称为\"wlan-net\"",
+                "start": 27,
+                "end": 46
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表，如果收到的是Untagged帧，就依据该表给数据帧添加指定VLAN的Tag。然后数据帧将在指定VLAN中传输。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表",
+                "start": 0,
+                "end": 32
+            },
+            {
+                "id": "c17990edeb708a3fa559004a",
+                "type": "check",
+                "text_span": "如果收到的是Untagged帧",
+                "start": 33,
+                "end": 48
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "依据该表给数据帧添加指定VLAN的Tag",
+                "start": 50,
+                "end": 70
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "数据帧将在指定VLAN中传输",
+                "start": 73,
+                "end": 87
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "c17990edeb708a3fa559004a"
+            ],
+            [
+                "c17990edeb708a3fa559004a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "\\# 配置SwitchA，启动OSPFv3，并设置其Router ID为1.1.1.1。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置SwitchA",
+                "start": 3,
+                "end": 12
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "启动OSPFv3",
+                "start": 13,
+                "end": 21
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "设置其Router ID为1.1.1.1",
+                "start": 23,
+                "end": 43
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "af93f28a76f62797946cf595",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "满足创建BFD会话的条件后，IS-IS将通过RM模块通知BFD模块直接在邻居间创建BFD会话。",
+        "node_list": [
+            {
+                "id": "7c7253d2b8e715af30a6ec08",
+                "type": "status",
+                "text_span": "满足创建BFD会话的条件后",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "IS-IS将通过RM模块通知BFD模块直接在邻居间创建BFD会话",
+                "start": 14,
+                "end": 46
+            }
+        ],
+        "edge_list": [
+            [
+                "7c7253d2b8e715af30a6ec08",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "配置事件的延迟上报功能，以减少事件的上报频率。使能事件的延迟上报功能后，在延迟上报周期内，系统中如果有同样的事件产生，则后产生的事件将被丢弃。延迟上报周期到达时，系统上报第一次产生的事件。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置事件的延迟上报功能",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "id": "3505a17efed023a70f50954d",
+                "type": "status",
+                "text_span": "减少事件的上报频率",
+                "start": 13,
+                "end": 22
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "延迟上报周期内",
+                "start": 37,
+                "end": 44
+            },
+            {
+                "id": "30da0728c383afa0d76691d8",
+                "type": "check",
+                "text_span": "系统中如果有同样的事件产生",
+                "start": 45,
+                "end": 58
+            },
+            {
+                "id": "104c9cf4fc7dc17afb89bced",
+                "type": "status",
+                "text_span": "后产生的事件将被丢弃",
+                "start": 60,
+                "end": 70
+            },
+            {
+                "id": "628c390bd6bb5a48b493f705",
+                "type": "status",
+                "text_span": "系统上报第一次产生的事件",
+                "start": 81,
+                "end": 93
+            },
+            {
+                "id": "33bea4fb3fd1ceae9af2b67a",
+                "type": "condition",
+                "text_span": "延迟上报周期到达时",
+                "start": 71,
+                "end": 80
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "3505a17efed023a70f50954d"
+            ],
+            [
+                "af93f28a76f62797946cf595",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "30da0728c383afa0d76691d8"
+            ],
+            [
+                "30da0728c383afa0d76691d8",
+                "104c9cf4fc7dc17afb89bced"
+            ],
+            [
+                "af93f28a76f62797946cf595",
+                "33bea4fb3fd1ceae9af2b67a"
+            ],
+            [
+                "33bea4fb3fd1ceae9af2b67a",
+                "628c390bd6bb5a48b493f705"
+            ]
+        ]
+    },
+    {
+        "text": "在接收者侧DR上配置了切换阈值后，当组播数据转发速率超过阈值时，才向源发送Join消息，开始SPT切换。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "接收者侧DR上配置了切换阈值后",
+                "start": 1,
+                "end": 16
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "组播数据转发速率超过阈值时",
+                "start": 18,
+                "end": 31
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "源发送Join消息",
+                "start": 34,
+                "end": 43
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "开始SPT切换",
+                "start": 44,
+                "end": 51
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "使能远端认证失败后账号锁定功能后，设备会记录所有认证失败的账号，包括：",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "使能远端认证失败后账号锁定功能",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "设备会记录所有认证失败的账号",
+                "start": 17,
+                "end": 31
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "进入接口视图，执行命令 **display this**，查看入接口配置的 **trust**命令，然后抓取入接口的报文，分析其携带的优先级类型并与接口信任的优先级类型进行比较：",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "进入接口视图",
+                "start": 0,
+                "end": 6
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "执行命令 **display this**",
+                "start": 7,
+                "end": 28
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "查看入接口配置的 **trust**命令",
+                "start": 29,
+                "end": 49
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "抓取入接口的报文",
+                "start": 52,
+                "end": 60
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "分析其携带的优先级类型",
+                "start": 61,
+                "end": 72
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "与接口信任的优先级类型进行比较",
+                "start": 73,
+                "end": 88
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "使用阈值告警功能，系统可以周期性地监控设备的运行状态，在达到一定的阈值（警戒条件）时向网管发送告警，并在警戒解除之后，发送恢复告警。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "使用阈值告警功能",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "3505a17efed023a70f50954d",
+                "type": "status",
+                "text_span": "系统可以周期性地监控设备的运行状态",
+                "start": 9,
+                "end": 26
+            },
+            {
+                "id": "3be6a816573c778469d59f6a",
+                "type": "condition",
+                "text_span": "达到一定的阈值（警戒条件）",
+                "start": 28,
+                "end": 41
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "向网管发送告警",
+                "start": 42,
+                "end": 49
+            },
+            {
+                "id": "b5c813d8c4f7287225ef29aa",
+                "type": "condition",
+                "text_span": "警戒解除之后",
+                "start": 52,
+                "end": 58
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "发送恢复告警",
+                "start": 59,
+                "end": 65
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "3505a17efed023a70f50954d"
+            ],
+            [
+                "af93f28a76f62797946cf595",
+                "3be6a816573c778469d59f6a"
+            ],
+            [
+                "3be6a816573c778469d59f6a",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "b5c813d8c4f7287225ef29aa"
+            ],
+            [
+                "b5c813d8c4f7287225ef29aa",
+                "f3d8a01fe7c205e277e23df2"
+            ]
+        ]
+    },
+    {
+        "text": "当采样传感器组已被订阅且执行sensor-group（Subscription视图）命令配置了心跳间隔或者冗余抑制时，则无法在此采样传感器组的采样路径下配置过滤器。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "采样传感器组已被订阅且执行sensor-group（Subscription视图）命令配置了心跳间隔或者冗余抑制",
+                "start": 1,
+                "end": 57
+            },
+            {
+                "id": "a9003981b436af6dc29c1a7a",
+                "type": "status",
+                "text_span": "无法在此采样传感器组的采样路径下配置过滤器",
+                "start": 60,
+                "end": 81
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "a9003981b436af6dc29c1a7a"
+            ]
+        ]
+    },
+    {
+        "text": "这样，当有RouterA到RouterD的流量被发送给RouterC时，由于没有必要的路由选择信息，这些流量就会被丢弃，如图2所示。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当有RouterA到RouterD的流量被发送给RouterC时",
+                "start": 3,
+                "end": 35
+            },
+            {
+                "id": "3505a17efed023a70f50954d",
+                "type": "status",
+                "text_span": "没有必要的路由选择信息",
+                "start": 38,
+                "end": 49
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "流量就会被丢弃",
+                "start": 52,
+                "end": 59
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "3505a17efed023a70f50954d"
+            ],
+            [
+                "d0d88d9459beddb83524e9fd",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果设备是某个VRRP6备份组的IP地址拥有者，将显示设备在该备份组的运行优先级为255。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "设备是某个VRRP6备份组的IP地址拥有者",
+                "start": 2,
+                "end": 23
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "将显示设备在该备份组的运行优先级为255",
+                "start": 24,
+                "end": 44
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "如果客户希望将License订单中的一个资源型License，拆分成多个不同的License，供多台设备使用，则可以在ESDP系统上进行License授权拆分。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "客户希望将License订单中的一个资源型License",
+                "start": 2,
+                "end": 30
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "拆分成多个不同的License",
+                "start": 31,
+                "end": 46
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "供多台设备使用",
+                "start": 47,
+                "end": 54
+            },
+            {
+                "id": "19a108e0c33e22fe49f36694",
+                "type": "status",
+                "text_span": "可以在ESDP系统上进行License授权拆分",
+                "start": 56,
+                "end": 79
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "19a108e0c33e22fe49f36694"
+            ]
+        ]
+    },
+    {
+        "text": "当管理VRRP发生主备切换时，VSI之间的PW、AC接口也进行相应的主备切换，同时VSI清除自己的MAC地址，重新学习到新的主用设备的MAC地址。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当管理VRRP发生主备切换时",
+                "start": 0,
+                "end": 14
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "VSI之间的PW、AC接口也进行相应的主备切换",
+                "start": 15,
+                "end": 38
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "VSI清除自己的MAC地址",
+                "start": 41,
+                "end": 54
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "重新学习到新的主用设备的MAC地址",
+                "start": 55,
+                "end": 72
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "d0d88d9459beddb83524e9fd",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "当网络中到达同一目的地存在同一路由协议发现的多条路由，且这几条路由的开销值也相同，那么这些路由就是等价路由，可以实现负载分担。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "当网络中到达同一目的地存在同一路由协议发现的多条路由，且这几条路由的开销值也相同",
+                "start": 0,
+                "end": 40
+            },
+            {
+                "id": "3505a17efed023a70f50954d",
+                "type": "status",
+                "text_span": "这些路由就是等价路由",
+                "start": 43,
+                "end": 53
+            },
+            {
+                "id": "a9003981b436af6dc29c1a7a",
+                "type": "status",
+                "text_span": "可以实现负载分担",
+                "start": 54,
+                "end": 62
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "3505a17efed023a70f50954d"
+            ],
+            [
+                "d0d88d9459beddb83524e9fd",
+                "a9003981b436af6dc29c1a7a"
+            ]
+        ]
+    },
+    {
+        "text": "配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过，当ARP报文超过该限速值时，60秒内持续丢弃该接口下的所有ARP报文",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过",
+                "start": 0,
+                "end": 30
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "ARP报文超过该限速值时",
+                "start": 32,
+                "end": 44
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "60秒内持续丢弃该接口下的所有ARP报文",
+                "start": 45,
+                "end": 65
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "系统检测到企图修改ARP表项的攻击报文时，会发出告警。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "系统检测到企图修改ARP表项的攻击报文时",
+                "start": 0,
+                "end": 20
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "发出告警",
+                "start": 22,
+                "end": 26
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    }
+]

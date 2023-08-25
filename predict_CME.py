@@ -9,19 +9,21 @@ import torch
 import numpy as np
 from tqdm import  tqdm
 
-bert_model_path = '/home/xhw205/python_project/Entity-relation-sota/models_roBerta' #your RoBert_large path
+bert_model_path = '../BERT/RoBERTa_zh_large' #your RoBert_large path
 
 save_model_path = './outputs/TEST_EP_L5.pth' #67.94%
-device = torch.device("cuda:1")
+device = torch.device("cuda:0")
 
 max_len = 256
-ent2id, id2ent = {"bod": 0, "dis": 1, "sym": 2, "mic": 3, "pro": 4, "ite": 5, "dep": 6, "dru": 7, "equ": 8}, {}
+#ent2id, id2ent = {"bod": 0, "dis": 1, "sym": 2, "mic": 3, "pro": 4, "ite": 5, "dep": 6, "dru": 7, "equ": 8}, {}
+ent2id = {"operate":0,"status":1,"condition":2,"check":3}
+id2ent = {}
 for k, v in ent2id.items(): id2ent[v] = k
 
 tokenizer = BertTokenizerFast.from_pretrained(bert_model_path)
 encoder =BertModel.from_pretrained(bert_model_path)
 model = GlobalPointer(encoder, 9 , 64).to(device)
-model.load_state_dict(torch.load(save_model_path, map_location='cuda:1'))
+model.load_state_dict(torch.load(save_model_path, map_location='cuda:0'))
 model.eval()
 
 def NER_RELATION(text, tokenizer, ner_model,  max_len=max_len):
@@ -50,11 +52,11 @@ def NER_RELATION(text, tokenizer, ner_model,  max_len=max_len):
 
 if __name__ == '__main__':
     all_ = []
-    for d in tqdm(json.load(open('datasets/CME/CMeEE_test.json'))):
+    for d in tqdm(json.load(open('datasets/ICTPE/ICTPE_test.json'))):
         all_.append(NER_RELATION(d["text"], tokenizer= tokenizer, ner_model=model))
     json.dump(
         all_,
-        open('./outputs/CMeEE_test.json', 'w'),
+        open('./outputs/ICTPE_test.json', 'w'),
         indent=4,
         ensure_ascii=False
     )

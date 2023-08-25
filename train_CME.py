@@ -11,10 +11,10 @@ from models.GlobalPointer import EffiGlobalPointer, MetricsCalculator
 from tqdm import tqdm
 from utils.logger import logger
 from utils.bert_optimization import BertAdam
-bert_model_path = '/home/xhw205/python_project/Entity-relation-sota/models_roBerta' #RoBert_large 路径
-train_cme_path = 'datasets/CME/CMeEE_train.json'  #CMeEE 训练集
-eval_cme_path = 'datasets/CME/CMeEE_dev.json'  #CMeEE 测试集
-device = torch.device("cuda:1")
+bert_model_path = '../BERT/RoBERTa_zh_large' #RoBert_large 路径
+train_cme_path = 'datasets/ICTPE/ICTPE_train.json'  #CMeEE 训练集
+eval_cme_path = 'datasets/ICTPE/ICTPE_dev.json'  #CMeEE 测试集
+device = torch.device("cuda:0")
 
 BATCH_SIZE = 16
 ENT_CLS_NUM = 9
