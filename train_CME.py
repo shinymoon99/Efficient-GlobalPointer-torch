@@ -17,7 +17,7 @@ eval_cme_path = 'datasets/ICTPE/ICTPE_dev.json'  #CMeEE 测试集
 device = torch.device("cuda:0")
 
 BATCH_SIZE = 16
-ENT_CLS_NUM = 9
+ENT_CLS_NUM = 4
 #tokenizer
 tokenizer = BertTokenizerFast.from_pretrained(bert_model_path, do_lower_case=True)
 

@@ -22,7 +22,7 @@ for k, v in ent2id.items(): id2ent[v] = k
 
 tokenizer = BertTokenizerFast.from_pretrained(bert_model_path)
 encoder =BertModel.from_pretrained(bert_model_path)
-model = GlobalPointer(encoder, 9 , 64).to(device)
+model = GlobalPointer(encoder, 4 , 64).to(device)
 model.load_state_dict(torch.load(save_model_path, map_location='cuda:0'))
 model.eval()
 
