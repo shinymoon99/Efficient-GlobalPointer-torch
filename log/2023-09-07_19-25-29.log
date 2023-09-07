@@ -1,0 +1,78 @@
+2023-09-07 19:25:42 - train_CME.py[line:95] - INFO: trian_loss:7.835372	 train_f1:0.001210
+2023-09-07 19:25:48 - train_CME.py[line:113] - INFO: EPOCH:0	 EVAL_F1:0.005758	Precision:0.002982	Recall:0.083333	
+2023-09-07 19:25:55 - train_CME.py[line:95] - INFO: trian_loss:7.334177	 train_f1:0.004413
+2023-09-07 19:26:02 - train_CME.py[line:113] - INFO: EPOCH:1	 EVAL_F1:0.000000	Precision:0.000000	Recall:0.000000	
+2023-09-07 19:26:09 - train_CME.py[line:95] - INFO: trian_loss:4.373584	 train_f1:0.000000
+2023-09-07 19:26:16 - train_CME.py[line:113] - INFO: EPOCH:2	 EVAL_F1:0.262857	Precision:0.380435	Recall:0.211111	
+2023-09-07 19:26:24 - train_CME.py[line:95] - INFO: trian_loss:2.746562	 train_f1:0.222222
+2023-09-07 19:26:30 - train_CME.py[line:113] - INFO: EPOCH:3	 EVAL_F1:0.075949	Precision:0.120000	Recall:0.055556	
+2023-09-07 19:26:39 - train_CME.py[line:95] - INFO: trian_loss:1.514612	 train_f1:0.259259
+2023-09-07 19:26:46 - train_CME.py[line:113] - INFO: EPOCH:4	 EVAL_F1:0.421212	Precision:0.433333	Recall:0.411111	
+2023-09-07 19:26:54 - train_CME.py[line:95] - INFO: trian_loss:1.443273	 train_f1:0.418605
+2023-09-07 19:27:00 - train_CME.py[line:113] - INFO: EPOCH:5	 EVAL_F1:0.439474	Precision:0.433798	Recall:0.466667	
+2023-09-07 19:27:08 - train_CME.py[line:95] - INFO: trian_loss:1.453891	 train_f1:0.579439
+2023-09-07 19:27:15 - train_CME.py[line:113] - INFO: EPOCH:6	 EVAL_F1:0.365138	Precision:0.313636	Recall:0.466667	
+2023-09-07 19:27:23 - train_CME.py[line:95] - INFO: trian_loss:0.940004	 train_f1:0.737864
+2023-09-07 19:27:30 - train_CME.py[line:113] - INFO: EPOCH:7	 EVAL_F1:0.445723	Precision:0.404481	Recall:0.512963	
+2023-09-07 19:27:38 - train_CME.py[line:95] - INFO: trian_loss:1.031410	 train_f1:0.747664
+2023-09-07 19:27:44 - train_CME.py[line:113] - INFO: EPOCH:8	 EVAL_F1:0.401818	Precision:0.405797	Recall:0.403704	
+2023-09-07 19:27:52 - train_CME.py[line:95] - INFO: trian_loss:0.785369	 train_f1:0.810811
+2023-09-07 19:27:59 - train_CME.py[line:113] - INFO: EPOCH:9	 EVAL_F1:0.346667	Precision:0.338509	Recall:0.366667	
+2023-09-07 19:28:08 - train_CME.py[line:95] - INFO: trian_loss:0.716631	 train_f1:0.870370
+2023-09-07 19:28:15 - train_CME.py[line:113] - INFO: EPOCH:10	 EVAL_F1:0.401835	Precision:0.400000	Recall:0.403704	
+2023-09-07 19:28:21 - train_CME.py[line:95] - INFO: trian_loss:0.371623	 train_f1:0.906667
+2023-09-07 19:28:27 - train_CME.py[line:113] - INFO: EPOCH:11	 EVAL_F1:0.395876	Precision:0.420930	Recall:0.375926	
+2023-09-07 19:28:33 - train_CME.py[line:95] - INFO: trian_loss:0.577046	 train_f1:0.884615
+2023-09-07 19:28:39 - train_CME.py[line:113] - INFO: EPOCH:12	 EVAL_F1:0.412587	Precision:0.380952	Recall:0.450000	
+2023-09-07 19:28:45 - train_CME.py[line:95] - INFO: trian_loss:0.558246	 train_f1:0.873950
+2023-09-07 19:28:51 - train_CME.py[line:113] - INFO: EPOCH:13	 EVAL_F1:0.290886	Precision:0.353571	Recall:0.248148	
+2023-09-07 19:28:56 - train_CME.py[line:95] - INFO: trian_loss:0.402943	 train_f1:0.831169
+2023-09-07 19:29:04 - train_CME.py[line:113] - INFO: EPOCH:14	 EVAL_F1:0.401598	Precision:0.436937	Recall:0.385185	
+2023-09-07 19:29:09 - train_CME.py[line:95] - INFO: trian_loss:0.208821	 train_f1:0.991150
+2023-09-07 19:29:16 - train_CME.py[line:113] - INFO: EPOCH:15	 EVAL_F1:0.403030	Precision:0.375000	Recall:0.440741	
+2023-09-07 19:29:21 - train_CME.py[line:95] - INFO: trian_loss:0.160332	 train_f1:0.981818
+2023-09-07 19:29:28 - train_CME.py[line:113] - INFO: EPOCH:16	 EVAL_F1:0.381818	Precision:0.398374	Recall:0.375926	
+2023-09-07 19:29:33 - train_CME.py[line:95] - INFO: trian_loss:0.165960	 train_f1:0.991870
+2023-09-07 19:29:41 - train_CME.py[line:113] - INFO: EPOCH:17	 EVAL_F1:0.434343	Precision:0.483333	Recall:0.394444	
+2023-09-07 19:29:47 - train_CME.py[line:95] - INFO: trian_loss:0.265022	 train_f1:0.952381
+2023-09-07 19:29:53 - train_CME.py[line:113] - INFO: EPOCH:18	 EVAL_F1:0.406186	Precision:0.432558	Recall:0.385185	
+2023-09-07 19:29:59 - train_CME.py[line:95] - INFO: trian_loss:0.083901	 train_f1:0.988764
+2023-09-07 19:30:06 - train_CME.py[line:113] - INFO: EPOCH:19	 EVAL_F1:0.492727	Precision:0.489130	Recall:0.503704	
+2023-09-07 19:30:11 - train_CME.py[line:95] - INFO: trian_loss:0.119225	 train_f1:0.991597
+2023-09-07 19:30:18 - train_CME.py[line:113] - INFO: EPOCH:20	 EVAL_F1:0.434473	Precision:0.391204	Recall:0.503704	
+2023-09-07 19:30:23 - train_CME.py[line:95] - INFO: trian_loss:0.067867	 train_f1:1.000000
+2023-09-07 19:30:30 - train_CME.py[line:113] - INFO: EPOCH:21	 EVAL_F1:0.502727	Precision:0.500000	Recall:0.512963	
+2023-09-07 19:30:36 - train_CME.py[line:95] - INFO: trian_loss:0.115593	 train_f1:0.992366
+2023-09-07 19:30:44 - train_CME.py[line:113] - INFO: EPOCH:22	 EVAL_F1:0.427723	Precision:0.444681	Recall:0.412963	
+2023-09-07 19:30:49 - train_CME.py[line:95] - INFO: trian_loss:0.097612	 train_f1:0.988764
+2023-09-07 19:30:56 - train_CME.py[line:113] - INFO: EPOCH:23	 EVAL_F1:0.515446	Precision:0.505102	Recall:0.531481	
+2023-09-07 19:31:02 - train_CME.py[line:95] - INFO: trian_loss:0.048952	 train_f1:1.000000
+2023-09-07 19:31:10 - train_CME.py[line:113] - INFO: EPOCH:24	 EVAL_F1:0.467120	Precision:0.522727	Recall:0.422222	
+2023-09-07 19:31:15 - train_CME.py[line:95] - INFO: trian_loss:0.045514	 train_f1:1.000000
+2023-09-07 19:31:23 - train_CME.py[line:113] - INFO: EPOCH:25	 EVAL_F1:0.414286	Precision:0.438636	Recall:0.394444	
+2023-09-07 19:31:29 - train_CME.py[line:95] - INFO: trian_loss:0.023815	 train_f1:1.000000
+2023-09-07 19:31:35 - train_CME.py[line:113] - INFO: EPOCH:26	 EVAL_F1:0.404290	Precision:0.398176	Recall:0.422222	
+2023-09-07 19:31:41 - train_CME.py[line:95] - INFO: trian_loss:0.018995	 train_f1:1.000000
+2023-09-07 19:31:48 - train_CME.py[line:113] - INFO: EPOCH:27	 EVAL_F1:0.435294	Precision:0.450000	Recall:0.422222	
+2023-09-07 19:31:53 - train_CME.py[line:95] - INFO: trian_loss:0.026607	 train_f1:1.000000
+2023-09-07 19:32:00 - train_CME.py[line:113] - INFO: EPOCH:28	 EVAL_F1:0.498217	Precision:0.489583	Recall:0.512963	
+2023-09-07 19:32:05 - train_CME.py[line:95] - INFO: trian_loss:0.057956	 train_f1:0.990476
+2023-09-07 19:32:13 - train_CME.py[line:113] - INFO: EPOCH:29	 EVAL_F1:0.517822	Precision:0.534043	Recall:0.503704	
+2023-09-07 19:32:19 - train_CME.py[line:95] - INFO: trian_loss:0.029938	 train_f1:1.000000
+2023-09-07 19:32:26 - train_CME.py[line:113] - INFO: EPOCH:30	 EVAL_F1:0.414286	Precision:0.438636	Recall:0.394444	
+2023-09-07 19:32:32 - train_CME.py[line:95] - INFO: trian_loss:0.015546	 train_f1:1.000000
+2023-09-07 19:32:38 - train_CME.py[line:113] - INFO: EPOCH:31	 EVAL_F1:0.509569	Precision:0.475000	Recall:0.550000	
+2023-09-07 19:32:44 - train_CME.py[line:95] - INFO: trian_loss:0.031152	 train_f1:1.000000
+2023-09-07 19:32:50 - train_CME.py[line:113] - INFO: EPOCH:32	 EVAL_F1:0.496028	Precision:0.484694	Recall:0.512963	
+2023-09-07 19:32:56 - train_CME.py[line:95] - INFO: trian_loss:0.022377	 train_f1:1.000000
+2023-09-07 19:33:02 - train_CME.py[line:113] - INFO: EPOCH:33	 EVAL_F1:0.397436	Precision:0.382857	Recall:0.422222	
+2023-09-07 19:33:07 - train_CME.py[line:95] - INFO: trian_loss:0.021532	 train_f1:1.000000
+2023-09-07 19:33:15 - train_CME.py[line:113] - INFO: EPOCH:34	 EVAL_F1:0.406186	Precision:0.432558	Recall:0.385185	
+2023-09-07 19:33:21 - train_CME.py[line:95] - INFO: trian_loss:0.022955	 train_f1:1.000000
+2023-09-07 19:33:28 - train_CME.py[line:113] - INFO: EPOCH:35	 EVAL_F1:0.407043	Precision:0.385965	Recall:0.431481	
+2023-09-07 19:33:34 - train_CME.py[line:95] - INFO: trian_loss:0.146200	 train_f1:0.973913
+2023-09-07 19:33:41 - train_CME.py[line:113] - INFO: EPOCH:36	 EVAL_F1:0.370550	Precision:0.357143	Recall:0.394444	
+2023-09-07 19:33:46 - train_CME.py[line:95] - INFO: trian_loss:0.011816	 train_f1:1.000000
+2023-09-07 19:33:53 - train_CME.py[line:113] - INFO: EPOCH:37	 EVAL_F1:0.410000	Precision:0.428261	Recall:0.394444	
+2023-09-07 19:34:00 - train_CME.py[line:95] - INFO: trian_loss:0.012653	 train_f1:1.000000
+2023-09-07 19:34:07 - train_CME.py[line:113] - INFO: EPOCH:38	 EVAL_F1:0.407308	Precision:0.406250	Recall:0.412963	

@@ -11,7 +11,8 @@ import numpy as np
 
 max_len=256 #CMeEE
 #ent2id = {"bod": 0, "dis": 1, "sym": 2, "mic": 3, "pro": 4, "ite": 5, "dep": 6, "dru": 7, "equ": 8} #CMeEE
-ent2id = {"operate":0,"status":1,"condition":2,"check":3}
+#ent2id = {"operate":0,"status":1,"condition":2,"check":3}
+ent2id = {"next":0}
 id2ent = {}
 for k, v in ent2id.items(): id2ent[v] = k
 
@@ -24,7 +25,16 @@ def load_data(path):
             if start <= end:
                 D[-1].append((start, end, ent2id[label]))#CMeEE
     return D
- 
+
+def load_ESdata(path):
+    D = []
+    for d in json.load(open(path)):
+        D.append([d['text']])
+        for e in d['entities']:
+            start, end, label = e['start'], e['end'], e['type']
+            if start <= end:
+                D[-1].append((start, end, ent2id[label]))#CMeEE   
+    return D
 class EntDataset(Dataset):
     def __init__(self, data, tokenizer, istrain=True):
         self.data = data

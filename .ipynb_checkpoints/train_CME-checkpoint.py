@@ -12,11 +12,11 @@ from tqdm import tqdm
 from utils.logger import logger
 from utils.bert_optimization import BertAdam
 bert_model_path = '../BERT/RoBERTa_zh_large' #RoBert_large 路径
-train_cme_path = 'datasets/ICTPE_v2/ICTPE_train.json'  #CMeEE 训练集
-eval_cme_path = 'datasets/ICTPE_v2/ICTPE_dev.json'  #CMeEE 测试集
+train_cme_path = 'datasets/ICTPE/ICTPE_train.json'  #CMeEE 训练集
+eval_cme_path = 'datasets/ICTPE/ICTPE_dev.json'  #CMeEE 测试集
 device = torch.device("cuda:0")
 
-BATCH_SIZE = 16
+BATCH_SIZE = 8
 ENT_CLS_NUM = 4
 #tokenizer
 tokenizer = BertTokenizerFast.from_pretrained(bert_model_path, do_lower_case=True)
@@ -46,7 +46,7 @@ def set_optimizer( model, train_steps=None):
                          warmup=0.1,
                          t_total=train_steps)
     return optimizer
-EPOCH = 100
+EPOCH = 10
 optimizer = set_optimizer(model, train_steps= (int(len(ner_train) / BATCH_SIZE) + 1) * EPOCH)
 # optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
 
