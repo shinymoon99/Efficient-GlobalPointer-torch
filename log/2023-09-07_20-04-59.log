@@ -1,0 +1,80 @@
+2023-09-07 20:05:11 - train_ES.py[line:95] - INFO: trian_loss:8.265436	 train_f1:0.000410
+2023-09-07 20:05:15 - train_ES.py[line:95] - INFO: trian_loss:7.371876	 train_f1:0.048954
+2023-09-07 20:05:19 - train_ES.py[line:95] - INFO: trian_loss:5.496923	 train_f1:0.147576
+2023-09-07 20:05:23 - train_ES.py[line:113] - INFO: EPOCH:0	 EVAL_F1:0.000000	Precision:0.000000	Recall:0.000000	
+2023-09-07 20:05:26 - train_ES.py[line:95] - INFO: trian_loss:4.130641	 train_f1:0.000000
+2023-09-07 20:05:30 - train_ES.py[line:95] - INFO: trian_loss:3.043156	 train_f1:0.164400
+2023-09-07 20:05:35 - train_ES.py[line:95] - INFO: trian_loss:2.631968	 train_f1:0.190136
+2023-09-07 20:05:38 - train_ES.py[line:113] - INFO: EPOCH:1	 EVAL_F1:0.459621	Precision:0.304361	Recall:0.958333	
+2023-09-07 20:05:41 - train_ES.py[line:95] - INFO: trian_loss:2.033834	 train_f1:0.474576
+2023-09-07 20:05:46 - train_ES.py[line:95] - INFO: trian_loss:1.929010	 train_f1:0.396201
+2023-09-07 20:05:50 - train_ES.py[line:95] - INFO: trian_loss:1.809318	 train_f1:0.412474
+2023-09-07 20:05:53 - train_ES.py[line:113] - INFO: EPOCH:2	 EVAL_F1:0.281901	Precision:0.833333	Recall:0.178241	
+2023-09-07 20:05:57 - train_ES.py[line:95] - INFO: trian_loss:2.032670	 train_f1:0.000000
+2023-09-07 20:06:01 - train_ES.py[line:95] - INFO: trian_loss:1.269019	 train_f1:0.669152
+2023-09-07 20:06:06 - train_ES.py[line:95] - INFO: trian_loss:1.137062	 train_f1:0.742024
+2023-09-07 20:06:09 - train_ES.py[line:113] - INFO: EPOCH:3	 EVAL_F1:0.726145	Precision:0.605740	Recall:0.921296	
+2023-09-07 20:06:14 - train_ES.py[line:95] - INFO: trian_loss:1.118381	 train_f1:0.789474
+2023-09-07 20:06:18 - train_ES.py[line:95] - INFO: trian_loss:0.988706	 train_f1:0.768472
+2023-09-07 20:06:22 - train_ES.py[line:95] - INFO: trian_loss:0.889218	 train_f1:0.804169
+2023-09-07 20:06:26 - train_ES.py[line:113] - INFO: EPOCH:4	 EVAL_F1:0.742732	Precision:0.806734	Recall:0.696759	
+2023-09-07 20:06:30 - train_ES.py[line:95] - INFO: trian_loss:0.931984	 train_f1:0.769231
+2023-09-07 20:06:35 - train_ES.py[line:95] - INFO: trian_loss:0.593101	 train_f1:0.890861
+2023-09-07 20:06:39 - train_ES.py[line:95] - INFO: trian_loss:0.544483	 train_f1:0.895263
+2023-09-07 20:06:42 - train_ES.py[line:113] - INFO: EPOCH:5	 EVAL_F1:0.770867	Precision:0.743137	Recall:0.800926	
+2023-09-07 20:06:46 - train_ES.py[line:95] - INFO: trian_loss:0.599588	 train_f1:0.937500
+2023-09-07 20:06:50 - train_ES.py[line:95] - INFO: trian_loss:0.331471	 train_f1:0.956094
+2023-09-07 20:06:54 - train_ES.py[line:95] - INFO: trian_loss:0.359860	 train_f1:0.953562
+2023-09-07 20:06:58 - train_ES.py[line:113] - INFO: EPOCH:6	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:07:01 - train_ES.py[line:95] - INFO: trian_loss:0.188436	 train_f1:0.941176
+2023-09-07 20:07:06 - train_ES.py[line:95] - INFO: trian_loss:0.200139	 train_f1:0.972588
+2023-09-07 20:07:10 - train_ES.py[line:95] - INFO: trian_loss:0.351708	 train_f1:0.961244
+2023-09-07 20:07:14 - train_ES.py[line:113] - INFO: EPOCH:7	 EVAL_F1:0.788829	Precision:0.798148	Recall:0.780093	
+2023-09-07 20:07:18 - train_ES.py[line:95] - INFO: trian_loss:0.193012	 train_f1:0.967742
+2023-09-07 20:07:22 - train_ES.py[line:95] - INFO: trian_loss:0.321319	 train_f1:0.947728
+2023-09-07 20:07:26 - train_ES.py[line:95] - INFO: trian_loss:0.336307	 train_f1:0.947705
+2023-09-07 20:07:30 - train_ES.py[line:113] - INFO: EPOCH:8	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:07:34 - train_ES.py[line:95] - INFO: trian_loss:0.033016	 train_f1:1.000000
+2023-09-07 20:07:38 - train_ES.py[line:95] - INFO: trian_loss:0.273968	 train_f1:0.976906
+2023-09-07 20:07:42 - train_ES.py[line:95] - INFO: trian_loss:0.249648	 train_f1:0.973282
+2023-09-07 20:07:46 - train_ES.py[line:113] - INFO: EPOCH:9	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:07:50 - train_ES.py[line:95] - INFO: trian_loss:0.011766	 train_f1:1.000000
+2023-09-07 20:07:54 - train_ES.py[line:95] - INFO: trian_loss:0.183426	 train_f1:0.976883
+2023-09-07 20:07:58 - train_ES.py[line:95] - INFO: trian_loss:0.209455	 train_f1:0.971558
+2023-09-07 20:08:02 - train_ES.py[line:113] - INFO: EPOCH:10	 EVAL_F1:0.784512	Precision:0.769063	Recall:0.800926	
+2023-09-07 20:08:06 - train_ES.py[line:95] - INFO: trian_loss:0.252423	 train_f1:0.967742
+2023-09-07 20:08:10 - train_ES.py[line:95] - INFO: trian_loss:0.117353	 train_f1:0.985870
+2023-09-07 20:08:14 - train_ES.py[line:95] - INFO: trian_loss:0.144719	 train_f1:0.979431
+2023-09-07 20:08:18 - train_ES.py[line:113] - INFO: EPOCH:11	 EVAL_F1:0.787485	Precision:0.795370	Recall:0.780093	
+2023-09-07 20:08:22 - train_ES.py[line:95] - INFO: trian_loss:0.160753	 train_f1:0.967742
+2023-09-07 20:08:26 - train_ES.py[line:95] - INFO: trian_loss:0.056961	 train_f1:0.986038
+2023-09-07 20:08:30 - train_ES.py[line:95] - INFO: trian_loss:0.074500	 train_f1:0.984801
+2023-09-07 20:08:34 - train_ES.py[line:113] - INFO: EPOCH:12	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:08:38 - train_ES.py[line:95] - INFO: trian_loss:0.000409	 train_f1:1.000000
+2023-09-07 20:08:42 - train_ES.py[line:95] - INFO: trian_loss:0.055805	 train_f1:0.991898
+2023-09-07 20:08:46 - train_ES.py[line:95] - INFO: trian_loss:0.078438	 train_f1:0.987758
+2023-09-07 20:08:50 - train_ES.py[line:113] - INFO: EPOCH:13	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:08:54 - train_ES.py[line:95] - INFO: trian_loss:0.078630	 train_f1:0.967742
+2023-09-07 20:08:58 - train_ES.py[line:95] - INFO: trian_loss:0.046335	 train_f1:0.988965
+2023-09-07 20:09:02 - train_ES.py[line:95] - INFO: trian_loss:0.048549	 train_f1:0.988171
+2023-09-07 20:09:06 - train_ES.py[line:113] - INFO: EPOCH:14	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:09:09 - train_ES.py[line:95] - INFO: trian_loss:0.136598	 train_f1:0.941176
+2023-09-07 20:09:13 - train_ES.py[line:95] - INFO: trian_loss:0.039498	 train_f1:0.983623
+2023-09-07 20:09:18 - train_ES.py[line:95] - INFO: trian_loss:0.046604	 train_f1:0.984108
+2023-09-07 20:09:21 - train_ES.py[line:113] - INFO: EPOCH:15	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:09:24 - train_ES.py[line:95] - INFO: trian_loss:0.000862	 train_f1:1.000000
+2023-09-07 20:09:29 - train_ES.py[line:95] - INFO: trian_loss:0.038314	 train_f1:0.988453
+2023-09-07 20:09:33 - train_ES.py[line:95] - INFO: trian_loss:0.028380	 train_f1:0.990975
+2023-09-07 20:09:36 - train_ES.py[line:113] - INFO: EPOCH:16	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:09:40 - train_ES.py[line:95] - INFO: trian_loss:0.001097	 train_f1:1.000000
+2023-09-07 20:09:44 - train_ES.py[line:95] - INFO: trian_loss:0.019062	 train_f1:0.994490
+2023-09-07 20:09:48 - train_ES.py[line:95] - INFO: trian_loss:0.020787	 train_f1:0.994138
+2023-09-07 20:09:51 - train_ES.py[line:113] - INFO: EPOCH:17	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:09:55 - train_ES.py[line:95] - INFO: trian_loss:0.000070	 train_f1:1.000000
+2023-09-07 20:09:59 - train_ES.py[line:95] - INFO: trian_loss:0.040160	 train_f1:0.982742
+2023-09-07 20:10:03 - train_ES.py[line:95] - INFO: trian_loss:0.029798	 train_f1:0.989424
+2023-09-07 20:10:07 - train_ES.py[line:113] - INFO: EPOCH:18	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
+2023-09-07 20:10:11 - train_ES.py[line:95] - INFO: trian_loss:0.000142	 train_f1:1.000000
+2023-09-07 20:10:15 - train_ES.py[line:95] - INFO: trian_loss:0.024626	 train_f1:0.991386
+2023-09-07 20:10:19 - train_ES.py[line:95] - INFO: trian_loss:0.036018	 train_f1:0.987496
+2023-09-07 20:10:23 - train_ES.py[line:113] - INFO: EPOCH:19	 EVAL_F1:0.800926	Precision:0.800926	Recall:0.800926	
