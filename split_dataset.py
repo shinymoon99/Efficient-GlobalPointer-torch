@@ -20,15 +20,15 @@ def split_json_dataset(json_file_path, train_ratio=0.8, dev_ratio=0.1, test_rati
     return train_data, dev_data, test_data
 
 # Usage
-json_file_path = './datasets/ICTPE/ICTPE_all.json'
+json_file_path = './datasets/ICTES_v2/ICTES.json'
 train_data, dev_data, test_data = split_json_dataset(json_file_path)
 
 #Now you have your data split into train, dev, and test datasets
-with open("./datasets/ICTPE/ICTPE_train.json","w",encoding="utf-8") as f1:
+with open("./datasets/ICTES_v2/ICTES_train.json","w",encoding="utf-8") as f1:
     json.dump(train_data,f1,ensure_ascii=False)
-with open("./datasets/ICTPE/ICTPE_dev.json","w",encoding="utf-8") as f2:
+with open("./datasets/ICTES_v2/ICTES_dev.json","w",encoding="utf-8") as f2:
     json.dump(dev_data,f2,ensure_ascii=False)
-with open("./datasets/ICTPE/ICTPE_test.json","w",encoding="utf-8") as f3:
+with open("./datasets/ICTES_v2/ICTES_test.json","w",encoding="utf-8") as f3:
     json.dump(test_data,f3,ensure_ascii=False)
 
 

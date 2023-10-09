@@ -1,0 +1,171 @@
+{"id": 0, "response": "输入:在企业网络和园区网中，\n\tif S2700通过百兆电口接入终端用户:\n\t\t上行通过千兆光口或千兆电口接入汇聚层交换机\n\t\t进而通过千兆捆绑或万兆上联到骨干网络\n\t\t构成万兆骨干、百兆到桌面的企业网全网解决方案\n\t\t\t满足用户高带宽、多业务的需求", "text": "在企业网络和园区网中，S2700通过百兆电口接入终端用户，上行通过千兆光口或千兆电口接入汇聚层交换机，进而通过千兆捆绑或万兆上联到骨干网络，构成万兆骨干、百兆到桌面的企业网全网解决方案，满足用户高带宽、多业务的需求。"}
+{"id": 1, "response": "if 需要根据接收报文的接口、源IP地址信息、目的IP地址信息、IP承载的协议类型、TCP的源端口号和目的端口号、ICMP协议类型、ICMP code、源MAC地址、目的MAC地址、ARP报文等内容对报文进行分类:\n\t通过引用定义的ACL来满足\n\t先定义ACL并配置规则\n\t在流分类下配置该命令对报文按照ACL进行流分类\n\t实现对匹配同一流分类的报文进行相同的处理", "text": "当需要根据接收报文的接口、源IP地址信息、目的IP地址信息、IP承载的协议类型、TCP的源端口号和目的端口号、ICMP协议类型、ICMP code、源MAC地址、目的MAC地址、ARP报文等内容对报文进行分类时，可以通过引用定义的ACL来满足。即先定义ACL并配置规则，然后在流分类下配置该命令对报文按照ACL进行流分类，实现对匹配同一流分类的报文进行相同的处理。"}
+{"id": 2, "response": "创建无线业务三层接口VLANIF30\n创建无线业务三层接口VLANIF40\n配置通过接口地址池为STA分配地址", "text": "\\# 创建无线业务三层接口VLANIF30、VLANIF40并配置通过接口地址池为STA分配地址。"}
+{"id": 3, "response": "if 创建静态LSP前已经全局使能MPLS能力:\n\t创建静态LSP", "text": "创建静态LSP前必须确保已经全局使能MPLS能力。"}
+{"id": 4, "response": "如果完成802.1X接入模板的配置:\n\t执行查看配置信息的命令", "text": "完成802.1X接入模板的配置后，执行以下命令查看配置信息。"}
+{"id": 5, "response": "输入:输入Enter键后\n    在登录窗口输入AAA验证方式配置的登录用户名和密码\n    验证通过后\n        出现用户视图的命令行提示符\n        用户成功登录设备", "text": "输入Enter键后，在登录窗口输入AAA验证方式配置的登录用户名和密码，验证通过后，出现用户视图的命令行提示符，至此用户成功登录设备。（以下显示信息仅为示意）"}
+{"id": 6, "response": "if 必须先执行defence engine enable命令开启IAE引擎:\n    执行该命令", "text": "必须先执行 **defence engine enable**命令开启IAE引擎才可以执行该命令。"}
+{"id": 7, "response": "if 攻击者向交换机发送SYN报文:\n\t对于交换机返回的SYN+ACK报文不作回应\n\t交换机如果没有收到攻击者的ACK回应:\n\t\t一直等待\n\t形成半连接\n攻击者利用这种方式:\n\t让交换机上生成大量的半连接\n\t迫使其大量资源浪费在这些半连接上", "text": "攻击者向交换机发送SYN报文，然后对于交换机返回的SYN+ACK报文不作回应。交换机如果没有收到攻击者的ACK回应，就会一直等待，形成半连接。攻击者利用这种方式，让交换机上生成大量的半连接，迫使其大量资源浪费在这些半连接上。"}
+{"id": 8, "response": "if 配置本举例之前，需确保网络中各设备之间已能互通:\n\t正常进行例子的配置和操作\nelse:\n\t提示需先确保网络中各设备之间已能互通", "text": "配置本举例之前，需确保网络中各设备之间已能互通。"}
+{"id": 9, "response": "if 基于MAC的VLAN:\n    设备从端口接收到untagged报文\n    根据报文的源地址确定报文所属的VLAN\n    将报文划分到指定VLAN中传输\n    报文在指定的VLAN中传送", "text": "基于MAC的VLAN是根据报文源MAC地址来进行划分的。设备从端口接收到untagged报文后，会根据报文的源地址来确定报文所属的VLAN，然后将报文自动划分到指定VLAN中传输。此特性主要用于将指定MAC发出的报文在指定的VLAN中传送。"}
+{"id": 10, "response": "if 配置MAC SWAP远端环回测试功能:\n\t从测试设备发送测试报文到达设备的上行接口\n\t设备上行接口将测试报文中的源MAC和目的MAC进行交换\n\t从上行接口环回到测试设备\n\t获取上行网络的连通性和网络质量信息", "text": "配置MAC SWAP远端环回测试功能之后，从测试设备发送测试报文到达设备的上行接口，设备上行接口将测试报文中的源MAC和目的MAC进行交换，从上行接口环回到测试设备，进而获取上行网络的连通性和网络质量信息。"}
+{"id": 11, "response": "if 传统模式与统一模式相互切换:\n    设备自动重启", "text": "传统模式与统一模式相互切换后，设备会自动重启。"}
+{"id": 12, "response": "if 配置攻击溯源的惩罚措施为ERROR DOWN: \n\tif 设备识别出攻击源: \n\t\t将攻击报文进入的接口状态置为Down \n\t\t建议先排除攻击 \n\t\t将接口状态恢复Up", "text": "配置攻击溯源的惩罚措施为ERROR DOWN时，设备在识别出攻击源后，会将攻击报文进入的接口状态置为Down。接口状态被置为Down后，建议先排除攻击，再将接口状态恢复Up。"}
+{"id": 13, "response": "if 为了保证直播流的质量:\n\t组播源服务器发送的直播流需要先转发到转码服务器进行转码\n\t转码服务器再转发给用户", "text": "为了保证直播流的质量，组播源服务器发送的直播流需要先转发到转码服务器进行转码，然后由转码服务器再转发给用户。"}
+{"id": 14, "response": "if 执行此操作:\n\t进入重启BootLoader阶段\n\t继续启动", "text": "执行此操作，会先进入重启BootLoader阶段，再继续启动。"}
+{"id": 15, "response": "if 充当C-BSR的接口必须先使能PIM-SM:\n\t使能PIM-SM", "text": "充当C-BSR的接口必须先使能PIM-SM。"}
+{"id": 16, "response": "if 配置 \"ipv6 frr\" 命令前:\n\t需要首先使能IPv6 IS-IS", "text": "配置 **ipv6 frr** 命令前，需要首先使能IPv6 IS-IS。"}
+{"id": 17, "response": "if 用户使用命令 set system-mac _macaddr_ mac-num _macnum_:\n    设置堆叠系统MAC地址\n    MAC地址切换功能将不再生效", "text": "当用户使用命令 **set system-mac** _macaddr_ **mac-num** _macnum_ 设置了堆叠系统MAC地址后，MAC地址切换功能将不再生效。"}
+{"id": 18, "response": "if 用户需要使用的功能在基础软件包中不存在:\n    可以通过在线加载特性软件包\n    以便使用该功能\n    保证业务不中断\nif 用户不再需要此特性:\n    卸载特性软件包", "text": "当用户需要使用的功能在基础软件包中不存在，而是以特性软件包的形式存在时，可以通过在线加载该特性软件包以便使用该功能。满足用户需求的同时，保证业务不中断。当用户不再需要此特性时，卸载即可。"}
+{"id": 19, "response": "if 协议会话连接建立后:\n\t基于协议的默认CPCAR不起作用\n\t设备以协议联动设定的CPCAR对建立会话连接的报文进行限速", "text": "当协议会话连接建立后，基于协议的默认CPCAR就不再起作用，设备以协议联动设定的CPCAR对建立会话连接的报文进行限速。"}
+{"id": 20, "response": "if 组播设备接口配置了针对某组播组的转发边界: \n\t该接口将不能再发出或接收对应的组播组的报文.", "text": "当组播设备接口配置了针对某组播组的转发边界以后，会形成一个封闭的组播转发区域，该接口将不能再发出或接收对应的组播组的报文。"}
+{"id": 21, "response": "if 系统创建文件夹:\n\t先创建同名文件\n\t将文件的属性改为文件夹\n\t如果修改属性失败:\n\t\t创建一个和日志文件夹同名的文件", "text": "系统在创建文件夹时，先创建同名文件，再把文件的属性改为文件夹，在修改属性时可能发生失败，导致创建了一个和日志文件夹同名的文件。"}
+{"id": 22, "response": "if 使用该命令之前，必须先创建相同名称的BFD会话:\n    输出", "text": "使用该命令之前，必须先创建相同名称的BFD会话。"}
+{"id": 23, "response": "if 设备上已经配置了BGP的缺省MED值:\n    当用户再次配置缺省MED值:\n        新的缺省MED值会取代原有的缺省MED值", "text": "如果设备上已经配置了BGP的缺省MED值，当用户再次配置缺省MED值时，新的缺省MED值会取代原有的缺省MED值。"}
+{"id": 24, "response": "if 需要使能三层子接口IPv6报文统计:\n    if 先使能子接口的IPv6功能:\n        子接口使能三层子接口IPv6报文统计功能", "text": "需要使能三层子接口IPv6报文统计时必须先使能子接口的IPv6功能。"}
+{"id": 25, "response": "if 网络中出现故障:\n\t执行 ping 命令根据回应的报文，查看网络连通情况\n\t执行 tracert 命令查看网络中出现故障的位置\n\t为故障诊断提供依据", "text": "对于网络中出现的故障，可以执行 **ping** 命令根据回应的报文，查看网络连通的情况，然后进一步使用 **tracert** 命令查看网络中出现故障的位置，为故障诊断提供依据。"}
+{"id": 26, "response": "if 配置 ipv6 enable 命令前:\n\t先执行以下操作", "text": "配置 **ipv6 enable** 命令前，需要先执行以下操作："}
+{"id": 27, "response": "if 本地接入用户在配置某些业务时:\n    配置状态为阻塞域态，禁止新用户接入\n完成配置后:\n    再配置为激活态", "text": "本地接入用户在配置某些业务时，为了避免配置过程中出现异常，不希望有新的用户接入。通过配置状态为阻塞域态，禁止新用户接入。完成配置后，再配置为激活态。"}
+{"id": 28, "response": "if 需要统计某一时间内的IPv6 TCP报文流量统计信息:\n    在统计开始前清除原有的IPv6 TCP报文流量统计信息\n    使用display tcp ipv6 statistics命令查看IPv6 TCP报文流量统计信息", "text": "如果需要统计在某一时间内的IPv6 TCP报文流量统计信息，可以在统计开始前清除原有的IPv6 TCP报文流量统计信息，再使用 **display tcp ipv6 statistics** 命令查看IPv6 TCP报文流量统计信息。"}
+{"id": 29, "response": "if 在主设备上完成SNMP Proxy配置后:\n\t主设备自动将来自NMS的监控设备相关的SNMP请求转发到监控设备上\n\t将监控设备的应答转发到NMS", "text": "在主设备上完成SNMP Proxy配置后，主设备自动将来自NMS的监控设备相关的SNMP请求转发到监控设备上，再将监控设备的应答转发到NMS。"}
+{"id": 30, "response": "if 用户在删除一条规则前:\n\t务必使用 display acl ipv6 命令查看该ACL6的引用信息\n\tif 确定该ACL6未被其他业务引用:\n\t\t删除该规则", "text": "用户在删除一条规则前，请务必使用 **display acl ipv6** 命令查看该ACL6的引用信息，确定该ACL6未被其他业务引用时，再删除该规则。"}
+{"id": 31, "response": "if 实现network1和network2、network3和network4通过骨干网传输数据: \n\t可以在DeviceA和DeviceB之间采用GRE协议建立隧道 \n\tif 数据报文从network1或network3发送至DeviceA: \n\t\t将数据报文封装在一个GRE数据包中 \n\t\t得到的GRE数据包封装在IPv4协议中 \n\t\t转发数据包", "text": "为了实现network1和network2、network3和network4通过骨干网传输数据，可以在DeviceA和DeviceB之间采用GRE协议建立隧道，当数据报文从network1或network3发送至DeviceA后，将会被封装在一个GRE数据包中，所得的GRE数据包可以封装在IPv4协议中，然后被转发。"}
+{"id": 32, "response": "if 配置 peer peer-as-check 命令后:\n\t当本端设备收到来自EBGP对等体的路由:\n\t\t不会再向相同AS的EBGP邻居发布此路由\n\t\t可以避免BGP内存消耗和CPU消耗\n\t\t进而达到路由震荡时减少收敛时间", "text": "配置 **peer peer-as-check** 命令后，当本端设备收到来自EBGP对等体的路由，则不会再向相同AS的EBGP邻居发布此路由，可以避免BGP内存消耗和CPU消耗，进而达到路由震荡时减少收敛时间。"}
+{"id": 33, "response": "if 执行 if-match extcommunity-filter 命令之前:\n    先通过 ip extcommunity-filter 命令配置VPN-Target扩展团体属性过滤器", "text": "在执行 **if-match extcommunity-filter** 命令之前，需要先通过 **ip extcommunity-filter** 命令配置VPN-Target扩展团体属性过滤器。"}
+{"id": 34, "response": "if 多种告警同时产生:\n    上报最高级别的告警\n    if 最高级别的告警恢复:\n        if 低级别的告警仍然存在:\n            继续上报当前存在的最高级别的告警\n        else:\n            不再有告警", "text": "当多种告警同时产生时，只上报最高级别的告警。当最高级别的告警恢复后，如果低级别的告警仍然存在，则继续上报当前存在的最高级别的告警。如此反复，直至系统中不再有告警。"}
+{"id": 35, "response": "if 设备上已配置1:N的实例和VLAN的映射关系:\n    先删除该映射关系\n修改生成树协议工作模式为VBST模式", "text": "如果设备上已配置1:N（N>1）的实例和VLAN的映射关系，必须先删除该映射关系后才能修改生成树协议工作模式为VBST模式。"}
+{"id": 36, "response": "if 用户确认某条MAC路由或者某个BD的MAC路由不会再发生振荡:\n    手动清除MAC路由的抑制状态", "text": "当用户确认某条MAC路由或者某个BD的MAC路由不会再发生振荡，且希望立刻使该MAC路由恢复正常，而不是等待抑制恢复计时器计时结束，则可以手动清除MAC路由的抑制状态。"}
+{"id": 37, "response": "if 业务的部署事先规划和配置后:\n    用户按原有规划插入硬件\n    if 出现误操作插错硬件或插错位置:\n        不更改原有用户配置\n    if 用户插入正确硬件或正确位置:\n        业务正常激活", "text": "业务的部署事先规划和配置后，用户按原有规划插入硬件，如果出现误操作插错硬件或插错位置，则原有用户配置保留，用户插入正确硬件或正确位置时，业务正常激活。"}
+{"id": 38, "response": "if 使用该命令之前必须先创建相同名称的BFD会话:\n    输出 \"请先创建相同名称的BFD会话\"", "text": "使用该命令之前，必须先创建相同名称的BFD会话。"}
+{"id": 39, "response": "if 关闭智能升级Web提示功能:\n\tWeb网管首页不再提醒智能升级的工作状态和最新的软件版本信息", "text": "关闭智能升级Web提示功能后，Web网管首页将不再提醒智能升级的工作状态和最新的软件版本信息。"}
+{"id": 40, "response": "if 需要定位PW发生故障的位置: \n\t使用PW模板配置基本的PWE3功能 \n\t在U-PE上进行以下配置", "text": "当需要定位PW发生故障的位置时，先使用PW模板配置基本的PWE3功能，再在U-PE上进行以下配置。"}
+{"id": 41, "response": "if 网络管理员预先给交换机的每个接口配置不同的PVID:\n   if 一个数据帧进入交换机且没有带VLAN标签:\n      打上接口指定PVID的Tag\n   数据帧将在指定PVID中传输", "text": "网络管理员预先给交换机的每个接口配置不同的PVID，当一个数据帧进入交换机时，如果没有带VLAN标签，该数据帧就会被打上接口指定PVID的Tag，然后数据帧将在指定PVID中传输。"}
+{"id": 42, "response": "if 已经安装的脚本:\n\t如果需要修改:\n\t\t执行ops uninstall file命令卸载\n\t\t执行delete命令删除脚本文件\n\t\t重新上传文件并安装", "text": "对于已经安装的脚本，如需修改，必须执行 **ops uninstall file**命令卸载并执行 **delete（用户视图）**命令将脚本文件删除，修改完成之后再重新上传文件并安装。"}
+{"id": 43, "response": "if 网络中同源同宿的业务PW数量较多:  \n\t配置与业务PW同源同宿的管理PW  \n\t将业务PW与管理PW绑定  \n\t通过BFD会话检测管理PW快速感知故障  \n\t不配置BFD会话检测业务PW  \n\t由管理PW通告所有绑定的业务PW  \n\t实现BFD会话对业务PW的监控", "text": "当网络中同源同宿的业务PW数量较多时，为减少BFD会话的数量，节约公网链路带宽和系统资源，可以配置与业务PW同源同宿的管理PW，并将业务PW与管理PW绑定，从而联动管理PW的状态。这样只需要通过BFD会话检测管理PW快速感知故障，业务PW不配置BFD会话检测，然后由管理PW通告所有绑定的业务PW，实现BFD会话对业务PW的监控。"}
+{"id": 44, "response": "if 执行该命令前先使用命令 **auto-port-defend enable**使能基于端口的防攻击功能:\n\t输出(请按照python格式输出)", "text": "在执行该命令前需要先使用命令 **auto-port-defend enable**使能基于端口的防攻击功能。"}
+{"id": 45, "response": "if 由于链路闪断导致的Smart link倒换:\n    影响报文转发和系统性能\n    可以通过配置Smart Link倒换的延时解决此问题", "text": "如果由于链路闪断导致的Smart link倒换，会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。"}
+{"id": 46, "response": "if 接口上需要同时使能PIM-SM（IPv6）和MLD:\n   先使能PIM-SM（IPv6）\n   再使能MLD", "text": "如果接口上需要同时使能PIM-SM（IPv6）和MLD，必须要先使能PIM-SM（IPv6），再使能MLD。"}
+{"id": 47, "response": "if 执行trigger trap命令之前:\n    设备先执行snmp-agent trap enable feature-name命令使能LinkUp和LinkDown告警", "text": "在执行 **trigger trap** 命令之前，需要设备先执行 **snmp-agent trap enable feature-name**命令使能LinkUp和LinkDown告警。"}
+{"id": 48, "response": "if 删除报文中的P-Tag:\n    封装两层MPLS标签（内层VC标签和外层Tunnel标签）\n    转发报文", "text": "删除报文中的P-Tag，再封装两层MPLS标签（内层VC标签和外层Tunnel标签）后转发。"}
+{"id": 49, "response": "if 建立BGP LSP:\n    配置路由策略来控制标签的分配\n    if BGP LSP的末节点:\n        为向上游发布的路由分配MPLS标签\n    if BGP LSP的中间节点:\n        if 从下游收到带标签的IPv4路由:\n            重新分配MPLS标签\n            向上游发布", "text": "建立BGP LSP需要配置路由策略来控制标签的分配，在BGP LSP的末节点上，需要为向上游发布的路由分配MPLS标签；在BGP LSP的中间节点上，如果从下游收到带标签的IPv4路由，则需要为其重新分配MPLS标签，然后向上游发布。"}
+{"id": 50, "response": "if 智能升级的下载过程支持断点续传:\n    if 之前下载文件因为网络问题下载失败:\n        重新开始下载从断点处开始", "text": "智能升级的下载过程支持断点续传，如果之前下载文件因为网络问题下载失败，再次执行相应命令，从断点处重新开始下载。"}
+{"id": 51, "response": "if 接口视图和VLAN视图都配置了针对同一VLAN的组播组过滤策略:\n\t根据接口视图上配置的过滤策略进行判断\n\t根据VLAN视图上配置的过滤策略进行判断", "text": "如果接口视图和VLAN视图都配置了针对同一VLAN的组播组过滤策略，先根据接口视图上配置的过滤策略进行判断，再根据VLAN视图上配置的过滤策略进行判断。"}
+{"id": 52, "response": "if 序号1、2、3无序操作:\n    if SFTP连接(序号4)建立后:\n        执行序号5的操作\n    断开连接(序号6)", "text": "序号1、2、3无序操作，SFTP连接（序号4）建立后，可执行序号5的操作，最后断开连接（序号6）。"}
+{"id": 53, "response": "if 省去卸载原有脚本、安装新脚本的过程:\n\t可以在订阅阶段使用用户自定义环境变量\n\t通过 environment 命令指定该自定义环境变量的值", "text": "为省去卸载原有脚本、安装新脚本的过程，可以在订阅阶段使用用户自定义环境变量，然后通过 **environment**命令指定该自定义环境变量的值。"}
+{"id": 54, "response": "if 先配置 route-policy:\n  配置 apply dampening 命令", "text": "先配置 **route-policy**，才能配置 **apply dampening** 命令。"}
+{"id": 55, "response": "if 避免在这种情况下DLDP直接进入Inactive状态:\n    DLDP先进入DelayDown状态\n    启动DelayDown定时器\n        保留DLDP邻居信息\n        只响应接口Up事件", "text": "为了避免在这种情况下DLDP直接进入Inactive状态清除邻居信息，DLDP会先进入DelayDown状态，同时启动DelayDown定时器（此时仍保留DLDP邻居信息，且只响应接口Up事件）。"}
+{"id": 56, "response": "if 原来使能LLDP功能的设备去使能LLDP功能:\n\t邻居设备不会马上老化掉该设备的信息\n\t等待TTL时间后再进行老化\n\t以防止网络拓扑频繁变更", "text": "当原来使能LLDP功能的设备去使能LLDP功能后，它的邻居设备不会马上老化掉该设备的信息，而是在等待TTL时间后再进行老化，以防止网络拓扑频繁变更。"}
+{"id": 57, "response": "if 执行 undo dhcp snooping enable 命令:\n\t删除设备上所有DHCP Snooping相关的配置\n\n再次执行 dhcp snooping enable 命令使能DHCP Snooping功能:\n\t恢复设备上所有DHCP Snooping相关配置为缺省配置", "text": "执行 **undo dhcp snooping enable** 命令后，设备上所有DHCP Snooping相关的配置会被删除；再次执行 **dhcp snooping enable** 命令使能DHCP Snooping功能后，设备上所有DHCP Snooping相关配置将被恢复为缺省配置。"}
+{"id": 58, "response": "if 认证模板下也支持配置安全字符串:\n    if 在AAA视图和认证模板视图下都配置了安全字符串:\n        优先使用认证模板下的配置\n    认证模板下的配置仅适用于无线用户", "text": "认证模板下也支持配置安全字符串，如果在AAA视图和认证模板视图下都配置了安全字符串，则优先使用认证模板下的配置。认证模板下的配置仅适用于无线用户。"}
+{"id": 59, "response": "设备上电后:\n\t运行BootROM/BootLoad软件\n\t初始化硬件并显示设备的硬件参数\n\t运行系统软件", "text": "设备上电后，先运行BootROM/BootLoad软件，初始化硬件并显示设备的硬件参数，然后运行系统软件。"}
+{"id": 60, "response": "if 要改变当前MA关联的VLAN:\n    使用 undo map 命令删除该MA和原VLAN的关联关系\n    执行 map 命令将MA和另一个VLAN关联", "text": "如果要改变当前MA关联的VLAN，首先需要使用 **undo map** 命令删除该MA和原VLAN的关联关系，然后再执行 **map** 命令将MA和另一个VLAN关联。"}
+{"id": 61, "response": "if 执行本命令前:\n\t建议先使用check region-configuration命令查看尚未生效的域配置是否正确\n\t确认未生效的域配置完全正确后:\n\t\t再执行本命令", "text": "执行本命令前，建议先使用 **check region-configuration**命令查看尚未生效的域配置是否正确。确认未生效的域配置完全正确后，再执行本命令。"}
+{"id": 62, "response": "if 必须先执行 cfm enable 命令全局使能CFM: \n\t配置协议类型", "text": "必须先执行 **cfm enable**命令全局使能CFM才可以配置协议类型。"}
+{"id": 63, "response": "if 判断是否要对报文进行认证处理:\n    if 不需要认证:\n        对报文进行后续处理\n    if 需要认证:\n        根据对应密钥ID和解密算法来认证\n        if 认证失败:\n            直接丢弃报文\n        if 认证通过:\n            对接收到的报文进行处理", "text": "在接收报文时，首先判断是否要对报文进行认证处理。如果不需要认证，则直接对报文进行后续处理；如果需要认证，则根据对应密钥ID和解密算法来认证。如果认证失败，则直接丢弃报文；如果认证通过，则对接收到的报文进行处理。"}
+{"id": 64, "response": "if 配置此命令前:\n    先要配置L2VPN实例的路由标志Router-Distinguisher", "text": "配置此命令前，先要配置L2VPN实例的路由标志Router-Distinguisher。"}
+{"id": 65, "response": "if 系统检测到环路:\n    根据用户事先配置的处理动作对接口进行处理\n    使其处于某种受控状态", "text": "当系统检测到环路时，可以根据用户事先配置的处理动作对接口进行处理，使其处于某种受控状态。"}
+{"id": 66, "response": "if 集中配置模式配置AS的业务之前:\n    必须先配置AS管理员并下发至AS\n    详细配置请参见AS管理员模板配置步骤\n否则:\n    配置下发失败", "text": "通过集中配置模式配置AS的业务之前，必须先配置AS管理员并下发至AS，详细配置请参见AS管理员模板配置步骤，否则会导致配置下发失败。"}
+{"id": 67, "response": "if 使用 bfd bind peer-ipv6 命令前必须先要全局使能 BFD 功能:\n    在系统视图下执行 bfd 命令", "text": "使用 **bfd bind peer-ipv6** 命令前必须先要全局使能BFD功能，即需要在系统视图下执行 **bfd**命令。"}
+{"id": 68, "response": "if 配置了多种吊销状态的检查方式:\n    按照配置的先后顺序执行\n    if 当前一种方式不可用:\n        使用后边的方式\n        if 选用了不检查:\n            if 当前面配置的方式均不可用:\n                认为证书有效", "text": "如果配置了多种吊销状态的检查方式，会按照配置的先后顺序执行，当前一种方式不可用（如服务器连接不上）时才会使用后边的方式。如果选用了不检查（none），当前面配置的方式均不可用时，认为证书有效。。"}
+{"id": 69, "response": "if 将预置CA证书导入default域:\n    如果需要使用其他CA证书:\n        使用pki delete-certificate ca realm _default_ 命令将预置CA证书从default域移除\n        导入新证书", "text": "将预置CA证书导入default域后，如果需要使用其他CA证书，先使用 **pki delete-certificate ca realm** _default_ 命令将预置CA证书从default域移除，再导入新证书。"}
+{"id": 70, "response": "if 配置了新的端口号:\n\tSSH服务器端断开当前已经建立的所有SSH连接\n\t使用新的端口号开始尝试连接\n\t确保安全性", "text": "如果配置了新的端口号，SSH服务器端先断开当前已经建立的所有SSH连接，然后使用新的端口号开始尝试连接。这样可以有效防止攻击者对SSH服务标准端口的访问，确保安全性。"}
+{"id": 71, "response": "if AS已经加载过补丁:\n    删除原来的补丁文件\n加载新的补丁文件", "text": "如果AS已经加载过补丁，请先删除原来的补丁文件再加载新的补丁文件。"}
+{"id": 72, "response": "if 一个接口从多个VLAN中退出:\n    自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时", "text": "自动恢复时间基于接口生效，如果一个接口从多个VLAN中退出，自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时。"}
+{"id": 73, "response": "if 使用命令web-auth-server在设备上创建Portal服务器模板:\n    配置其他命令搭建设备到Portal服务器的通路", "text": "使用命令 **web-auth-server** 在设备上创建Portal服务器模板后，再配合其他命令即可搭建设备到Portal服务器的通路。"}
+{"id": 74, "response": "if 在独立配置模式场景下:\n    先通过命令 independent-as-admin 在uni-mng视图下配置AS的用户名及密码", "text": "如果是在独立配置模式场景下，需要先通过命令 **independent-as-admin**在uni-mng视图下配置AS的用户名及密码。"}
+{"id": 75, "response": "if 新加入成员交换机使用业务口普通线缆连接堆叠系统: \n\t如果 iMaster NCE-Campus无法向堆叠系统配置堆叠口信息: \n\t\t新加入成员交换机需要手动在堆叠系统上配置命令加入堆叠系统 \n\t然后再向 iMaster NCE-Campus注册", "text": "新加入成员交换机使用业务口普通线缆连接堆叠系统时，因iMaster NCE-Campus无法向堆叠系统配置堆叠口信息，新加入成员交换机需要手动在堆叠系统上配置命令加入堆叠系统，然后再向iMaster NCE-Campus注册。"}
+{"id": 76, "response": "if 改变报文发送周期或超时时间之前:\n    将成员Eth-Trunk的工作模式设置为强制主/备模式\n待新的配置生效后:\n    恢复成员Eth-Trunk的自动模式", "text": "因此建议在改变报文发送周期或超时时间前，先将成员Eth-Trunk的工作模式设置为强制主/备模式，待新的配置生效后，再恢复自动模式。"}
+{"id": 77, "response": "if 备份CR-LSP的状态为Up:\n    if 被保护链路或节点出现故障:\n        流量先切换到Bypass CR-LSP\n        立即切换到备份CR-LSP上\n        尝试恢复主CR-LSP", "text": "当备份CR-LSP的状态为Up，且被保护链路或节点出现故障时，则流量先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP。"}
+{"id": 78, "response": "if 指定UDP协议承载的RTP报文的乱序率的告警阈值前:\n    先配置协议类型为UDP的目标流", "text": "指定UDP协议承载的RTP报文的乱序率的告警阈值前，要先配置协议类型为UDP的目标流。"}
+{"id": 79, "response": "if 用户通过nqaAdminCtrlTable创建测试例:\n\t使能测试例\n\t在nqaJitterStatsTable中查看测试例统计结果", "text": "用户首先通过nqaAdminCtrlTable来创建测试例，使能测试例之后，在nqaJitterStatsTable中查看测试例统计结果。"}
+{"id": 80, "response": "if 每次启动eMDI监控功能前:\n    首先要配置所监控的目标流", "text": "每次启动eMDI监控功能前，首先要配置所监控的目标流。"}
+{"id": 81, "response": "if 执行该命令前需要先使用命令 **arp anti-attack rate-limit enable** 使能ARP报文限速功能:\n\t输出 \"请先使用命令 arp anti-attack rate-limit enable 使能ARP报文限速功能\"", "text": "在执行该命令前需要先使用命令 **arp anti-attack rate-limit enable**使能ARP报文限速功能。"}
+{"id": 82, "response": "if 解决问题:\n\t通过命令portal logout different-server enable使能设备处理非用户上线的Portal服务器发送的用户下线请求消息\n\tif 设备收到非用户上线的Portal服务器发送的用户下线请求消息:\n\t\t启动用户下线流程\n\t\t下线处理完成后给Portal服务器回应ACK消息\n\t\t保证用户正常下线", "text": "为解决以上问题，可以通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息，之后，设备收到非用户上线的Portal服务器发送的用户下线请求消息时，首先启动用户下线流程，下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线。"}
+{"id": 83, "response": "if 配置SAVI功能前必须先使能SAVI功能：\n    使能SAVI功能", "text": "配置SAVI功能前必须先使能SAVI功能。"}
+{"id": 84, "response": "if 看到此标识时:\n\t请先阅读安全手册中所有内容\n\tif 手册的注意事项都已了解:\n\t\t可以进行操作", "text": "看到此标识时，请先阅读安全手册中所有内容，确保手册的注意事项都已了解后方可进行操作。"}
+{"id": 85, "response": "if 应用流策略后: \n\t不能再使用该命令来修改策略中流分类的匹配顺序 \n\t必须先清除该策略的应用 \n\t再重新创建并指定所需的匹配顺序", "text": "应用流策略后，不能再使用该命令来修改策略中流分类的匹配顺序。必须先清除该策略的应用，再重新创建并指定所需的匹配顺序。"}
+{"id": 86, "response": "if 基于协议划分VLAN:\n    将指定协议类型与VLAN相关联\n    根据关联关系来确定不同协议类型的报文所属的VLAN\n    将报文自动划分到指定VLAN中传输", "text": "基于协议划分VLAN将指定协议类型与VLAN相关联，根据关联关系来确定不同协议类型的报文所属的VLAN，然后将报文自动划分到指定VLAN中传输。"}
+{"id": 87, "response": "if BGP VPNv4扩展中:\n    PE从CE学到CE本地的VPN路由信息:\n        在路由信息中增加RD和ERT\n        通过BGP VPNv4邻居关系与其他PE交换VPN路由信息", "text": "在BGP VPNv4扩展中，PE从CE学到CE本地的VPN路由信息后，在路由信息中增加RD和ERT（Export Route Target），再通过BGP VPNv4邻居关系与其它PE交换VPN路由信息。"}
+{"id": 88, "response": "if 在传统转发模式下:\n\t当到达同一个目的网络存在多条路由:\n\t\t交换机选择最优路由使用\n\t\t下发到FIB表指导数据转发\n\tif 最优路由故障:\n\t\t等待路由收敛完成\n\t\t重新选路\n\t\t将优选路由下发到转发表\n\t\t业务恢复\n\telse:\n\t\t业务满足要求", "text": "在传统转发模式下，当到达同一个目的网络存在多条路由时，交换机总是选择最优路由使用，并且下发到FIB表指导数据转发。这样当最优路由故障时，需要等待路由收敛完成，重新选路，然后再把优选路由下发到转发表，业务才能恢复。在这个过程中，业务中断时间较长，不能满足业务的要求。"}
+{"id": 89, "response": "if 已经加载了证书或者证书链:\n\t执行命令 undo certificate load 卸载旧证书或者证书链\n选择相应的配置", "text": "如果已经加载了证书或者证书链，加载新证书或者证书链之前必须先执行命令 **undo certificate load**卸载旧证书或者证书链。请根据证书类型，选择相应的配置。"}
+{"id": 90, "response": "if 未配置ebgp-interface-sensitive命令:\n\t如果某个接口状态变为Down:\n\t\t系统等待180秒\n\t查看是否可以通过其他接口向原目的地址传输报文\n\n当配置ebgp-interface-sensitive命令:\n\t当EBGP链路出现故障:\n\t\tBGP迅速感知\n\t\t立即尝试使用其他接口复位原接口上的BGP连接", "text": "在未配置 **ebgp-interface-sensitive** 命令时，如果某个接口状态变为Down，系统无法立即选择次优路由传输报文，而是等待一段时间（缺省情况下是180秒）后再查看是否可以通过其他接口向原目的地址传输报文，这样会使流量中断一段时间。当配置 **ebgp-interface-sensitive** 命令后，当EBGP链路出现故障时，BGP可以迅速感知并立即尝试使用其他接口复位原接口上的BGP连接。"}
+{"id": 91, "response": "if 运行生成树协议的通信网络:\n    通过命令 stp edged-port enable 将当前端口配置成边缘端口\n    该端口不再参与生成树计算\n    端口仍然会发送BPDU报文\n    这可能导致BPDU报文发送到其他网络\n    引起其他网络产生震荡", "text": "对于运行生成树协议的通信网络，当通过命令 **stp edged-port enable**将当前端口配置成边缘端口，该端口便不再参与生成树计算，从而帮助加快网络拓扑的收敛时间以及加强网络的稳定性。可是端口仍然会发送BPDU报文，这可能导致BPDU报文发送到其他网络，引起其他网络产生震荡。"}
+{"id": 92, "response": "if AP收到STA发送的探测请求帧（Probe Request）:\n\tif 接收到的射频是2.4G:\n\t\t不发送探测应答帧（Probe Response）\n\tif 接收到的射频是5G:\n\t\t立即发送探测应答帧（Probe Response）\n\tSTA可以接入5G频段", "text": "AP收到STA发送的探测请求帧（Probe Request）时，判断如果是2.4G射频接收的，则先不发送探测应答帧（Probe Response），之后如果在5G射频收到探测请求帧（Probe Request），则立即发送探测应答帧（Probe Response）。这时，STA就可以接入5G频段。"}
+{"id": 93, "response": "if 分配索引时:\n    if 65525个索引被分配完了:\n        发送TRAP通知网管", "text": "在分配索引时，在65525个索引被分配完了，无法再分配索引时，发送TRAP通知网管。"}
+{"id": 94, "response": "if 配置静态RPF对等体:\n    使用 peer connect-interface 命令将对端配置为MSDP对等体\n    使用 static-rpf-peer 命令将该对等体配置为静态RPF对等体", "text": "在配置静态RPF对等体时，需要先使用 **peer connect-interface** 命令将对端配置为MSDP对等体，然后使用 **static-rpf-peer**命令将该对等体配置为静态RPF对等体。"}
+{"id": 95, "response": "if 在LSW2设备上对接口GE0/0/2执行 shutdown 命令:\n\t模拟端口故障\n再在端口GE0/0/1执行 undo shutdown 命令:\n\t端口故障恢复", "text": "在LSW2设备上对接口GE0/0/2执行 **shutdown** 命令，模拟端口故障。然后再在端口GE0/0/1执行 **undo shutdown** 命令，端口故障恢复。"}
+{"id": 96, "response": "if 配置用户ACL任务中: \n\t必须创建用户ACL \n\t配置用户ACL的规则 \n\t配置的用户ACL规则中需要引用生效时间段: \n\t\t必须配置规则生效时间段 \n\t最后应用用户ACL", "text": "在配置用户ACL任务中，必须创建用户ACL，再配置用户ACL的规则，最后应用用户ACL。如果配置的用户ACL规则中需要引用生效时间段，则必须配置规则生效时间段。"}
+{"id": 97, "response": "if 用户需清除指定接口的统计信息:\n    执行命令 **reset counters interface**\n配置本命令", "text": "为避免先前报文统计信息影响故障原因分析，用户可先通过命令 **reset counters interface**，清除接口的统计信息后，再配置本命令。"}
+{"id": 98, "response": "if 进行安全加固之前:\n\t首先需要进行安全加固方案的设计\n\t对设计方案的配置落地", "text": "在进行安全加固之前，首先需要进行安全加固方案的设计，然后才是对设计方案的配置落地。"}
+{"id": 99, "response": "if 接口上配置端口队列缓存前需要时使用 'shutdown'命令关闭接口:\n    配置完成后，再使用 'undo shutdown'命令打开接口\n    此操作过程可能会引起网络的短暂中断.", "text": "在接口上配置端口队列缓存前需要时使用 **shutdown**命令关闭接口，配置完成后，再使用 **undo shutdown**命令打开接口，此操作过程可能会引起网络的短暂中断。"}
+{"id": 100, "response": "if 主板上的OSPF伪连接接口在一定时间内未收到备板回应: \n    不再继续等待 \n    作为收到回应来处理 \n    备份消息也不再重传", "text": "主板上的OSPF伪连接接口在一定时间内未收到备板回应，不再继续等待，作为收到回应来处理，备份消息也不再重传。"}
+{"id": 101, "response": "if 禁止接口的路由器端口动态学习功能:\n\t接口不再侦听IGMP Query报文或PIM Hello报文\n\t使用 igmp-snooping static-router-port命令配置静态路由器端口\n\t保证组播报文正常转发", "text": "禁止接口的路由器端口动态学习功能后，接口不再侦听IGMP Query报文或PIM Hello报文，需要使用 **igmp-snooping static-router-port**命令配置静态路由器端口，以保证组播报文正常转发。"}
+{"id": 102, "response": "if 首先需要获取vacmViewSpinLock:\n    通过SNMP命令生成器查询vacmViewTreeFamilyTable\n    为要创建的视图确定一个唯一的名称\n    视图被创建或被设置，包括咨询锁", "text": "首先需要获取vacmViewSpinLock，再由SNMP命令生成器通过查询vacmViewTreeFamilyTable，为要创建的视图确定一个唯一的名称。然后，视图被创建或被设置，包括咨询锁。"}
+{"id": 103, "response": "if 使用本命令清除某VLAN内的组表项:\n\t引起该VLAN内的主机接收组播流暂时性中断\n\t直到主机再次发出MLD Report报文:\n\t\t交换机重新生成动态转发表项\n\t主机才能再次收到组播流", "text": "使用本命令清除某VLAN内的组表项时，会引起该VLAN内的主机接收组播流暂时性中断。直到主机再次发出MLD Report报文，交换机重新生成动态转发表项后，主机才能再次收到组播流。"}
+{"id": 104, "response": "if 配置关闭MAC地址学习功能:\n    设备不学习新的MAC地址\n但是:\n    无法阻止某些设备或终端访问网络", "text": "配置关闭MAC地址学习功能后，设备将不会再从该接口学习新的MAC地址，但是无法做到阻止某些设备或终端访问网络。"}
+{"id": 105, "response": "if 存在多台DHCP服务器向DHCP客户端回应DHCP OFFER报文:\n    DHCP客户端只接收第一个收到的DHCP OFFER报文\n    以广播方式发送DHCP REQUEST请求报文\n    DHCP REQUEST请求报文中包含服务器标识选项（Option54），即选择的DHCP服务器的IP地址信息", "text": "如果有多台DHCP服务器向DHCP客户端回应DHCP OFFER报文，则DHCP客户端只接收第一个收到的DHCP OFFER报文。然后以广播方式发送DHCP REQUEST请求报文，该报文中包含服务器标识选项（Option54），即它选择的DHCP服务器的IP地址信息。"}
+{"id": 106, "response": "if 配置iPCA实现端到端网络的丢包统计前:\n    请先保证已经配置NTP协议\n    实现Switch_1和Switch_2之间的时间同步", "text": "配置iPCA实现端到端网络的丢包统计前，请先保证已经配置NTP协议，实现Switch_1和Switch_2之间的时间同步。"}
+{"id": 107, "response": "if 配置某接口成为C-BSR接口:\n    使能PIM-SM", "text": "配置某接口成为C-BSR接口时，请先在该接口下使能PIM-SM。"}
+{"id": 108, "response": "if 使能AP的智能升级功能前:\n    执行smart-upgrade enable命令\n    使能交换机智能升级功能", "text": "使能AP的智能升级功能前，需先执行 **smart-upgrade enable** 命令，使能交换机智能升级功能。"}
+{"id": 109, "response": "if 网络增强模板下端口安全功能和Sticky MAC功能被使能:\n    通过 direct-command 下发命令", "text": "必须先在网络增强模板下使能端口安全功能和Sticky MAC功能，然后再通过 **direct-command**下发该命令。"}
+{"id": 110, "response": "生成本地密钥对\n将公钥配置到SSH服务器上", "text": "生成本地密钥对，然后将公钥配置到SSH服务器上。"}
+{"id": 111, "response": "if 先配置route-policy:\n    配置apply preferred-value命令", "text": "先配置 **route-policy**，才能配置 **apply preferred-value** 命令。"}
+{"id": 112, "response": "if 命令应用于DHCP服务器:\n    DHCP服务器从全局地址池中给客户端分配IP地址时:\n        执行network命令配置全局地址池的网段\n        从该网段中选取分配给客户端的IP地址\n    DHCP服务器从接口地址池中给客户端分配IP地址时:\n        接口IP地址所在的网段即为该接口地址池的网段", "text": "此命令应用于DHCP服务器。DHCP服务器从全局地址池中给客户端分配IP地址时，需先执行 **network** 命令配置全局地址池的网段，进而从该网段中选取分配给客户端的IP地址。DHCP服务器从接口地址池中给客户端分配IP地址时，接口IP地址所在的网段即为该接口地址池的网段。"}
+{"id": 113, "response": "if 缺省情况下，ND优化应答功能处于使能状态:\n    收到ND请求报文\n    if 设备有该ND请求报文中源IPv6地址对应的ND表项:\n        执行相应的操作", "text": "缺省情况下，ND优化应答功能处于使能状态。在收到ND请求报文后，设备首先查看是否有该ND请求报文中源IPv6地址对应的ND表项。"}
+{"id": 114, "response": "if 执行命令 **pki validate-certificate** 验证证书的有效性:\n    if 证书非法:\n        删除非法证书\n        通过重启设备加载预置临时证书或下载导入新的证书", "text": "执行命令 **pki validate-certificate** 验证证书的有效性。如果非法，先删除非法证书，然后通过重启设备加载预置临时证书或下载导入新的证书。"}
+{"id": 115, "response": "if 25GE光接口插入GE光电模块后支持配置流量控制自协商:\n\t执行命令 port mode ge 配置25GE接口工作在GE速率模式\n\t支持GE光电模块", "text": "当25GE光接口插入GE光电模块后支持配置流量控制自协商。对于25GE光接口，需先执行命令 **port mode ge** 配置25GE接口工作在GE速率模式，才支持GE光电模块。"}
+{"id": 116, "response": "如果执行undo ip vpn-instance命令:\n\t如果此实例被BFD会话绑定:\n\t\t先删除绑定的BFD会话\n\t再删除此VPN实例", "text": "执行 **undo ip vpn-instance** 命令删除VPN实例，如果此实例被BFD会话绑定，需要先删除绑定的BFD会话，再删除此VPN实例。"}
+{"id": 117, "response": "if 设备内部PCB板上的电源故障:\n    设备前面板最后4个光口的指示灯绿色循环闪烁\n    循环间隔为1秒\n    每个灯点亮时间为0.25秒", "text": "当设备内部PCB板上的电源故障时，设备前面板最后4个光口的指示灯会绿色循环闪烁（1秒循环1次，每个灯点亮时间为0.25s。）"}
+{"id": 118, "response": "if 关闭定时告警功能:\n    将不再输出定时告警信息", "text": "关闭定时告警功能，将不再输出定时告警信息。"}
+{"id": 119, "response": "if 需要查看某一时间段内IGMP控制报文的准确统计信息:\n    执行清除统计信息的命令\n    查看报文统计信息", "text": "需要查看某一时间段内IGMP控制报文的准确统计信息时，先执行以下命令将之前的统计信息清除，然后再查看报文统计信息。"}
+{"id": 120, "response": "if 执行命令 igmp-snooping fast-send report enable:\n    如果 设备在Smart Link端口状态发生变化:\n        主动通过active端口发送IGMP的Report报文\n    根据需要执行命令 igmp-snooping fast-send robust-count interval\n        调整IGMP参数优化组播业务", "text": "执行命令 **igmp-snooping fast-send report enable** 后，设备在Smart Link端口状态发生变化时，可以主动通过active端口发送IGMP的Report报文，使组播数据更快的变更到新的转发路径上。后续再根据需要执行命令 **igmp-snooping fast-send robust-count interval** 调整IGMP参数优化组播业务："}
+{"id": 121, "response": "if 网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表:\n\t如果收到的是Untagged帧:\n\t\t给数据帧添加指定VLAN的Tag\n\t数据帧将在指定VLAN中传输", "text": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表，如果收到的是Untagged帧，就依据该表给数据帧添加指定VLAN的Tag。然后数据帧将在指定VLAN中传输。"}
+{"id": 122, "response": "if 修改的参数对BootLoad菜单前面的初始化工作有影响:\n    执行 Reboot 进入重启BootLoad阶段\n    启动其他部件", "text": "当修改的参数对BootLoad菜单前面的初始化工作有影响时，可执行 **Reboot** 先进入重启BootLoad阶段，再启动其他部件。"}
+{"id": 123, "response": "if 需要日志主机通过TCP模式进行传输:\n\t创建SSL策略\n\t用SSL协议进行加密", "text": "如果需要日志主机通过TCP模式进行传输，并用SSL协议进行加密，需先创建好SSL策略。"}
+{"id": 124, "response": "if 命名型ACL创建成功:\n\t不允许用户修改ACL名称", "text": "命名型ACL一旦创建成功，便不允许用户再修改其名称。"}
+{"id": 125, "response": "if 一个接口从多个VLAN中退出:\n    以接口退出最后一个VLAN的时间点为基准点计时\n    自动恢复时间基于接口生效", "text": "自动恢复时间基于接口生效，如果一个接口从多个VLAN中退出，自动恢复时间以接口退出最后一个VLAN的时间点为基准点计时。"}
+{"id": 126, "response": "在Parent的uni-mng视图下配置业务功能\n执行命令 **commit as** { **name** _as-name_ | **all** }实现AS的业务配置下发\n输出：", "text": "在Parent的uni-mng视图下配置业务功能（Free-rule功能是在系统视图下配置），然后执行命令 **commit as** { **name** _as-name_ | **all** }实现AS的业务配置下发。此种方式支持配置的功能很少。"}
+{"id": 127, "response": "if 使用 **sflow counter-sampling collector** 命令配置接口第一个目的Collector:\n\t接口Counter采样使能\nif 使用 **undo sflow counter-sampling collector** 命令删除接口最后一个目的Collector:\n\t接口Counter采样去使能", "text": "当使用 **sflow counter-sampling collector** 命令配置接口第一个目的Collector时，接口Counter采样使能。当使用 **undo sflow counter-sampling collector** 命令删除接口最后一个目的Collector时，接口Counter采样去使能。"}
+{"id": 128, "response": "if 设备上为用户授权了用户组或业务方案:\n\tif 通过服务器修改了已配置的某一属性:\n\t\tif 再次需要修改其他已配置的属性:\n\t\t\tif 服务器的授权信息包含之前已修改的属性:\n\t\t\t\t修改其他已配置的属性\n\t\t\telse:\n\t\t\t\t已修改的属性变为用户组或业务方案中的原有属性值", "text": "对于本命令的修改模式，当设备上为用户授权了用户组或业务方案并通过服务器修改了其中已配置的某一属性，之后，如果再次需要修改其中已配置的其他属性时，那么服务器的授权信息必须包含之前已修改的属性，否则已修改的属性将会变回用户组或业务方案中的原有属性值。以修改用户组中的属性为例说明如下："}
+{"id": 129, "response": "if 交换机使能NETCONF功能:\n\t获取iMaster NCE-Campus的URL/IP和端口号\n交换机和iMaster NCE-Campus进行通信做好准备", "text": "首先，交换机需要先使能NETCONF功能。然后，再获取iMaster NCE-Campus的URL/IP和端口号。这两步完成后，交换机即为下一步和iMaster NCE-Campus进行通信做好了准备。"}
+{"id": 130, "response": "if 执行命令 **loopback-detect packet vlan** 前:\n    指定VLAN必须先创建并且接口以Tagged方式加入指定VLAN", "text": "执行命令 **loopback-detect packet vlan** 前，指定VLAN必须先创建并且接口以Tagged方式加入指定VLAN。"}
+{"id": 131, "response": "if 在VLAN内使能了MLD Snooping功能:\n    不能再在对应的三层VLANIF接口配置IPv6三层组播功能\n    如果需要同时配置:\n        在VLANIF接口上配置IPv6三层组播功能\n        再在VLAN内使能MLD Snooping功能", "text": "在VLAN内使能了MLD Snooping功能后，不能再在对应的三层VLANIF接口配置IPv6三层组播功能；如果需要同时配置，需在VLANIF接口上配置IPv6三层组播功能，再在VLAN内使能MLD Snooping功能。"}
+{"id": 132, "response": "if 希望指定某一成员交换机成为主交换机:\n    先为该成员交换机上电\n    等待该成员交换机启动完成后再给其他成员交换机上电", "text": "因此，如果希望指定某一成员交换机成为主交换机，则可以先为其上电，待其启动完成后再给其他成员交换机上电。"}
+{"id": 133, "response": "if 接口与VRF不再关联 or ifOperStatus由Up(1)变为其它状态:\n    该值减少", "text": "当接口与VRF不再关联或ifOperStatus由Up(1)变为其它状态时，该值减少。"}
+{"id": 134, "response": "if 配置完成后:\n    在PE设备上执行 display bgp peer 命令\n    可以看到PE之间的BGP对等体关系已建立\n    并且达到Established状态", "text": "配置完成后，在PE设备上执行 **display bgp peer** 命令，可以看到PE之间的BGP对等体关系已建立，并达到Established状态。"}
+{"id": 135, "response": "创建名为\"wlan-ssid\"的SSID模板\n配置SSID名称为\"wlan-net\"", "text": "\\# 创建名为\"wlan-ssid\"的SSID模板，并配置SSID名称为\"wlan-net\"。"}
+{"id": 136, "response": "if 网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表:\n    if 收到的是Untagged帧:\n        给数据帧添加指定VLAN的Tag\n    数据帧将在指定VLAN中传输", "text": "网络管理员预先配置以太网帧中的协议域和VLAN ID的映射关系表，如果收到的是Untagged帧，就依据该表给数据帧添加指定VLAN的Tag。然后数据帧将在指定VLAN中传输。"}
+{"id": 137, "response": "if 配置SwitchA:\n    启动OSPFv3\n    设置Router ID为1.1.1.1", "text": "\\# 配置SwitchA，启动OSPFv3，并设置其Router ID为1.1.1.1。"}
+{"id": 138, "response": "if 满足创建BFD会话的条件: \n    IS-IS通过RM模块通知BFD模块\n    直接在邻居间创建BFD会话", "text": "满足创建BFD会话的条件后，IS-IS将通过RM模块通知BFD模块直接在邻居间创建BFD会话。"}
+{"id": 139, "response": "if 配置事件的延迟上报功能:\n    在延迟上报周期内:\n        如果有同样的事件产生:\n            丢弃后产生的事件\n    延迟上报周期到达时:\n        系统上报第一次产生的事件", "text": "配置事件的延迟上报功能，以减少事件的上报频率。使能事件的延迟上报功能后，在延迟上报周期内，系统中如果有同样的事件产生，则后产生的事件将被丢弃。延迟上报周期到达时，系统上报第一次产生的事件。"}
+{"id": 140, "response": "if 在接收者侧DR上配置了切换阈值:\n    if 组播数据转发速率超过阈值:\n        向源发送Join消息\n        开始SPT切换", "text": "在接收者侧DR上配置了切换阈值后，当组播数据转发速率超过阈值时，才向源发送Join消息，开始SPT切换。"}
+{"id": 141, "response": "if 使能远端认证失败后账号锁定功能:\n\t设备会记录所有认证失败的账号", "text": "使能远端认证失败后账号锁定功能后，设备会记录所有认证失败的账号，包括："}
+{"id": 142, "response": "if 进入接口视图:\n\t执行命令display this，查看入接口配置的trust命令\n\t抓取入接口的报文\n\t分析其携带的优先级类型\n\t与接口信任的优先级类型进行比较", "text": "进入接口视图，执行命令 **display this**，查看入接口配置的 **trust**命令，然后抓取入接口的报文，分析其携带的优先级类型并与接口信任的优先级类型进行比较："}
+{"id": 143, "response": "if 使用阈值告警功能:\n    系统周期性地监控设备的运行状态\n    if 达到一定的阈值:\n        向网管发送告警\n    if 警戒解除:\n        发送恢复告警", "text": "使用阈值告警功能，系统可以周期性地监控设备的运行状态，在达到一定的阈值（警戒条件）时向网管发送告警，并在警戒解除之后，发送恢复告警。"}
+{"id": 144, "response": "if 采样传感器组已被订阅且执行sensor-group（Subscription视图）命令配置了心跳间隔或者冗余抑制:\n\t无法在此采样传感器组的采样路径下配置过滤器", "text": "当采样传感器组已被订阅且执行sensor-group（Subscription视图）命令配置了心跳间隔或者冗余抑制时，则无法在此采样传感器组的采样路径下配置过滤器。"}
+{"id": 145, "response": "if 有RouterA到RouterD的流量被发送给RouterC:\n    由于没有必要的路由选择信息:\n        这些流量就会被丢弃", "text": "这样，当有RouterA到RouterD的流量被发送给RouterC时，由于没有必要的路由选择信息，这些流量就会被丢弃，如图2所示。"}
+{"id": 146, "response": "if 设备是某个VRRP6备份组的IP地址拥有者:\n    显示设备在该备份组的运行优先级为255", "text": "如果设备是某个VRRP6备份组的IP地址拥有者，将显示设备在该备份组的运行优先级为255。"}
+{"id": 147, "response": "if 客户希望将License订单中的一个资源型License，拆分成多个不同的License:\n\t在ESDP系统上进行License授权拆分", "text": "如果客户希望将License订单中的一个资源型License，拆分成多个不同的License，供多台设备使用，则可以在ESDP系统上进行License授权拆分。"}
+{"id": 148, "response": "if 管理VRRP发生主备切换:\n    VSI之间的PW、AC接口进行相应的主备切换\n    VSI清除自己的MAC地址\n    重新学习到新的主用设备的MAC地址", "text": "当管理VRRP发生主备切换时，VSI之间的PW、AC接口也进行相应的主备切换，同时VSI清除自己的MAC地址，重新学习到新的主用设备的MAC地址。"}
+{"id": 149, "response": "if 网络中存在多条等价路由:\n\t实现负载分担", "text": "当网络中到达同一目的地存在同一路由协议发现的多条路由，且这几条路由的开销值也相同，那么这些路由就是等价路由，可以实现负载分担。"}
+{"id": 150, "response": "if 配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过:\n    if ARP报文超过该限速值:\n        60秒内持续丢弃该接口下的所有ARP报文", "text": "配置接口GE0/0/1在1秒钟内最多允许50个ARP报文通过，当ARP报文超过该限速值时，60秒内持续丢弃该接口下的所有ARP报文"}
+{"id": 151, "response": "if 系统检测到企图修改ARP表项的攻击报文:\n\t发出告警", "text": "系统检测到企图修改ARP表项的攻击报文时，会发出告警。"}
+{"id": 152, "response": "if 要实现PC1和PC2通过公网互通: \n    在SwitchA和SwitchC之间建立直连链路 \n    部署GRE隧道 \n    通过静态路由指定到达对端的报文通过Tunnel接口转发 \n    PC1和PC2就可以互相通信了", "text": "要实现PC1和PC2通过公网互通，需要在SwitchA和SwitchC之间建立直连链路，部署GRE隧道，通过静态路由指定到达对端的报文通过Tunnel接口转发，PC1和PC2就可以互相通信了。"}
+{"id": 153, "response": "if 批量配置LDP Keychain认证或LDP MD5认证:\n    指定LDP对等体 10.1.1.1 不进行认证", "text": "在批量配置LDP Keychain认证或LDP MD5认证后，指定LDP对等体 **10.1.1.1** 不进行认证。"}
+{"id": 154, "response": "if 活动接口数达到上限阈值:\n    if 生成员链路状态变为Up:\n        Eth-Trunk接口的带宽不会增加", "text": "当活动接口数达到上限阈值后，之后再发生成员链路状态变为Up都不会使Eth-Trunk接口的带宽增加。"}
+{"id": 155, "response": "if 将回显信息中的客户端公钥配置到SSH服务器端:\n    SSH服务器对SSH客户端有效性检查能够通过\n    在SSH服务器端和SSH客户端间进行安全地数据交互", "text": "将回显信息中的客户端公钥配置到SSH服务器端，保证在连接时SSH服务器对SSH客户端有效性检查能够通过，以便在SSH服务器端和SSH客户端间进行安全地数据交互。"}
+{"id": 156, "response": "if RouterA收到来自主机的MLDv1报告报文:\n    首先检查报文中的IPv6组播组地址G\n    if 检查结果为有效:\n        进行相应处理\n    if 检查结果为无效:\n        进行其他处理", "text": "配置完成后，当RouterA收到来自主机的MLDv1报告报文时，首先检查该报文中所携带的IPv6组播组地址G，然后根据检查结果的不同分别进行处理："}
+{"id": 157, "response": "if 配置完成后: \n\t将Tunnel接口状态变为Up \n\t可以Ping通Tunnel接口之间 \n\t建立GRE隧道", "text": "配置完成后，Tunnel接口状态变为Up，Tunnel接口之间可以Ping通，GRE隧道建立。"}
+{"id": 158, "response": "if 使能DHCPv6数据保存功能:\n    设备定期保存DHCPv6数据", "text": "使能DHCPv6数据保存功能后，设备会定期保存DHCPv6数据"}
+{"id": 159, "response": "if 配置成功后：\n    从接口GE2/0/1发出的报文带宽限制为10000kbit/s", "text": "配置成功后，从接口GE2/0/1发出的报文带宽限制为10000kbit/s"}
+{"id": 160, "response": "if AP收到STA发送的探测请求帧：\n    发送探测应答帧", "text": "AP收到STA发送的探测请求帧（Probe Request）后，发送探测应答帧（Probe Response）"}
+{"id": 161, "response": "if 链路恢复后:\n    if 各个ERPS环配置的是回切模式:\n        RPL owner端口所在设备重新阻塞RPL链路上的流量", "text": "链路恢复后，如果各个ERPS环配置的是回切模式，RPL owner端口所在设备会重新阻塞RPL链路上的流量"}
+{"id": 162, "response": "if 撤销证书到期后: \n    删除CRL中的有关数据 \n    缩短CRL列表的大小", "text": "在撤销证书到期后，CRL中的有关数据被删除，以缩短CRL列表的大小。"}
+{"id": 163, "response": "if 配置IGMP健壮系数:\n    配置参数优化组播业务", "text": "配置IGMP健壮系数之后，配置参数优化组播业务"}
+{"id": 164, "response": "if 策略匹配成功后:\n    修改路由的开销值", "text": "策略匹配成功后，修改路由的开销值。"}
+{"id": 165, "response": "if BGP协议使用包含 **apply cost** 命令的Route-Policy:\n    当策略匹配成功后:\n        修改BGP路由的MED值", "text": "如果BGP协议使用包含 **apply cost** 命令的Route-Policy，则当策略匹配成功后，修改BGP路由的MED值。"}
+{"id": 166, "response": "if 将目标AP加入AP组:\n\t根据AP的部署位置为AP配置名称", "text": "将目标AP加入AP组，并根据AP的部署位置为AP配置名称。"}
+{"id": 167, "response": "if 将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定: \n\tif IPv6 BFD检测到接口链路故障: \n\t\tIPv6 BFD会话状态变为Down \n\t\t触发系统进行快速重路由 \n\t\t将流量从故障链路切换到备份链路上 \n\t\t达到流量保护的目的", "text": "将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定。IPv6 BFD检测到接口链路故障后，IPv6 BFD会话状态会变为Down并触发系统进行快速重路由，将流量从故障链路切换到备份链路上，从而达到流量保护的目的。"}
+{"id": 168, "response": "if 完成Portal接入模板的配置后: \n\t可以使用该命令查看Portal接入模板的配置信息是否正确", "text": "完成Portal接入模板的配置后，可以使用该命令查看Portal接入模板的配置信息是否正确。"}
+{"id": 169, "response": "if DHCP服务器接收到请求报文:\n    根据Link-selection子选项选择IP地址池", "text": "DHCP服务器接收到请求报文后，根据Link-selection子选项选择IP地址池。"}
+{"id": 170, "response": "if 命令为portal logout different-server enable:\n    使能设备处理非用户上线的Portal服务器发送的用户下线请求消息\n    if 设备收到非用户上线的Portal服务器发送的用户下线请求消息:\n        启动用户下线流程\n        完成下线处理\n        给Portal服务器回应ACK消息，保证用户正常下线", "text": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息，之后，设备收到非用户上线的Portal服务器发送的用户下线请求消息时，首先启动用户下线流程，下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线。"}

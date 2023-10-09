@@ -1,0 +1,590 @@
+[
+    {
+        "text": "登录到Web网管后，可以对设备进行管理和维护。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "登录到Web网管",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "对设备进行管理和维护",
+                "start": 12,
+                "end": 22
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "组播负载分担（IPv6）配置完成后，可以通过命令查看组播路由表（IPv6）信息，检查当前负载分担策略是否配置成功。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "组播负载分担（IPv6）配置完成",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "通过命令查看组播路由表（IPv6）信息，检查当前负载分担策略是否配置成功",
+                "start": 20,
+                "end": 56
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "当用户使用配置接口流量统计功能后，可以使用该命令查看流量统计信息。对于每个接口下每一种协议生成的主机条目，最多可显示前5000行的信息。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "用户使用配置接口流量统计功能",
+                "start": 1,
+                "end": 15
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用该命令查看流量统计信息",
+                "start": 19,
+                "end": 32
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "团体属性用来简化路由策略的应用和降低维护管理的难度，利用团体可以使多个AS中的一组BGP设备共享相同的策略。团体是一个路由属性，在BGP对等体之间传播，且不受AS的限制。BGP设备在将带有团体属性的路由发布给其他对等体之前，可以先改变此路由原有的团体属性。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "改变此路由原有的团体属性",
+                "start": 115,
+                "end": 127
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "GP设备在将带有团体属性的路由发布给其他对等体",
+                "start": 86,
+                "end": 109
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "正则表达式就是用一个\"字符串\"来描述一个特征，然后去验证另一个\"字符串\"是否符合这个特征。BGP的AS_Path过滤器主要是定义AS_Path正则表达式，然后去匹配BGP路由的AS_Path属性信息，从而实现对BGP路由信息的过滤。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "用一个\"字符串\"来描述一个特征",
+                "start": 7,
+                "end": 22
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "去验证另一个\"字符串\"是否符合这个特征",
+                "start": 25,
+                "end": 44
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "定义AS_Path正则表达式",
+                "start": 62,
+                "end": 76
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "匹配BGP路由的AS_Path属性信息",
+                "start": 80,
+                "end": 99
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "实现对BGP路由信息的过滤",
+                "start": 102,
+                "end": 115
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ]
+        ]
+    },
+    {
+        "text": "生成SHA256校验码时，文件中不能包含\"#sha256=\"字段。请在生成SHA256校验码后再将\"#sha256=\"写入文件开头。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "生成SHA256校验码时，文件中不能包含\"#sha256=\"字段",
+                "start": 0,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "生成SHA256校验码",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "将\"#sha256=\"写入文件开头",
+                "start": 48,
+                "end": 65
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "配置此参数前，需要首先通过keychain命令创建一个keychain，并分别通过key-id、key-string和algorithm命令配置该keychain采用的key-id、密码及其认证算法，否则会造成OSPF认证始终为失败状态。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "通过keychain命令创建一个keychain",
+                "start": 11,
+                "end": 35
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "分别通过key-id、key-string和algorithm命令配置该keychain采用的key-id、密码及其认证算法",
+                "start": 37,
+                "end": 99
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "配置此参数",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "使用 **local-pw-type** 命令前，需要先在NQA测试例视图下配置NQA测试例的测试类型为PWE3 Trace或者PWE3 Ping，否则无法配置 **local-pw-type** 命令。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "在NQA测试例视图下配置NQA测试例的测试类型为PWE3 Trace或者PWE3 Ping",
+                "start": 28,
+                "end": 73
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "使用 **local-pw-type** 命令",
+                "start": 0,
+                "end": 23
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ]
+        ]
+    },
+    {
+        "text": "默认情况下，设备的MAC地址学习功能都是开启的。在收到来自周边设备的数据帧时，会解析出数据帧的源MAC地址，然后与接收该数据帧的接口组合成一条MAC地址表项，添加到MAC地址表中。以后设备接收到去往该目的MAC地址的数据帧时，则直接查询MAC地址表就可以得到正确的发送接口，避免广播。若关闭MAC地址学习功能，设备在收到数据帧时将不会进行MAC地址的学习。另外之前学习到的动态表项不会立即删除，需要等待老化时间到达后老化删除，或手工执行删除MAC命令进行删除。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "收到来自周边设备的数据帧",
+                "start": 25,
+                "end": 37
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "解析出数据帧的源MAC地址",
+                "start": 40,
+                "end": 53
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "与接收该数据帧的接口组合成一条MAC地址表项，添加到MAC地址表中",
+                "start": 56,
+                "end": 89
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "设备接收到去往该目的MAC地址的数据帧",
+                "start": 92,
+                "end": 111
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "直接查询MAC地址表就可以得到正确的发送接口，避免广播",
+                "start": 114,
+                "end": 141
+            },
+            {
+                "id": "b5c813d8c4f7287225ef29aa",
+                "type": "condition",
+                "text_span": "关闭MAC地址学习功能",
+                "start": 143,
+                "end": 154
+            },
+            {
+                "id": "f3d8a01fe7c205e277e23df2",
+                "type": "operate",
+                "text_span": "设备在收到数据帧时将不会进行MAC地址的学习",
+                "start": 155,
+                "end": 177
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "130f25c188ae028cd7d4a847"
+            ],
+            [
+                "130f25c188ae028cd7d4a847",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "b5c813d8c4f7287225ef29aa"
+            ],
+            [
+                "b5c813d8c4f7287225ef29aa",
+                "f3d8a01fe7c205e277e23df2"
+            ]
+        ]
+    },
+    {
+        "text": "突变上升告警和突变恢复告警分别计时，突变上升告警/突变恢复告警出现后，10分钟内不会再次告警。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "突变上升告警和突变恢复告警分别计时",
+                "start": 0,
+                "end": 17
+            },
+            {
+                "id": "0cb7a3ad6c8355ccef49508a",
+                "type": "condition",
+                "text_span": "突变上升告警/突变恢复告警出现后",
+                "start": 18,
+                "end": 34
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "10分钟内不会再次告警",
+                "start": 35,
+                "end": 46
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "0cb7a3ad6c8355ccef49508a"
+            ],
+            [
+                "0cb7a3ad6c8355ccef49508a",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "用来配置FEC LIST名字，系统全局只有一个FEC LIST，它的有效长度为1～31。长度0表示删除。它不支持修改，只能先删除再创建。如果该FEC LIST被引用，则必须删除引用后才能删除FEC LIST。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "它不支持修改",
+                "start": 52,
+                "end": 58
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除 ",
+                "start": 62,
+                "end": 64
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "创建",
+                "start": 65,
+                "end": 67
+            },
+            {
+                "id": "3be6a816573c778469d59f6a",
+                "type": "condition",
+                "text_span": "该FEC LIST被引用",
+                "start": 70,
+                "end": 82
+            },
+            {
+                "id": "c55f12b3eeb1eb653c2ebe6b",
+                "type": "operate",
+                "text_span": "删除引用",
+                "start": 86,
+                "end": 90
+            },
+            {
+                "id": "03d52f1e00f70553a41b27bb",
+                "type": "operate",
+                "text_span": "删除FEC LIST",
+                "start": 93,
+                "end": 103
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ],
+            [
+                "daf834f70770d14ef6a72c6c",
+                "3be6a816573c778469d59f6a"
+            ],
+            [
+                "3be6a816573c778469d59f6a",
+                "c55f12b3eeb1eb653c2ebe6b"
+            ],
+            [
+                "c55f12b3eeb1eb653c2ebe6b",
+                "03d52f1e00f70553a41b27bb"
+            ]
+        ]
+    },
+    {
+        "text": "如果接口上的VLAN规划更改，需要先删除接口上原来的VLAN配置，当接口上配置的VLAN较多且不连续时，需要执行多次删除操作。为减少删除操作，可采用恢复接口上VLAN的缺省配置的操作。具体配置请参见\"恢复接口上VLAN的缺省配置\"。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "接口上的VLAN规划更改",
+                "start": 2,
+                "end": 14
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "删除接口上原来的VLAN配置",
+                "start": 18,
+                "end": 32
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "接口上配置的VLAN较多且不连续时",
+                "start": 34,
+                "end": 51
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "执行多次删除操作",
+                "start": 54,
+                "end": 62
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "对于S6735-S、S6735S-S、S6720-EI和S6720S-EI，配置出方向流镜像时，不能再配置其他流行为，否则出方向流镜像不生效。",
+        "node_list": [],
+        "edge_list": []
+    },
+    {
+        "text": "交换机在接收到状态刷新报文后都会将TTL值减一，然后向下游转发，直到TTL值变为0。当网络规模很小时，刷新报文将在网络中循环传递。执行命令 **state-refresh-ttl** ，可以根据网络规模大小配置合适的TTL值。",
+        "node_list": [
+            {
+                "id": "af93f28a76f62797946cf595",
+                "type": "operate",
+                "text_span": "接收到状态刷新报文",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "将TTL值减一",
+                "start": 16,
+                "end": 23
+            },
+            {
+                "id": "daf834f70770d14ef6a72c6c",
+                "type": "operate",
+                "text_span": "向下游转发，直到TTL值变为0",
+                "start": 26,
+                "end": 41
+            }
+        ],
+        "edge_list": [
+            [
+                "af93f28a76f62797946cf595",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "daf834f70770d14ef6a72c6c"
+            ]
+        ]
+    },
+    {
+        "text": "如果没有使用 **ssh user** 命令配置相应的SSH用户，则可以直接执行 **ssh authentication-type default password**命令为用户配置SSH认证缺省采用密码认证，在用户数量比较多时，对用户使用缺省密码认证方式可以简化配置，此时只需再配置AAA用户即可。",
+        "node_list": [
+            {
+                "id": "d0d88d9459beddb83524e9fd",
+                "type": "condition",
+                "text_span": "没有使用 **ssh user** 命令配置相应的SSH用户",
+                "start": 2,
+                "end": 32
+            },
+            {
+                "id": "4fe1dd41b8beaea875cc7fa0",
+                "type": "operate",
+                "text_span": "直接执行 **ssh authentication-type default password**命令为用户配置SSH认证缺省采用密码认证",
+                "start": 36,
+                "end": 105
+            },
+            {
+                "id": "ebab9f599888c17dcd521141",
+                "type": "condition",
+                "text_span": "用户数量比较多",
+                "start": 107,
+                "end": 114
+            },
+            {
+                "id": "130f25c188ae028cd7d4a847",
+                "type": "operate",
+                "text_span": "对用户使用缺省密码认证方式可以简化配置，此时只需再配置AAA用户即可",
+                "start": 116,
+                "end": 150
+            }
+        ],
+        "edge_list": [
+            [
+                "d0d88d9459beddb83524e9fd",
+                "4fe1dd41b8beaea875cc7fa0"
+            ],
+            [
+                "4fe1dd41b8beaea875cc7fa0",
+                "ebab9f599888c17dcd521141"
+            ],
+            [
+                "ebab9f599888c17dcd521141",
+                "130f25c188ae028cd7d4a847"
+            ]
+        ]
+    },
+    {
+        "text": "缺省情况下，BGP在选择最优路由时Cluster-List优先于Originator-ID。配置 **bestroute routerid-prior-clusterlist**命令后，BGP在选择最优路由时Originator-ID优先于Cluster-List。",
+        "node_list": [],
+        "edge_list": []
+    }
+]

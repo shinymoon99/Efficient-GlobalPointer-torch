@@ -786,7 +786,7 @@
       },
       {
         "id": "daf834f70770d14ef6a72c6c",
-        "type": "operate",
+        "type": "status",
         "text_span": "接口将不能再发出或接收对应的组播组的报文",
         "start": 98,
         "end": 118
@@ -1276,28 +1276,28 @@
       },
       {
         "id": "4fe1dd41b8beaea875cc7fa0",
-        "type": "operate",
+        "type": "condition",
         "text_span": "当本端设备收到来自EBGP对等体的路由",
         "start": 100,
         "end": 119
       },
       {
         "id": "daf834f70770d14ef6a72c6c",
-        "type": "operate",
+        "type": "status",
         "text_span": "不会再向相同AS的EBGP邻居发布此路由",
         "start": 121,
         "end": 141
       },
       {
         "id": "130f25c188ae028cd7d4a847",
-        "type": "operate",
+        "type": "status",
         "text_span": "避免BGP内存消耗和CPU消耗",
         "start": 144,
         "end": 159
       },
       {
         "id": "c55f12b3eeb1eb653c2ebe6b",
-        "type": "operate",
+        "type": "status",
         "text_span": "达到路由震荡时减少收敛时间",
         "start": 162,
         "end": 175
@@ -5253,7 +5253,7 @@
     "node_list": [
       {
         "id": "d0d88d9459beddb83524e9fd",
-        "type": "condition",
+        "type": "operate",
         "text_span": "关闭定时告警功能",
         "start": 0,
         "end": 8
@@ -5293,9 +5293,9 @@
       {
         "id": "daf834f70770d14ef6a72c6c",
         "type": "operate",
-        "text_span": "执行以下命令将之前的统计信息清除",
-        "start": 28,
-        "end": 44
+        "text_span": "查看报文统计信息",
+        "start": 48,
+        "end": 56
       }
     ],
     "edge_list": [
@@ -5314,10 +5314,10 @@
     "node_list": [
       {
         "id": "d0d88d9459beddb83524e9fd",
-        "type": "condition",
-        "text_span": "执行命令 **igmp-snooping fast-send report enable** 后",
+        "type": "operate",
+        "text_span": "执行命令 **igmp-snooping fast-send report enable**",
         "start": 0,
-        "end": 48
+        "end": 46
       },
       {
         "id": "0cb7a3ad6c8355ccef49508a",

@@ -1,0 +1,191 @@
+{
+    "text": "在设置基于AS路径列表的BGP路由过滤策略时，必须先使用 **ip as-path-filter** 命令定义AS路径过滤器。",
+    "node_list": [
+        {
+            "id": "af93f28a76f62797946cf595",
+            "type": "operate",
+            "text_span": "使用 **ip as-path-filter** 命令定义AS路径过滤器",
+            "start": 26,
+            "end": 62,
+            "type_id": "操作0"
+        },
+        {
+            "id": "4fe1dd41b8beaea875cc7fa0",
+            "type": "operate",
+            "text_span": "设置基于AS路径列表的BGP路由过滤策略",
+            "start": 1,
+            "end": 21,
+            "type_id": "操作1"
+        }
+    ],
+    "edge_list": [
+        [
+            "操作0",
+            "操作1"
+        ]
+    ]
+},
+{
+    "text": "预配置帮助用户在物理设备不在位的情况下，提前部署物理设备，并在预部署的设备上统一部署业务。",
+    "node_list": [
+        {
+            "id": "d0d88d9459beddb83524e9fd",
+            "type": "condition",
+            "text_span": "预配置帮助用户在物理设备不在位的情况下",
+            "start": 0,
+            "end": 18,
+            "type_id": "条件0"
+        },
+        {
+            "id": "4fe1dd41b8beaea875cc7fa0",
+            "type": "operate",
+            "text_span": "提前部署物理设备",
+            "start": 20,
+            "end": 28,
+            "type_id": "操作0"
+        },
+        {
+            "id": "daf834f70770d14ef6a72c6c",
+            "type": "operate",
+            "text_span": "在预部署的设备上统一部署业务",
+            "start": 30,
+            "end": 44,
+            "type_id": "操作1"
+        },
+        {
+            "id": "130f25c188ae028cd7d4a847",
+            "type": "operate",
+            "text_span": "业务的部署事先规划和配置",
+            "start": 45,
+            "end": 57,
+            "type_id": "操作2"
+        },
+        {
+            "id": "c55f12b3eeb1eb653c2ebe6b",
+            "type": "operate",
+            "text_span": "用户按原有规划插入硬件",
+            "start": 59,
+            "end": 70,
+            "type_id": "操作3"
+        },
+        {
+            "id": "f22e38d51eb0a4dab6f3c43d",
+            "type": "check",
+            "text_span": "出现误操作插错硬件或插错位置",
+            "start": 73,
+            "end": 87,
+            "type_id": "判断0"
+        },
+        {
+            "id": "f3d8a01fe7c205e277e23df2",
+            "type": "operate",
+            "text_span": "原有用户配置保留",
+            "start": 89,
+            "end": 97,
+            "type_id": "操作4"
+        },
+        {
+            "id": "61a275297a684312a6c733cd",
+            "type": "check",
+            "text_span": "用户插入正确硬件或正确位置",
+            "start": 98,
+            "end": 111,
+            "type_id": "判断1"
+        },
+        {
+            "id": "39b007c7dbac2e8890131360",
+            "type": "operate",
+            "text_span": "业务正常激活",
+            "start": 113,
+            "end": 119,
+            "type_id": "操作5"
+        }
+    ],
+    "edge_list": [
+        [
+            "条件0",
+            "操作0"
+        ],
+        [
+            "操作0",
+            "操作1"
+        ],
+        [
+            "操作1",
+            "操作2"
+        ],
+        [
+            "操作2",
+            "操作3"
+        ],
+        [
+            "操作3",
+            "判断0"
+        ],
+        [
+            "判断0",
+            "操作4"
+        ],
+        [
+            "操作3",
+            "判断1"
+        ],
+        [
+            "判断1",
+            "操作5"
+        ]
+    ]
+},
+{
+    "text": "黑名单方式可以在同一个ACL中先配置动作是 **deny** 的编号较小的规则，用于过滤掉不希望被系统接收或发布的路由，然后再配置动作是 **permit** 的编号较大的规则，用于接收或发布其他路由。",
+    "node_list": [
+        {
+            "id": "af93f28a76f62797946cf595",
+            "type": "operate",
+            "text_span": "配置动作是 **deny** 的编号较小的规则",
+            "start": 16,
+            "end": 39,
+            "type_id": "操作0"
+        },
+        {
+            "id": "4fe1dd41b8beaea875cc7fa0",
+            "type": "operate",
+            "text_span": "过滤掉不希望被系统接收或发布的路由",
+            "start": 42,
+            "end": 59,
+            "type_id": "操作1"
+        },
+        {
+            "id": "daf834f70770d14ef6a72c6c",
+            "type": "operate",
+            "text_span": "配置动作是 **permit** 的编号较大的规则",
+            "start": 63,
+            "end": 88,
+            "type_id": "操作2"
+        },
+        {
+            "id": "130f25c188ae028cd7d4a847",
+            "type": "operate",
+            "text_span": "接收或发布其他路由",
+            "start": 91,
+            "end": 100,
+            "type_id": "操作3"
+        }
+    ],
+    "edge_list": [
+        [
+            "操作0",
+            "操作1"
+        ],
+        [
+            "操作1",
+            "操作2"
+        ],
+        [
+            "操作2",
+            "操作3"
+        ]
+    ]
+},
+
+{如果Smart Link组的接口有Up/Down动作，Smart Link组的状态不会立刻倒换，而是等待延时时间到达后，根据Smart Link组的接口最后获得的Up/Down状态处理Smart Link组的状态，从而抑制了由于链路闪断导致的Smart link倒换。}

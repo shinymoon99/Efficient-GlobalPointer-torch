@@ -16,7 +16,7 @@ original_text = "abcdefghi"
 replacements = [(1, 4, "XYZ"), (5, 8, "12345")]
 new_text, length_difference = replace_substrings(original_text, replacements)
 
-with open("./datasets/ICTPE/ICTPE_all_utypeid.json",encoding="utf-8") as f:
+with open("./datasets/ICTPE_v2/ICTPE_v2.json",encoding="utf-8") as f:
     procedures = json.load(f)
 for p in procedures:
     op,st,cond,check = 0,0,0,0
@@ -37,5 +37,5 @@ for p in procedures:
         replacements.append((start,end,replace))
     new_text,diff =replace_substrings(text,replacements)   
     p["text"] = new_text
-with open("./datasets/ICTPE/ICTPE_templated.json","w",encoding="utf-8") as f1:
+with open("./datasets/ICTPE_v2/ICTPE_templated.json","w",encoding="utf-8") as f1:
     json.dump(procedures,f1,ensure_ascii=False)

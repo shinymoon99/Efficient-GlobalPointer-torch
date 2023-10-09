@@ -1,10 +1,11 @@
 import json
-with open("datasets/ICTPE/ICTPE_all_templated.json","r",encoding="utf-8") as f:
+with open("datasets/ICTPE_v2/ICTPE_all_templated.json","r",encoding="utf-8") as f:
     procedures = json.load(f)
 sequences = []
 for p in procedures:
     typeid2span = {}
     text = p["text"]
+    print(text)
     for node in p["node_list"]:
         typeid2span[node["type_id"]] = (node["start"],node["end"])
     for edge in p["edge_list"]:
@@ -17,5 +18,5 @@ for p in procedures:
         sequence["entities"].append(entity)
         
         sequences.append(sequence)
-with open("datasets/ICTES/ICTES.json","w",encoding="utf-8") as f1:
+with open("datasets/ICTES_v2/ICTES.json","w",encoding="utf-8") as f1:
     json.dump(sequences,f1,ensure_ascii=False)

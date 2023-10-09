@@ -1,5 +1,5 @@
 import json
-with open("./datasets/ICTPE/ICTPE_all.json",encoding="utf-8") as f:
+with open("./datasets/ICTPE_v2/selected.json",encoding="utf-8") as f:
     procedures = json.load(f)
 for p in procedures:
     op,st,cond,check = 0,0,0,0
@@ -17,5 +17,5 @@ for p in procedures:
         if step["type"] == "check":
             step["type_id"] ="判断"+str(check)
             check+=1    
-with open("./datasets/ICTPE/ICTPE_all_utypeid.json","w",encoding="utf-8") as f1:
+with open("./datasets/ICTPE_v2/selected_utypeid.json","w",encoding="utf-8") as f1:
     json.dump(procedures,f1,ensure_ascii=False)
