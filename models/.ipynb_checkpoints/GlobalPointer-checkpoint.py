@@ -2,101 +2,6 @@
 import torch
 import numpy as np
 import torch.nn as nn
-#from scipy.optimize import linear_sum_assignment
-import numpy as np
-
-def linear_sum_assignment_new(cost_matrix):
-    cost_matrix = np.array(cost_matrix)
-    n, m = cost_matrix.shape
-
-    if n > m:
-        raise ValueError("The cost matrix must have more rows than columns")
-
-    # Step 1: Subtract the minimum value in each row from that row
-    cost_matrix -= cost_matrix.min(axis=1, keepdims=True)
-
-    # Step 2: Subtract the minimum value in each column from that column
-    cost_matrix -= cost_matrix.min(axis=0, keepdims=True)
-
-    # Step 3: Cover all zeros with the minimum number of lines
-    mask = np.zeros_like(cost_matrix, dtype=bool)
-    cover_rows, cover_cols = np.zeros(n, dtype=bool), np.zeros(m, dtype=bool)
-    while not np.all(cover_rows) or not np.all(cover_cols):
-        mask.fill(False)
-        mask[~cover_rows, :] = True
-        mask[:, ~cover_cols] = True
-        marked_zeros = np.zeros_like(cost_matrix, dtype=bool)
-        marked_zeros[mask] = cost_matrix[mask] == 0
-
-        # Step 4: Find a non-covered zero and prime it
-        row_has_marked_zero = np.any(marked_zeros, axis=1)
-        if not np.any(row_has_marked_zero):
-            # Step 6: Find the smallest uncovered value
-            min_uncovered_value = np.min(cost_matrix[~cover_rows, ~cover_cols])
-            cost_matrix[~cover_rows, ~cover_cols] -= min_uncovered_value
-            min_uncovered_value_mask = cost_matrix[~cover_rows, ~cover_cols] == 0
-            cost_matrix[~cover_rows, ~cover_cols][min_uncovered_value_mask] = np.inf
-        else:
-            row = np.where(row_has_marked_zero)[0][0]
-            col = np.where(marked_zeros[row, ~cover_cols])[0][0]
-            cover_cols[col] = True
-            cover_rows[row] = False
-
-    # Step 5: Find a covered zero and prime it, then
-    #           uncover the row containing the primed zero and cover the column containing the starred zero
-    solution = np.full(n, -1, dtype=int)
-    for row in range(n):
-        col = np.where(mask[row, :])[0][0]
-        solution[row] = col
-
-    return solution, cost_matrix[solution != -1].sum()
-
-
-
-def span_similarity(span1, span2):
-    # Define a similarity score between two spans.
-    # You can use various metrics such as Jaccard similarity, overlap ratio, etc.
-    # For example, you can calculate Jaccard similarity:
-    intersection = len(set(span1) & set(span2))
-    union = len(set(span1) | set(span2))
-    return intersection / union if union > 0 else 0
-def calculate_similarity_matrix(test_list, gold_list):
-    # Calculate a similarity matrix where each cell (i, j) represents
-    # the similarity score between test_list[i] and gold_list[j].
-    similarity_matrix = np.zeros((len(test_list), len(gold_list)))
-    for i, test_span in enumerate(test_list):
-        for j, gold_span in enumerate(gold_list):
-            similarity_matrix[i][j] = span_similarity(test_span, gold_span)
-    return similarity_matrix
-
-def find_best_matching(test_list, gold_list):
-    # Example usage with different lengths:
-    # test_list = [(0, 5), (10, 15), (20, 25)]
-    # gold_list = [(2, 7), (11, 16)]
-
-    # best_matching, match_rate = find_best_matching(test_list, gold_list)
-    # print("Best Matching:", best_matching)
-    # print("Overall Match Rate:", match_rate)
-
-
-    # Calculate the similarity matrix.
-    similarity_matrix = calculate_similarity_matrix(test_list, gold_list)
-    
-    # Use the Hungarian algorithm to find the optimal assignment that maximizes the overall match rate.
-    row_indices, col_indices = linear_sum_assignment_new(-similarity_matrix)
-    
-    # Calculate the overall match rate.
-    if len(test_list)>0:
-        match_rate = similarity_matrix[row_indices, col_indices].sum() / len(test_list)
-    else:
-        match_rate = 0
-    # Create a dictionary to represent the best matching.
-    best_matching = {}
-    for i, j in zip(row_indices, col_indices):
-        if i < len(test_list) and j < len(gold_list):
-            best_matching[test_list[i]] = gold_list[j]
-    
-    return best_matching, match_rate
 class MetricsCalculator(object):
     def __init__(self):
         super().__init__()
@@ -129,37 +34,6 @@ class MetricsCalculator(object):
         f1, precision, recall = 2 * X / (Y + Z), X / Y, X / Z
         return f1, precision, recall
 
-    def get_evaluate_iou(self, y_pred, y_true):
-        X_total, Y_total, Z_total = 1e-10, 1e-10, 1e-10
-        y_pred = y_pred.data.cpu().numpy()
-        y_true = y_true.data.cpu().numpy()
-
-        fpr_dict = {}  # Dictionary to store FPR for each (b, l) combination
-
-        for b in range(y_pred.shape[0]):
-            for l in range(y_pred.shape[1]):
-                pred = y_pred[b, l, :, :]
-                true = y_true[b, l, :, :]
-
-                pred_positive = pred > 0
-                true_positive = true > 0
-
-                # gold_list: [(span_text,span)]
-                correct_rate = 0
-                total = 0
-
-                try:
-                    best_match,match_rate = find_best_matching(pred_positive,true_positive)
-                except:
-                    print(pred_positive)
-                    print(true_positive)
-                correct_rate+=match_rate*len(best_match)
-                total+=len(best_match)
-        if total!=0:
-            accuracy = correct_rate/total
-        else :
-            accuracy = -1
-        return accuracy
 class RawGlobalPointer(nn.Module):
     def __init__(self, encoder, ent_type_size, inner_dim, RoPE=True):
         # encodr: RoBerta-Large as encoder

@@ -13,8 +13,8 @@ from utils.logger import logger
 from utils.bert_optimization import BertAdam
 from utils.custom_tokenizer import CustomBertTokenizer
 bert_model_path = '../BERT/RoBERTa_zh_large' #RoBert_large 路径
-train_cme_path = 'datasets/ICTPE_v2/ICTPE_train.json'  #CMeEE 训练集
-eval_cme_path = 'datasets/ICTPE_v2/ICTPE_dev.json'  #CMeEE 测试集
+train_cme_path = 'datasets/ICTPE/ICTPE_train.json'  #CMeEE 训练集
+eval_cme_path = 'datasets/ICTPE/ICTPE_dev.json'  #CMeEE 测试集
 device = torch.device("cuda:0")
 
 # Load model directly
@@ -53,7 +53,7 @@ def set_optimizer( model, train_steps=None):
                          warmup=0.1,
                          t_total=train_steps)
     return optimizer
-EPOCH = 1
+EPOCH = 50
 optimizer = set_optimizer(model, train_steps= (int(len(ner_train) / BATCH_SIZE) + 1) * EPOCH)
 # optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
 
@@ -103,7 +103,6 @@ for eo in range(EPOCH):
 
     with torch.no_grad():
         total_f1_, total_precision_, total_recall_ = 0., 0., 0.
-        total_acc = 0.
         model.eval()
         for batch in tqdm(ner_loader_evl, desc="Valing"):
             raw_text_list, input_ids, attention_mask, segment_ids, labels = batch
@@ -111,17 +110,14 @@ for eo in range(EPOCH):
                 device), segment_ids.to(device), labels.to(device)
             logits = model(input_ids, attention_mask, segment_ids)
             f1, p, r = metrics.get_evaluate_fpr(logits, labels)
-            acc = metrics.get_evaluate_iou(logits,labels)
-            total_acc+=acc
             total_f1_ += f1
             total_precision_ += p
             total_recall_ += r
-        avg_acc = total_acc /(len(ner_loader_evl))
         avg_f1 = total_f1_ / (len(ner_loader_evl))
         avg_precision = total_precision_ / (len(ner_loader_evl))
         avg_recall = total_recall_ / (len(ner_loader_evl))
         # logger.info("EPOCH：{}\tEVAL_F1:{}\tPrecision:{}\tRecall:{}\t".format(eo, avg_f1,avg_precision,avg_recall))
-        logger.info("EPOCH:%d\t EVAL_F1:%f\tPrecision:%f\tRecall:%f\tAccuracy:%f\t"%(eo, avg_f1,avg_precision,avg_recall,acc))
+        logger.info("EPOCH:%d\t EVAL_F1:%f\tPrecision:%f\tRecall:%f\t"%(eo, avg_f1,avg_precision,avg_recall))
         #if avg_f1 > max_f:
 
             # max_f = avg_f1
