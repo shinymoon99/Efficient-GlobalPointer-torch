@@ -46,7 +46,7 @@ def set_optimizer( model, train_steps=None):
                          warmup=0.1,
                          t_total=train_steps)
     return optimizer
-EPOCH = 10
+EPOCH = 20
 optimizer = set_optimizer(model, train_steps= (int(len(ner_train) / BATCH_SIZE) + 1) * EPOCH)
 # optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
 

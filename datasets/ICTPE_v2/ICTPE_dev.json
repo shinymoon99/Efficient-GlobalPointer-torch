@@ -133,7 +133,7 @@
             },
             {
                 "type": "condition",
-                "text_span": "在延迟上报周期内",
+                "text_span": "延迟上报周期内",
                 "start": 37,
                 "end": 44,
                 "type_id": "条件1"
@@ -213,7 +213,7 @@
             },
             {
                 "type": "operate",
-                "text_span": "向源发送Join消息",
+                "text_span": "源发送Join消息",
                 "start": 34,
                 "end": 43,
                 "type_id": "操作0"
