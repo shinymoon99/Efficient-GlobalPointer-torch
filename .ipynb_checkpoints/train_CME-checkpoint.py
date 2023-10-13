@@ -11,16 +11,23 @@ from models.GlobalPointer import EffiGlobalPointer, MetricsCalculator
 from tqdm import tqdm
 from utils.logger import logger
 from utils.bert_optimization import BertAdam
+from utils.custom_tokenizer import CustomBertTokenizer
 bert_model_path = '../BERT/RoBERTa_zh_large' #RoBert_large 路径
 train_cme_path = 'datasets/ICTPE/ICTPE_train.json'  #CMeEE 训练集
 eval_cme_path = 'datasets/ICTPE/ICTPE_dev.json'  #CMeEE 测试集
 device = torch.device("cuda:0")
 
+# Load model directly
+from transformers import AutoTokenizer, AutoModelForMaskedLM
+
+tokenizer = AutoTokenizer.from_pretrained("nghuyong/ernie-1.0-base-zh")
+encoder = AutoModelForMaskedLM.from_pretrained("nghuyong/ernie-1.0-base-zh")
+
 BATCH_SIZE = 8
 ENT_CLS_NUM = 4
 #tokenizer
-tokenizer = BertTokenizerFast.from_pretrained(bert_model_path, do_lower_case=True)
-
+#tokenizer = BertTokenizerFast.from_pretrained(bert_model_path, do_lower_case=True)
+#tokenizer = CustomBertTokenizer.from_pretrained(bert_model_path, do_lower_case=True)
 #train_data and val_data
 ner_train = EntDataset(load_data(train_cme_path), tokenizer=tokenizer)
 ner_loader_train = DataLoader(ner_train , batch_size=BATCH_SIZE, collate_fn=ner_train.collate, shuffle=True, num_workers=16)
@@ -46,7 +53,7 @@ def set_optimizer( model, train_steps=None):
                          warmup=0.1,
                          t_total=train_steps)
     return optimizer
-EPOCH = 10
+EPOCH = 50
 optimizer = set_optimizer(model, train_steps= (int(len(ner_train) / BATCH_SIZE) + 1) * EPOCH)
 # optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
 
@@ -111,7 +118,9 @@ for eo in range(EPOCH):
         avg_recall = total_recall_ / (len(ner_loader_evl))
         # logger.info("EPOCH：{}\tEVAL_F1:{}\tPrecision:{}\tRecall:{}\t".format(eo, avg_f1,avg_precision,avg_recall))
         logger.info("EPOCH:%d\t EVAL_F1:%f\tPrecision:%f\tRecall:%f\t"%(eo, avg_f1,avg_precision,avg_recall))
-        # if avg_f1 > max_f:
-        torch.save(model.state_dict(), './outputs/TEST_EP_L{}.pth'.format(eo))
+        #if avg_f1 > max_f:
+
             # max_f = avg_f1
         model.train()
+    if eo == EPOCH-1:
+        torch.save(model.state_dict(), './outputs/TEST_EP_L{}.pth'.format(eo))

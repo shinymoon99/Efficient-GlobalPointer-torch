@@ -1,0 +1,2 @@
+2023-09-18 13:05:15 - train_CME.py[line:96] - INFO: trian_loss:8.156292	 train_f1:0.000123
+2023-09-18 13:05:22 - train_CME.py[line:114] - INFO: EPOCH:0	 EVAL_F1:0.003190	Precision:0.001754	Recall:0.017544	

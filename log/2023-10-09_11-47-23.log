@@ -1,0 +1,2 @@
+2023-10-09 11:47:41 - train_CME.py[line:102] - INFO: trian_loss:8.319245	 train_f1:0.000768
+2023-10-09 11:47:44 - train_CME.py[line:102] - INFO: trian_loss:5.474491	 train_f1:0.000116
