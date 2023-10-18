@@ -1,1 +1,639 @@
-[{"text": "在批量配置LDP Keychain认证或LDP MD5认证后，指定LDP对等体 **10.1.1.1** 不进行认证。", "node_list": [{"type": "condition", "text_span": "批量配置LDP Keychain认证或LDP MD5认证后", "start": 1, "end": 30, "type_id": "条件0"}, {"type": "status", "text_span": "指定LDP对等体 **10.1.1.1** 不进行认证", "start": 31, "end": 58, "type_id": "状态0"}], "edge_list": [["条件0", "状态0"]]}, {"text": "当活动接口数达到上限阈值后，之后再发生成员链路状态变为Up都不会使Eth-Trunk接口的带宽增加。", "node_list": [{"type": "condition", "text_span": "活动接口数达到上限阈值后", "start": 1, "end": 13, "type_id": "条件0"}, {"type": "condition", "text_span": "发生成员链路状态变为Up", "start": 17, "end": 29, "type_id": "条件1"}, {"type": "status", "text_span": "不会使Eth-Trunk接口的带宽增加", "start": 30, "end": 49, "type_id": "状态0"}], "edge_list": [["条件0", "条件1"], ["条件1", "状态0"]]}, {"text": "将回显信息中的客户端公钥配置到SSH服务器端，保证在连接时SSH服务器对SSH客户端有效性检查能够通过，以便在SSH服务器端和SSH客户端间进行安全地数据交互。", "node_list": [{"type": "operate", "text_span": "回显信息中的客户端公钥配置到SSH服务器端", "start": 1, "end": 22, "type_id": "操作0"}, {"type": "status", "text_span": "保证在连接时SSH服务器对SSH客户端有效性检查能够通过", "start": 23, "end": 51, "type_id": "状态1"}, {"type": "status", "text_span": "SSH服务器端和SSH客户端间进行安全地数据交互", "start": 55, "end": 79, "type_id": "状态0"}], "edge_list": [["操作0", "状态1"], ["状态1", "状态0"]]}, {"text": "配置完成后，当RouterA收到来自主机的MLDv1报告报文时，首先检查该报文中所携带的IPv6组播组地址G，然后根据检查结果的不同分别进行处理：", "node_list": [{"type": "condition", "text_span": "配置完成后", "start": 0, "end": 5, "type_id": "条件0"}, {"type": "condition", "text_span": "RouterA收到来自主机的MLDv1报告报文时", "start": 7, "end": 31, "type_id": "条件1"}, {"type": "operate", "text_span": "检查该报文中所携带的IPv6组播组地址G", "start": 34, "end": 54, "type_id": "操作0"}, {"type": "operate", "text_span": "根据检查结果的不同分别进行处理", "start": 57, "end": 72, "type_id": "操作1"}], "edge_list": [["条件0", "条件1"], ["条件1", "操作0"], ["操作0", "操作1"]]}, {"text": "配置完成后，Tunnel接口状态变为Up，Tunnel接口之间可以Ping通，GRE隧道建立。", "node_list": [{"type": "condition", "text_span": "配置完成后", "start": 0, "end": 5, "type_id": "条件0"}, {"type": "status", "text_span": "Tunnel接口状态变为Up", "start": 6, "end": 20, "type_id": "状态0"}, {"type": "status", "text_span": "Tunnel接口之间可以Ping通", "start": 21, "end": 38, "type_id": "状态1"}, {"type": "status", "text_span": "GRE隧道建立", "start": 39, "end": 46, "type_id": "状态2"}], "edge_list": [["条件0", "状态0"], ["状态0", "状态1"], ["状态1", "状态2"]]}, {"text": "使能DHCPv6数据保存功能后，设备会定期保存DHCPv6数据", "node_list": [{"type": "condition", "text_span": "使能DHCPv6数据保存功能后", "start": 0, "end": 15, "type_id": "条件0"}, {"type": "status", "text_span": "设备会定期保存DHCPv6数据", "start": 16, "end": 31, "type_id": "状态0"}], "edge_list": [["条件0", "状态0"]]}, {"text": "配置成功后，从接口GE2/0/1发出的报文带宽限制为10000kbit/s", "node_list": [{"type": "condition", "text_span": "配置成功后", "start": 0, "end": 5, "type_id": "条件0"}, {"type": "operate", "text_span": "接口GE2/0/1发出的报文带宽限制为10000kbit/s", "start": 7, "end": 37, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "AP收到STA发送的探测请求帧（Probe Request）后，发送探测应答帧（Probe Response）", "node_list": [{"type": "condition", "text_span": "AP收到STA发送的探测请求帧（Probe Request）后", "start": 0, "end": 31, "type_id": "条件0"}, {"type": "operate", "text_span": "发送探测应答帧", "start": 32, "end": 39, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "链路恢复后，如果各个ERPS环配置的是回切模式，RPL owner端口所在设备会重新阻塞RPL链路上的流量", "node_list": [{"type": "condition", "text_span": "链路恢复后", "start": 0, "end": 5, "type_id": "条件0"}, {"type": "condition", "text_span": "如果各个ERPS环配置的是回切模式", "start": 6, "end": 23, "type_id": "条件1"}, {"type": "operate", "text_span": "RPL owner端口所在设备会重新阻塞RPL链路上的流量", "start": 24, "end": 53, "type_id": "操作0"}], "edge_list": [["条件0", "条件1"], ["条件1", "操作0"]]}, {"text": "在撤销证书到期后，CRL中的有关数据被删除，以缩短CRL列表的大小。", "node_list": [{"type": "condition", "text_span": "撤销证书到期后", "start": 1, "end": 8, "type_id": "条件0"}, {"type": "operate", "text_span": "CRL中的有关数据被删除", "start": 9, "end": 21, "type_id": "操作0"}, {"type": "status", "text_span": "缩短CRL列表的大小", "start": 23, "end": 33, "type_id": "状态1"}], "edge_list": [["条件0", "操作0"], ["操作0", "状态1"]]}, {"text": "配置IGMP健壮系数之后，配置参数优化组播业务", "node_list": [{"type": "condition", "text_span": "配置IGMP健壮系数之后", "start": 0, "end": 12, "type_id": "条件0"}, {"type": "operate", "text_span": "配置参数优化组播业务", "start": 13, "end": 23, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "策略匹配成功后，修改路由的开销值。", "node_list": [{"type": "condition", "text_span": "策略匹配成功后", "start": 0, "end": 7, "type_id": "条件0"}, {"type": "operate", "text_span": "修改路由的开销值", "start": 8, "end": 16, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "如果BGP协议使用包含 **apply cost** 命令的Route-Policy，则当策略匹配成功后，修改BGP路由的MED值。", "node_list": [{"type": "condition", "text_span": "如果BGP协议使用包含 **apply cost** 命令的Route-Policy", "start": 0, "end": 42, "type_id": "条件1"}, {"type": "condition", "text_span": "策略匹配成功后", "start": 45, "end": 52, "type_id": "条件0"}, {"type": "operate", "text_span": "修改BGP路由的MED值", "start": 53, "end": 65, "type_id": "操作0"}], "edge_list": [["条件1", "条件0"], ["条件0", "操作0"]]}, {"text": "将目标AP加入AP组，并根据AP的部署位置为AP配置名称。", "node_list": [{"type": "operate", "text_span": "将目标AP加入AP组", "start": 0, "end": 10, "type_id": "操作0"}, {"type": "operate", "text_span": "根据AP的部署位置为AP配置名称", "start": 12, "end": 28, "type_id": "操作1"}], "edge_list": [["操作0", "操作1"]]}, {"text": "将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定。IPv6 BFD检测到接口链路故障后，IPv6 BFD会话状态会变为Down并触发系统进行快速重路由，将流量从故障链路切换到备份链路上，从而达到流量保护的目的。", "node_list": [{"type": "operate", "text_span": "将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定", "start": 0, "end": 37, "type_id": "操作0"}, {"type": "condition", "text_span": "IPv6 BFD检测到接口链路故障后", "start": 38, "end": 56, "type_id": "条件0"}, {"type": "status", "text_span": "IPv6 BFD会话状态会变为Down", "start": 57, "end": 76, "type_id": "状态0"}, {"type": "operate", "text_span": "触发系统进行快速重路由", "start": 77, "end": 88, "type_id": "操作1"}, {"type": "operate", "text_span": "将流量从故障链路切换到备份链路上", "start": 89, "end": 105, "type_id": "操作2"}, {"type": "status", "text_span": "达到流量保护的目的", "start": 108, "end": 117, "type_id": "状态1"}], "edge_list": [["操作0", "条件0"], ["条件0", "状态0"], ["条件0", "操作1"], ["操作1", "操作2"], ["操作2", "状态1"]]}, {"text": "完成Portal接入模板的配置后，可以使用该命令查看Portal接入模板的配置信息是否正确。", "node_list": [{"type": "condition", "text_span": "完成Portal接入模板的配置后", "start": 0, "end": 16, "type_id": "条件0"}, {"type": "operate", "text_span": "使用该命令查看Portal接入模板的配置信息是否正确", "start": 19, "end": 45, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "DHCP服务器接收到请求报文后，根据Link-selection子选项选择IP地址池。", "node_list": [{"type": "condition", "text_span": "DHCP服务器接收到请求报文后", "start": 0, "end": 15, "type_id": "条件0"}, {"type": "operate", "text_span": "根据Link-selection子选项选择IP地址池", "start": 16, "end": 42, "type_id": "操作0"}], "edge_list": [["条件0", "操作0"]]}, {"text": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息，之后，设备收到非用户上线的Portal服务器发送的用户下线请求消息时，首先启动用户下线流程，下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线。", "node_list": [{"type": "operate", "text_span": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息", "start": 0, "end": 79, "type_id": "操作0"}, {"type": "condition", "text_span": "设备收到非用户上线的Portal服务器发送的用户下线请求消息时", "start": 83, "end": 114, "type_id": "条件0"}, {"type": "operate", "text_span": "启动用户下线流程", "start": 117, "end": 125, "type_id": "操作1"}, {"type": "condition", "text_span": "下线处理完成后", "start": 126, "end": 133, "type_id": "条件1"}, {"type": "operate", "text_span": "给Portal服务器回应ACK消息", "start": 133, "end": 150, "type_id": "操作2"}, {"type": "status", "text_span": "保证用户正常下线", "start": 151, "end": 159, "type_id": "状态0"}], "edge_list": [["操作0", "条件0"], ["条件0", "操作1"], ["操作1", "条件1"], ["条件1", "操作2"], ["操作2", "状态0"]]}]
+[
+    {
+        "text": "在批量配置LDP Keychain认证或LDP MD5认证后，指定LDP对等体 **10.1.1.1** 不进行认证。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "批量配置LDP Keychain认证或LDP MD5认证后",
+                "start": 1,
+                "end": 30,
+                "type_id": "条件0"
+            },
+            {
+                "type": "status",
+                "text_span": "指定LDP对等体 **10.1.1.1** 不进行认证",
+                "start": 31,
+                "end": 58,
+                "type_id": "状态0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "状态0"
+            ]
+        ]
+    },
+    {
+        "text": "当活动接口数达到上限阈值后，之后再发生成员链路状态变为Up都不会使Eth-Trunk接口的带宽增加。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "活动接口数达到上限阈值后",
+                "start": 1,
+                "end": 13,
+                "type_id": "条件0"
+            },
+            {
+                "type": "condition",
+                "text_span": "发生成员链路状态变为Up",
+                "start": 17,
+                "end": 29,
+                "type_id": "条件1"
+            },
+            {
+                "type": "status",
+                "text_span": "不会使Eth-Trunk接口的带宽增加",
+                "start": 30,
+                "end": 49,
+                "type_id": "状态0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "条件1"
+            ],
+            [
+                "条件1",
+                "状态0"
+            ]
+        ]
+    },
+    {
+        "text": "将回显信息中的客户端公钥配置到SSH服务器端，保证在连接时SSH服务器对SSH客户端有效性检查能够通过，以便在SSH服务器端和SSH客户端间进行安全地数据交互。",
+        "node_list": [
+            {
+                "type": "operate",
+                "text_span": "回显信息中的客户端公钥配置到SSH服务器端",
+                "start": 1,
+                "end": 22,
+                "type_id": "操作0"
+            },
+            {
+                "type": "status",
+                "text_span": "保证在连接时SSH服务器对SSH客户端有效性检查能够通过",
+                "start": 23,
+                "end": 51,
+                "type_id": "状态1"
+            },
+            {
+                "type": "status",
+                "text_span": "SSH服务器端和SSH客户端间进行安全地数据交互",
+                "start": 55,
+                "end": 79,
+                "type_id": "状态0"
+            }
+        ],
+        "edge_list": [
+            [
+                "操作0",
+                "状态1"
+            ],
+            [
+                "状态1",
+                "状态0"
+            ]
+        ]
+    },
+    {
+        "text": "配置完成后，当RouterA收到来自主机的MLDv1报告报文时，首先检查该报文中所携带的IPv6组播组地址G，然后根据检查结果的不同分别进行处理：",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "配置完成后",
+                "start": 0,
+                "end": 5,
+                "type_id": "条件0"
+            },
+            {
+                "type": "condition",
+                "text_span": "RouterA收到来自主机的MLDv1报告报文时",
+                "start": 7,
+                "end": 31,
+                "type_id": "条件1"
+            },
+            {
+                "type": "operate",
+                "text_span": "检查该报文中所携带的IPv6组播组地址G",
+                "start": 34,
+                "end": 54,
+                "type_id": "操作0"
+            },
+            {
+                "type": "operate",
+                "text_span": "根据检查结果的不同分别进行处理",
+                "start": 57,
+                "end": 72,
+                "type_id": "操作1"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "条件1"
+            ],
+            [
+                "条件1",
+                "操作0"
+            ],
+            [
+                "操作0",
+                "操作1"
+            ]
+        ]
+    },
+    {
+        "text": "配置完成后，Tunnel接口状态变为Up，Tunnel接口之间可以Ping通，GRE隧道建立。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "配置完成后",
+                "start": 0,
+                "end": 5,
+                "type_id": "条件0"
+            },
+            {
+                "type": "status",
+                "text_span": "Tunnel接口状态变为Up",
+                "start": 6,
+                "end": 20,
+                "type_id": "状态0"
+            },
+            {
+                "type": "status",
+                "text_span": "Tunnel接口之间可以Ping通",
+                "start": 21,
+                "end": 38,
+                "type_id": "状态1"
+            },
+            {
+                "type": "status",
+                "text_span": "GRE隧道建立",
+                "start": 39,
+                "end": 46,
+                "type_id": "状态2"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "状态0"
+            ],
+            [
+                "状态0",
+                "状态1"
+            ],
+            [
+                "状态1",
+                "状态2"
+            ]
+        ]
+    },
+    {
+        "text": "使能DHCPv6数据保存功能后，设备会定期保存DHCPv6数据",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "使能DHCPv6数据保存功能后",
+                "start": 0,
+                "end": 15,
+                "type_id": "条件0"
+            },
+            {
+                "type": "status",
+                "text_span": "设备会定期保存DHCPv6数据",
+                "start": 16,
+                "end": 31,
+                "type_id": "状态0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "状态0"
+            ]
+        ]
+    },
+    {
+        "text": "配置成功后，从接口GE2/0/1发出的报文带宽限制为10000kbit/s",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "配置成功后",
+                "start": 0,
+                "end": 5,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "接口GE2/0/1发出的报文带宽限制为10000kbit/s",
+                "start": 7,
+                "end": 37,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "AP收到STA发送的探测请求帧（Probe Request）后，发送探测应答帧（Probe Response）",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "AP收到STA发送的探测请求帧（Probe Request）后",
+                "start": 0,
+                "end": 31,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "发送探测应答帧",
+                "start": 32,
+                "end": 39,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "链路恢复后，如果各个ERPS环配置的是回切模式，RPL owner端口所在设备会重新阻塞RPL链路上的流量",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "链路恢复后",
+                "start": 0,
+                "end": 5,
+                "type_id": "条件0"
+            },
+            {
+                "type": "condition",
+                "text_span": "如果各个ERPS环配置的是回切模式",
+                "start": 6,
+                "end": 23,
+                "type_id": "条件1"
+            },
+            {
+                "type": "operate",
+                "text_span": "RPL owner端口所在设备会重新阻塞RPL链路上的流量",
+                "start": 24,
+                "end": 53,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "条件1"
+            ],
+            [
+                "条件1",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "在撤销证书到期后，CRL中的有关数据被删除，以缩短CRL列表的大小。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "撤销证书到期后",
+                "start": 1,
+                "end": 8,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "CRL中的有关数据被删除",
+                "start": 9,
+                "end": 21,
+                "type_id": "操作0"
+            },
+            {
+                "type": "status",
+                "text_span": "缩短CRL列表的大小",
+                "start": 23,
+                "end": 33,
+                "type_id": "状态1"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ],
+            [
+                "操作0",
+                "状态1"
+            ]
+        ]
+    },
+    {
+        "text": "配置IGMP健壮系数之后，配置参数优化组播业务",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "配置IGMP健壮系数之后",
+                "start": 0,
+                "end": 12,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "配置参数优化组播业务",
+                "start": 13,
+                "end": 23,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "策略匹配成功后，修改路由的开销值。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "策略匹配成功后",
+                "start": 0,
+                "end": 7,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "修改路由的开销值",
+                "start": 8,
+                "end": 16,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "如果BGP协议使用包含 **apply cost** 命令的Route-Policy，则当策略匹配成功后，修改BGP路由的MED值。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "如果BGP协议使用包含 **apply cost** 命令的Route-Policy",
+                "start": 0,
+                "end": 42,
+                "type_id": "条件1"
+            },
+            {
+                "type": "condition",
+                "text_span": "策略匹配成功后",
+                "start": 45,
+                "end": 52,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "修改BGP路由的MED值",
+                "start": 53,
+                "end": 65,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件1",
+                "条件0"
+            ],
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "将目标AP加入AP组，并根据AP的部署位置为AP配置名称。",
+        "node_list": [
+            {
+                "type": "operate",
+                "text_span": "将目标AP加入AP组",
+                "start": 0,
+                "end": 10,
+                "type_id": "操作0"
+            },
+            {
+                "type": "operate",
+                "text_span": "根据AP的部署位置为AP配置名称",
+                "start": 12,
+                "end": 28,
+                "type_id": "操作1"
+            }
+        ],
+        "edge_list": [
+            [
+                "操作0",
+                "操作1"
+            ]
+        ]
+    },
+    {
+        "text": "将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定。IPv6 BFD检测到接口链路故障后，IPv6 BFD会话状态会变为Down并触发系统进行快速重路由，将流量从故障链路切换到备份链路上，从而达到流量保护的目的。",
+        "node_list": [
+            {
+                "type": "operate",
+                "text_span": "将IPv6 BFD会话状态与IPv6 IS-IS Auto FRR进行绑定",
+                "start": 0,
+                "end": 37,
+                "type_id": "操作0"
+            },
+            {
+                "type": "condition",
+                "text_span": "IPv6 BFD检测到接口链路故障后",
+                "start": 38,
+                "end": 56,
+                "type_id": "条件0"
+            },
+            {
+                "type": "status",
+                "text_span": "IPv6 BFD会话状态会变为Down",
+                "start": 57,
+                "end": 76,
+                "type_id": "状态0"
+            },
+            {
+                "type": "operate",
+                "text_span": "触发系统进行快速重路由",
+                "start": 77,
+                "end": 88,
+                "type_id": "操作1"
+            },
+            {
+                "type": "operate",
+                "text_span": "将流量从故障链路切换到备份链路上",
+                "start": 89,
+                "end": 105,
+                "type_id": "操作2"
+            },
+            {
+                "type": "status",
+                "text_span": "达到流量保护的目的",
+                "start": 108,
+                "end": 117,
+                "type_id": "状态1"
+            }
+        ],
+        "edge_list": [
+            [
+                "操作0",
+                "条件0"
+            ],
+            [
+                "条件0",
+                "状态0"
+            ],
+            [
+                "条件0",
+                "操作1"
+            ],
+            [
+                "操作1",
+                "操作2"
+            ],
+            [
+                "操作2",
+                "状态1"
+            ]
+        ]
+    },
+    {
+        "text": "完成Portal接入模板的配置后，可以使用该命令查看Portal接入模板的配置信息是否正确。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "完成Portal接入模板的配置后",
+                "start": 0,
+                "end": 16,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "使用该命令查看Portal接入模板的配置信息是否正确",
+                "start": 19,
+                "end": 45,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "DHCP服务器接收到请求报文后，根据Link-selection子选项选择IP地址池。",
+        "node_list": [
+            {
+                "type": "condition",
+                "text_span": "DHCP服务器接收到请求报文后",
+                "start": 0,
+                "end": 15,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "根据Link-selection子选项选择IP地址池",
+                "start": 16,
+                "end": 42,
+                "type_id": "操作0"
+            }
+        ],
+        "edge_list": [
+            [
+                "条件0",
+                "操作0"
+            ]
+        ]
+    },
+    {
+        "text": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息，之后，设备收到非用户上线的Portal服务器发送的用户下线请求消息时，首先启动用户下线流程，下线处理完成后给Portal服务器回应ACK消息，保证用户正常下线。",
+        "node_list": [
+            {
+                "type": "operate",
+                "text_span": "通过命令 **portal logout different-server enable** 使能设备处理非用户上线的Portal服务器发送的用户下线请求消息",
+                "start": 0,
+                "end": 79,
+                "type_id": "操作0"
+            },
+            {
+                "type": "condition",
+                "text_span": "设备收到非用户上线的Portal服务器发送的用户下线请求消息时",
+                "start": 83,
+                "end": 114,
+                "type_id": "条件0"
+            },
+            {
+                "type": "operate",
+                "text_span": "启动用户下线流程",
+                "start": 117,
+                "end": 125,
+                "type_id": "操作1"
+            },
+            {
+                "type": "condition",
+                "text_span": "下线处理完成后",
+                "start": 126,
+                "end": 133,
+                "type_id": "条件1"
+            },
+            {
+                "type": "operate",
+                "text_span": "给Portal服务器回应ACK消息",
+                "start": 133,
+                "end": 150,
+                "type_id": "操作2"
+            },
+            {
+                "type": "status",
+                "text_span": "保证用户正常下线",
+                "start": 151,
+                "end": 159,
+                "type_id": "状态0"
+            }
+        ],
+        "edge_list": [
+            [
+                "操作0",
+                "条件0"
+            ],
+            [
+                "条件0",
+                "操作1"
+            ],
+            [
+                "操作1",
+                "条件1"
+            ],
+            [
+                "条件1",
+                "操作2"
+            ],
+            [
+                "操作2",
+                "状态0"
+            ]
+        ]
+    }
+]

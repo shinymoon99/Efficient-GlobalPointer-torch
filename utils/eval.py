@@ -1,6 +1,24 @@
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-
+def c2uniformat(d):    
+    for sen in d:
+        for node in sen["node_list"]:
+            node["start"]=node["start_idx"]
+            node["end"]=node["end_idx"]
+            
+def getAllSpans(data):
+    strings =["condition",]
+    r=[]
+    for i,typetext in enumerate(strings):
+        result = []
+        for sen in data:
+            s_span=[]
+            for node in sen["node_list"]: 
+                if node["type"]==typetext:
+                    s_span.append((node["start"],node["end"]))
+            result.append(s_span)
+        r.append(result)
+    
 def span_similarity(span1, span2):
     # Define a similarity score between two spans.
     # You can use various metrics such as Jaccard similarity, overlap ratio, etc.
@@ -36,7 +54,7 @@ def find_best_matching(test_list, gold_list):
     
     # Calculate the overall match rate.
     if len(test_list)>0:
-        match_rate = similarity_matrix[row_indices, col_indices].sum() / len(test_list)
+        match_rate = similarity_matrix[row_indices, col_indices].sum()/len(test_list)
     else:
         match_rate = 0
     # Create a dictionary to represent the best matching.
@@ -47,7 +65,26 @@ def find_best_matching(test_list, gold_list):
     
     return best_matching, match_rate
 
+def getSpanAccuracy4Span(gold_list,test_list):
+    '''
+    :param gold_list [[(start,end),(3,4)]...[]]
+    :return no_average_acc,num_of_prediction
+    '''
+    # gold_list: [(span_text,span)]
+    correct_rate = 0
+    total = 0
+    for test_span, gold_span in zip(test_list, gold_list):
+        #rate,num=calculate_span_accuracy(pred_sent,gold_sent)
 
+        best_match,match_rate = find_best_matching(test_span,gold_span)
+
+        correct_rate+=match_rate*len(best_match)
+        total+=len(best_match)
+    if total!=0:
+        accuracy = correct_rate/total
+    else :
+        accuracy = -1
+    return accuracy   
 def getSpanAccuracy(gold_list,test_list):
     # gold_list: [(span_text,span)]
     correct_rate = 0
@@ -61,7 +98,7 @@ def getSpanAccuracy(gold_list,test_list):
         except:
             print(pred_sent)
             print(gold_sent)
-        correct_rate+=match_rate*len(best_match)
+        correct_rate+=match_rate*len(test_span)
         total+=len(best_match)
     if total!=0:
         accuracy = correct_rate/total
