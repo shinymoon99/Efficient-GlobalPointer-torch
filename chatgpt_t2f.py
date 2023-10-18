@@ -5,7 +5,7 @@ import time
 import signal
 import sys
 #from eval.eval import getAccuracy,getALLNodeList,getEdgeList
-openai.api_key = "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"
+openai.api_key = ""
 openai.api_base = "https://quiet-rook-90.deno.dev/v1"
 def append_list_to_json_by_line(file_path, data_list):
     """
